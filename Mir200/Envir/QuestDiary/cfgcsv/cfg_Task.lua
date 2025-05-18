@@ -1,0 +1,167 @@
+local config = {
+	[1] = {
+		taskCategory = 1,
+		taskType = 4,
+		loginUpdata = 0,
+		nextTask = 2,
+		isYinDao = 1,
+		taskFlag = 100,
+		nextStartschedule = 1,
+		map = "起源村",
+		npcId = 1000,
+	},
+	[2] = {
+		taskCategory = 1,
+		taskType = 2,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U65",
+			[2] = "U66",
+		},
+		taskNeed = {
+			[1] = 5,
+			[2] = 5,
+		},
+		nextTask = 3,
+		isYinDao = 1,
+		taskFlag = 101,
+		nextStartschedule = 1,
+		map = "起源村",
+		npcId = 1001,
+		monster = {
+			[1] = "狂怒的蜘蛛",
+			[2] = "暴躁的毒蛇",
+		},
+	},
+	[3] = {
+		taskCategory = 1,
+		taskType = 5,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U67",
+		},
+		taskNeed = {
+			[1] = 5,
+		},
+		nextTask = 4,
+		isYinDao = 1,
+		taskFlag = 102,
+		nextStartschedule = 0,
+		map = "起源村",
+		npcId = 1002,
+		monster = {
+			[1] = "清毒莲",
+		},
+	},
+	[4] = {
+		taskCategory = 1,
+		taskType = 2,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U59",
+		},
+		taskNeed = {
+			[1] = 20,
+		},
+		nextTask = 5,
+		isYinDao = 1,
+		taskFlag = 103,
+		nextStartschedule = 0,
+		map = "起源村",
+		npcId = 1003,
+		monster = {
+			[1] = "腐化的稻草人",
+			[2] = "腐化的钉耙猫",
+		},
+	},
+	[5] = {
+		taskCategory = 1,
+		taskType = 5,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U59",
+			[2] = "U60",
+		},
+		taskNeed = {
+			[1] = 5,
+			[2] = 5,
+		},
+		nextTask = 6,
+		isYinDao = 1,
+		taskFlag = 104,
+		nextStartschedule = 0,
+		map = "起源村",
+		npcId = 1004,
+		items = {
+			[1] = "通灵花粉",
+			[2] = "净化晶矿",
+		},
+	},
+	[6] = {
+		taskCategory = 1,
+		taskType = 2,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U59",
+			[2] = "U60",
+		},
+		taskNeed = {
+			[1] = 10,
+			[2] = 1,
+		},
+		nextTask = 7,
+		isYinDao = 1,
+		taskFlag = 105,
+		nextStartschedule = 0,
+		map = "起源村",
+		npcId = 1005,
+		monster = {
+			[1] = "古神祭祀",
+			[2] = "古神·阿古斯",
+			[3] = "古神·阿古斯·本体",
+		},
+	},
+	[7] = {
+		taskCategory = 1,
+		taskType = 2,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U59",
+		},
+		taskNeed = {
+			[1] = 20,
+		},
+		nextTask = 8,
+		isYinDao = 1,
+		taskFlag = 106,
+		nextStartschedule = 0,
+		map = "野兽之森",
+		npcId = 1005,
+	},
+	[8] = {
+		taskCategory = 1,
+		taskType = 1,
+		loginUpdata = 0,
+		recordVar = {
+			[1] = "U59",
+		},
+		taskNeed = {
+			[1] = 20,
+		},
+		nextTask = 8,
+		isYinDao = 1,
+		taskFlag = 106,
+		nextStartschedule = 0,
+		map = "野兽之森",
+		npcId = 1005,
+	},
+	[200] = {
+		taskCategory = 2,
+		taskType = 3,
+		loginUpdata = 1,
+		items = {
+			[1] = "超级护身符",
+		},
+	},
+}
+return config

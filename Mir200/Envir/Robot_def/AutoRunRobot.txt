@@ -1,0 +1,124 @@
+;SEC：按秒运行
+;MIN：按分运行
+;HOUR：按小时运行
+;DAY：按天运行
+;RunOnDay：按每天什么时候运行
+;RUNONWEEK：按星期几及时间运行
+;————————————————————————————————————————————————————
+
+;测试机器人
+; #AutoRun NPC MIN：按分运行 1 @settianqi
+;每日重置
+#AutoRun NPC RUNONDAY 00:00:10 @beforedawn 2
+
+;沙巴克提示
+#AutoRun NPC RUNONDAY 20:30:00 @sbk_tip 2
+; ;开启沙巴克
+#AutoRun NPC RUNONDAY 21:00:00 @start_sbk 2
+; ;结束沙巴克
+#AutoRun NPC RUNONDAY 22:00:00 @end_sbk 2
+
+;夜晚开始
+#AutoRun NPC RUNONDAY 23:00:00 @starting_dark 2
+;白天开始
+#AutoRun NPC RUNONDAY 08:00:00 @starting_day 2
+
+;黑月之泪属性  开启
+#AutoRun NPC RUNONDAY 14:50:00 @attributeson 2
+;黑月之泪属性  关闭
+#AutoRun NPC RUNONDAY 07:00:00 @attributesoff 2
+
+;执行战斗力统计
+#AutoRun NPC RUNONDAY 23:59:30 @rank_statistics
+#AutoRun NPC RUNONDAY 02:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 04:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 06:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 08:00:10 @rank_statistics
+#AutoRun NPC RUNONDAY 10:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 12:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 14:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 16:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 18:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 20:00:00 @rank_statistics
+#AutoRun NPC RUNONDAY 22:00:00 @rank_statistics
+
+;神魂之地刷怪
+#AutoRun NPC RUNONDAY 10:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 12:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 14:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 16:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 18:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 20:00:05 @shen_hun_shua_guai 1
+#AutoRun NPC RUNONDAY 22:00:05 @shen_hun_shua_guai 1
+
+;神魂古墓
+#AutoRun NPC RUNONDAY 10:15:00 @shen_hun_gu_mu_shua_guai 1
+#AutoRun NPC RUNONDAY 11:15:00 @shen_hun_gu_mu_end 1
+#AutoRun NPC RUNONDAY 22:15:00 @shen_hun_gu_mu_shua_guai 1
+#AutoRun NPC RUNONDAY 23:15:00 @shen_hun_gu_mu_end 1
+
+
+;日充
+#AutoRun NPC RUNONDAY 22:05:00 @set_richong_state_on
+#AutoRun NPC RUNONDAY 10:05:00 @set_richong_state_off
+
+;-----------------------活动相关-----------------------
+;仙王宝藏开始
+#AutoRun NPC RUNONDAY 11:30:00 @xian_wang_bao_zang_start
+;仙王宝藏结束
+#AutoRun NPC RUNONDAY 12:00:00 @xian_wang_bao_zang_end
+
+;仙王宝藏开始
+#AutoRun NPC RUNONDAY 18:30:00 @xian_wang_bao_zang_start
+;仙王宝藏结束
+#AutoRun NPC RUNONDAY 19:00:00 @xian_wang_bao_zang_end
+
+;异界猎场开始
+#AutoRun NPC RUNONDAY 13:30:00 @yi_jie_lie_chang_start
+;异界猎场结束
+#AutoRun NPC RUNONDAY 14:00:00 @yi_jie_lie_chang_end
+
+;异界猎场开始
+#AutoRun NPC RUNONDAY 19:30:00 @yi_jie_lie_chang_start
+;异界猎场结束
+#AutoRun NPC RUNONDAY 20:00:00 @yi_jie_lie_chang_end
+
+;牛马旷工开始
+#AutoRun NPC RUNONDAY 21:00:00 @niu_ma_kuang_gong_start
+;牛马旷工结束
+#AutoRun NPC RUNONDAY 22:00:00 @niu_ma_kuang_gong_end
+
+;异界迷城开始
+#AutoRun NPC RUNONDAY 14:00:00 @yi_jie_mi_cheng_start
+;异界迷城结束
+#AutoRun NPC RUNONDAY 14:20:00 @yi_jie_mi_cheng_end
+
+;异界迷城开始
+#AutoRun NPC RUNONDAY 20:00:00 @yi_jie_mi_cheng_start
+;异界迷城结束
+#AutoRun NPC RUNONDAY 20:20:00 @yi_jie_mi_cheng_end
+
+;斩将夺旗
+#AutoRun NPC RUNONDAY 20:30:00 @zhan_jiang_duo_qi_start 2
+;斩将夺旗
+#AutoRun NPC RUNONDAY 21:00:00 @zhan_jiang_duo_qi_end 2
+
+;斩将夺旗
+#AutoRun NPC RUNONDAY 19:00:00 @tian_xia_di_yi_start 2
+;斩将夺旗
+#AutoRun NPC RUNONDAY 19:30:00 @tian_xia_di_yi_end 2
+
+;双节活动地图开启
+#AutoRun NPC RUNONDAY 18:00:00 @shuang_jie_huo_dong_map_start
+;双节活动地图关闭
+#AutoRun NPC RUNONDAY 21:00:00 @shuang_jie_huo_dong_map_end
+
+;狂欢小镇刷怪
+#AutoRun NPC RUNONDAY 18:00:01 @kuang_huan_xiao_zhen_shua_guai
+#AutoRun NPC RUNONDAY 18:30:01 @kuang_huan_xiao_zhen_shua_guai
+#AutoRun NPC RUNONDAY 19:00:01 @kuang_huan_xiao_zhen_shua_guai
+#AutoRun NPC RUNONDAY 19:30:01 @kuang_huan_xiao_zhen_shua_guai
+#AutoRun NPC RUNONDAY 20:00:01 @kuang_huan_xiao_zhen_shua_guai
+#AutoRun NPC RUNONDAY 20:30:01 @kuang_huan_xiao_zhen_shua_guai
+
+

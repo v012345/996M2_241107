@@ -1,0 +1,17 @@
+include("QuestDiary/game/D/DiZangWangDeShiLian.lua")                  --特殊图鉴
+include("QuestDiary/game/D/WangHunTa.lua")                            --亡魂塔
+include("QuestDiary/game/D/XianJiShiLian.lua")                        --献祭试炼
+include("QuestDiary/game/D/DianDengRen.lua")                          --孤魂点灯人
+include("QuestDiary/game/D/YinYangHunShi.lua")                          --阴阳魂石
+include("QuestDiary/game/D/JinXuZhiMen.lua")                          --禁墟之门
+include("QuestDiary/game/D/JingTuZhiMen.lua")                          --净土之门
+include("QuestDiary/game/D/ShenPanZhiMen.lua")                          --审判之门
+include("QuestDiary/game/D/ZhiXuZhiMen.lua")                          --秩序之门
+include("QuestDiary/game/D/HaFaXiSiZhiMu.lua")                          --哈法西斯之墓
+include("QuestDiary/game/D/HaFaXiSiJiTan.lua")                          --哈法西斯祭坛
+include("QuestDiary/game/D/ZaoHuaJieJing.lua")                          --造化结晶
+include("QuestDiary/game/D/HaFaXiSiChengHao.lua")                       --哈法西斯称号
+include("QuestDiary/game/D/FengDouHuanJing.lua")                        --酆都幻境
+include("QuestDiary/game/D/JiEHuanJing.lua")                            --极恶幻境
+include("QuestDiary/game/D/WanHunDian.lua")     --万魂殿
+include("QuestDiary/game/D/QiHunGuiPo.lua")     --七混归魄

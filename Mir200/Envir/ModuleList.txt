@@ -1,0 +1,392 @@
+6477c69fc49d97c7bf406d27e81fc17f|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+5e4cb6305ef0864b9564aa16a8a349be|c:\users\administrator\appdata\roaming\taobaoprotect\taobaoprotectse.dll|1
+9a058f34865a08e76ad1697728950aac|c:\users\admini~1\appdata\local\temp\wnmkey.dll|1
+7282d41d05e8ea8c6700396c99bc9ff9|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+22e039d139604ee583b9b837b20022fd|c:\windows\system32\nview.dll|1
+15c9eaed649ee615e3de117582caf12a|c:\windows\system32\aticfx32.dll|1
+89b070db2796aceecff9e8fac626159e|c:\windows\system32\atiumdag.dll|1
+ddef46be997ed2d565b5079be7fb6f8b|c:\program files (x86)\adsafe3\adspop32.dll|1
+2f9a8ac6c65dff917df58d468a97d37a|c:\program files (x86)\adsafe3\adsnet32.dll|1
+51bd0ddd8f3a45135cbeebeadf59cccf|c:\windows\system32\prxernsp.dll|1
+4acc1186a5101bd4580a4ad7a01ea668|c:\windows\system32\qqpinyin.ime|1
+80d5b2ba0a02de9e33c50b1c028f351c|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+7ef663ff18ed9f6f077ee84a91911e7a|c:\program files\baidu\baidupinyin\2.13.2.9\imefreetype.dll|1
+52d5c21590e87dac6bf73128b2791206|c:\program files\baidu\baidupinyin\2.13.2.9\imepng.dll|1
+c35f241387516083ece30817d276a38f|c:\program files\baidu\baidupinyin\2.13.2.9\imezlib.dll|1
+5d48a9c828cfe3038100d105105604a7|c:\windows\system32\qqpinyin.ime|1
+af38435c1211427be7df4ca51bb9c1e9|c:\program files (x86)\baidu\baidupinyin\2.6.2.211\imefreetype.dll|1
+4845863e8c3d8e03b38ae31e2d0f7a62|c:\program files (x86)\baidu\baidupinyin\2.6.2.211\imepng.dll|1
+7b4695d021ab70899f869bf3daeb7b07|c:\program files (x86)\baidu\baidupinyin\2.6.2.211\imezlib.dll|1
+4d99aa45208ae31ae4aa84beca8f95a8|c:\users\administrator\appdata\roaming\taobaoprotect\taobaoprotectse.dll|1
+17b25d3fa237f15ee599aff815f42df2|c:\windows\system32\aticfx32.dll|1
+70031f05ddf91a1d35d6898b619fa378|c:\windows\system32\atiumdag.dll|1
+728165431f528e9af565bf90d5cf309d|c:\windows\system32\qqpinyin.ime|1
+ee611bd5a5b3d1befde7db4accd54beb|c:\windows\system32\winabcnt.ime|1
+2af84ae9e8568d18f0d959369329c624|c:\windows\system32\shutdownctrl.dll|1
+46ac9c39113dcd95d500d13630c18bd8|c:\program files\rzx\plugin\acsyy.plx|1
+51d93c7e571fecefa09a3d492519627c|c:\program files\rzx\audiodg.dll|1
+cd01a9bf0989ea56aedd8b97a574d234|c:\program files\rzx\gi.dll|1
+498a66b7c6c755bd9b660ab8695fcbd2|c:\program files\rzx\safemon\index.dat|1
+67e56aabfdc936f90e6c8fc7f5d5c4a2|c:\windows\system32\qqpinyin.ime|1
+94e9690b6bfd83659a832a78c23ff706|c:\windows\system32\aticfx32.dll|1
+57857941fc59ee23b70b99a04e0886c6|c:\windows\system32\atiumdag.dll|1
+39c288564ed757cc3d0f9197f564a5e5|c:\users\administrator\appdata\roaming\taobaoprotect\taobaoprotectse.dll|1
+5268aee6a2903e16768360dcc2123293|c:\windows\system32\aticfx32.dll|1
+3411448db93782cba7ea113fc87fd856|c:\windows\system32\atiumdag.dll|1
+96d243c999a7054fd0a12aa51cb52e14|c:\windows\system32\winabcx.ime|1
+038c6096321ede2eaba5644e9e756ba3|c:\documents and settings\administrator\application data\taobaoprotect\taobaoprotectse.dll|1
+782bf54d15bcf6027de9aa7192529fb7|c:\windows\system32\prxerdrv.dll|1
+378c7495cabf5d979bf64146b16eb5ec|c:\programdata\qvodplayer\qvodwebbase\1.0.0.53\qvodwebbase.dll|1
+4b463fa6ed3336b660702efb5214e271|c:\windows\system32\aticfx32.dll|1
+feff5eaf1c962469ab9f79c9b9f5a548|c:\windows\system32\atiumdag.dll|1
+148d9de6ff073dca1e974418bf5f46e3|c:\windows\system32\winstanp.dll|1
+36013d46274208dc1343180aca47dd4b|c:\windows\system32\winstaic.dll|1
+bb15346a8142f19ecd9b23cc5f44c40c|c:\windows\system32\winstauc.dll|1
+d3723218175356208b24736478011875|c:\windows\system32\winscript.dll|1
+65c07f9cce506110ae84ff9155024511|c:\program files\上海东方网点连锁管理有限公司\客户端\gongan\hintsock.dll|1
+f74274e94f0618666267d4ecfc067e7d|c:\watcher\apihook_dll.dll|1
+0c0ee181d2a654a9e242e8c7a3f2b42d|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+acb8cadbcfd3ea1a376daa78b4041dbf|c:\windows\syswow64\ime\qqpinyintsf\qqpinyintsf.dll|1
+8a5508acbbe0d7dafb35769ce20530d0|c:\windows\system32\ime\qqpinyintsf\qqpinyin.ime|1
+80b60b21b6244a8d7639d714441afa91|c:\program files\baidu\baidupinyin\2.6.2.150\imefreetype.dll|1
+96283cd3b0fb20e7328763edd3994185|c:\program files\baidu\baidupinyin\2.6.2.150\imepng.dll|1
+4273300e95faf6875a9c7f23d81d667e|c:\program files\baidu\baidupinyin\2.6.2.150\imezlib.dll|1
+4f07bee58ee2309fed8873d632e05dbb|c:\windows\system32\lv-lv\hintsock.dll|1
+8c68cbf4558963fbaf874583b89c071d|e:\qtalk\v4.4.72.14311\bin\audiohook.dll|1
+9dcbb7fc6f899042545196c4214b33fd|c:\windows\system32\xunyount.dll|1
+1efc0fbfd040dde77fcfb0750848b6e2|c:\windows\system32\gamelsp.dll|1
+3304f18a3badcbf52c5c6aafbc56a720|c:\windows\system32\gxbproxy.dll|1
+dcc59c7857bca9607afcfce03a249a9c|c:\windows\system32\googlepinyin2.ime|1
+bb05618f2fdc188afc904941d110735a|c:\windows\system32\aticfx32.dll|1
+24a936ec6dd913a2f946eed4e215157e|c:\windows\system32\atiumdag.dll|1
+2a313afc1902c8100c9921541a1f8ef4|c:\windows\system32\xunyount.dll|1
+ebffeeee276d01c1dce56d079ffc5ecc|c:\windows\system32\dtmfd.dll|1
+1e650b13882a1f720fba944e16fa2910|c:\windows\syswow64\winsieprotect.dll|1
+a3dd3e89a702d03c1fc95468e53d2434|c:\windows\system32\iezxlhk.dll|1
+9ecd478182c424e49f75b4ef11e894eb|c:\program files\asus\ai suite ii\turbov evo\hookkey32.dll|1
+9024f825437f0872bb1573eb0ecf9047|c:\windows\system32\xunyount.dll|1
+5145a7bf6031211395ded922b7a83d53|c:\windows\system32\aticfx32.dll|1
+72d883683c43462b1609ab9444478558|c:\windows\system32\atiumdag.dll|1
+f2391fcbe96180a487aae760f466f56a|c:\documents and settings\all users\application data\funacce\funacce.dll|1
+c4d0087ebcdcaa94f2a5ef3a4ceb1dc3|e:\新建文件夹 (2)\热血传奇\lpk.dll|1
+63e4993e8fc4ac83e185bd73d6e9f609|c:\windows\syswow64\xlacclsp.dll|1
+7f8bb5f228cf551c44a5c001712c1a39|c:\windows\system32\aticfx32.dll|1
+c58fdf4beb40fc98e35a68a3ba56a07f|c:\windows\system32\atiumdag.dll|1
+1265ab257036c58bb1041d56dfc15816|c:\users\administrator\desktop\变速齿轮0.46\gearntke.dll|1
+12ecdcc00f9b913cd34438439312a4ea|c:\users\administrator\desktop\变速齿轮0.46\hook.dll|1
+f7c28d3f0aff8042038b3c5bdf923e9f|c:\windows\system32\wn.ime|1
+13d41f2ec8cbd4b088c96212a982ace0|d:\五笔\wnime\plugin\wnplugin.dll|1
+6d3832cafdd7fc1f5c259d51379ca52b|d:\五笔\wnime\plugin\resplugin.dll|1
+d21dcdaca8bf8b86fc39b2667894e20f|d:\五笔\wnime\plugin\uiplugin.dll|1
+57188d7621bedacb3c0424a3e129f01d|d:\五笔\wnime\plugin\fnplugin.dll|1
+ce1d84cfcc6bcb0287b79faf0ed41295|d:\五笔\wnime\plugin\wnoperatemb.dll|1
+a832468c4b63c073072390d7058a6cd8|d:\五笔\wnime\plugin\kbplugin.dll|1
+86d73ebb9e910936c682cd767599346a|c:\windows\system32\1037\1415468068000\hinthk.dll|1
+0d7f7161db543cad105f223b88acd2c6|c:\windows\system32\2345pinyin.ime|1
+3d82bb5002195fbd020e0335ef163755|c:\windows\system32\pecsp.dll|1
+3b2d7b758d7cda2570e5b6e1c2017fd3|c:\windows\system32\aticfx32.dll|1
+b2ccc48d7637d0fb728aa2c02f797e1e|c:\windows\system32\atiumdag.dll|1
+756a76b4d24681eb97eb6764a0e1ab5f|c:\windows\system32\aticfx32.dll|1
+bc2d60728e155393d3592924d143259b|c:\windows\system32\atiumdag.dll|1
+e41b4577750d9a4ce571fd654377140c|c:\windows\system32\winwb86.ime|1
+11af5813f56ede1cbf937c7572ecbd15|c:\windows\system32\processhelperwin32.dll|1
+b83de9e47ce3706b4eb6610746cca3d8|c:\windows\system32\qqpinyin.ime|1
+9a351aec0c0e8bcccce9c4b65157f40c|c:\windows\system32\xunyount.dll|1
+43d3de069d3196116ed966ec7988dc98|c:\windows\system32\mousehook.dll|1
+a02687add77f85b73db7de0a0fecc0e4|c:\windows\system32\jj.ime|1
+962dfc63e01986b2e45880b59c4f4f65|c:\windows\temp\mk_safe_74d435940461.dll|1
+b0bf8a1d6ddedf0a807bd20edb5b0999|c:\windows\system32\aticfx32.dll|1
+48699bc6c335a721274a9ddcc6da20f4|c:\windows\system32\atiumdag.dll|1
+c550d19f4902ee15eca52481ce17dd77|c:\program files\bluebox\hgcounter.dll|1
+75a755f91dd7de3112b2798e7861fd0b|c:\windows\system32\iezxl.dll|1
+2020b81ca879c9abb9bfb04e627a03d5|c:\users\admini~1\appdata\local\temp\3gc9um3zjtcc55.dll|1
+ab30f80ea0a22af80432a7628943762e|c:\program files (x86)\samsung\settings\cmdserver\wincrt.dll|1
+10202b08ac7c91607bc5b9e90f1fa5da|c:\windows\system32\ime\qqpinyintsf\qqpinyintsf.dll|1
+d21d98e866c44fdf46bcbe156c85968e|c:\windows\system32\ime\qqpinyintsf\qqpinyin.ime|1
+3a8b78ac88d06e9c1aa4384d6e41cb13|c:\windows\system32\hinthk.dll|1
+dea9623b928bc92f81860260087e7bc0|c:\windows\system32\en-zh\csrss.zh|1
+c6f96e783a4d286165de6a390d0b7c7d|c:\program files\rzx\plugin\itcs.plx|1
+eacdad71677422fbd52de36a68550bd7|c:\program files\rzx\audiodg.dll|1
+b7bf07db58d5a800a209c767aa7f7a06|c:\program files\rzx\gi.dll|1
+e4cf49f2925c07a9f491475be9142aea|c:\program files\nvidia corporation\nview\nview.dll|1
+14e450738a7e0886efd2e04eda9d7fa2|c:\windows\system32\xlacclsp.dll|1
+87fecc2567ba0b1eb7f56f768f9b82dc|f:\传奇\新建文件夹\121212112\热血传奇\data\sky_use.wil|1
+8663625dad24d1c5dd76f5f48a862c4e|c:\program files (x86)\gwhost\protector.dll|1
+0b080c43c929dc5ad6a02d113c7eed69|c:\windows\system32\aticfx32.dll|1
+4253dce48a67ae612ef5b02739c38954|c:\windows\system32\atiumdag.dll|1
+45d9bc7fe18481eea2b2f0fb096f400f|c:\program files (x86)\baidu\baidupinyin\2.4.2.261\imefreetype.dll|1
+36ee7ecb6bdd95fcbf6bd85640168c12|c:\program files (x86)\baidu\baidupinyin\2.4.2.261\imepng.dll|1
+62ca6bd003540e567650066eb6fdb063|c:\users\administrator\appdata\roaming\pcmaster\winguard.dll|1
+aa0ac5b8c45af41d1215b156272fc869|c:\windows\system32\aticfx32.dll|1
+eb9f220e8dc22310b199ae6a49b7e168|c:\windows\system32\atiumdag.dll|1
+cdf87240ada0aa0ef28fa7927bb98daf|c:\windows\system32\qqpinyin.ime|1
+842ba1e0dbc18fdd9c215b61ff4be8d0|c:\windows\system32\xunyount.dll|1
+c33a52d57786ea3503ecb526d1e2bf8e|c:\windows\system32\2345pinyin.ime|1
+ca505b811f54432dff50ba13cac83b80|c:\program files (x86)\lenovo\onekey theater\activedetect32.dll|1
+027032ffeb6f60e9429aed3c5ef739c4|c:\program files (x86)\lenovo\onekey theater\windowsapihookdll32.dll|1
+9d16878fa6e4a9837001ef1c93e0a107|c:\program files (x86)\rzx\plugin\acsyy.plx|1
+87306c4d0d9f1b9586c852c31410fbc0|c:\program files (x86)\rzx\plugin\acsy.plx|1
+5c0e7ea033813d025369e29544175817|c:\program files (x86)\rzx\audiodg.dll|1
+4b975ed0929d8ad601e31a593c0e77cb|c:\program files (x86)\rzx\plugin\activeds0.dll|1
+208a362c465ef5d346b5a7a6aaa2a153|c:\program files (x86)\rzx\gi.dll|1
+aa99b1c1690199041c5dc25c65cabf32|c:\windows\system32\aticfx32.dll|1
+5a291af1158f34d64e387c18dcf26cf1|c:\windows\system32\atiumdag.dll|1
+838bd05713474dc766bd1aecf99a4b5c|c:\windows\system32\submitcontrol.dll|1
+b7a9e30d0a2d3503dffea5b90d49d411|c:\windows\system32\inputcontrol.dll|1
+f7ca1467da64c3d9b7f00e3eb27a0ffb|c:\progra~1\hintsoft\pubwin~1\hinthk.dll|1
+d41d8cd98f00b204e9800998ecf8427e|c:\program files\hintsoft\pubwinclient\hintsock.dll|1
+45ef6adb1e5994285fa166f359ddc78c|c:\windows\syswow64\winsieprotect.dll|1
+58a2ec481d0d1e48c6be21d700812688|c:\windows\system32\iezxlhk.dll|1
+399b7c4f2a115f53283914737042445b|f:\腾讯游戏\地下城与勇士\tcls\tenprotect\tasremotecontrolfreezinghelper_1.dll|1
+3ab2b44f743533f0c99c798f37af7af3|c:\users\administrator\appdata\roaming\taobaoprotect\taobaoprotectse.dll|1
+2fc334b4ed92e48e54bb7c7e0138d56e|c:\programdata\qvodplayer\qvodwebbase\1.0.0.52\qvodwebbase.dll|1
+0264a88e5fc694d8b2cbb31448e34621|c:\windows\system32\dnfaohun.dll|1
+6aaf8b9eaf577bc8cc0d6a3c168a3213|c:\windows\system32\idcstar.dll|1
+6ded751b628ddb2a1c0c05f18858437c|c:\windows\system32\espi11.dll|1
+67b72dc71dc767ff41cd288263150845|c:\windows\system32\palminputime.ime|1
+3e63464b6bc96f38539d715a9549e494|c:\windows\system32\aetsprov.dll|1
+6e8d0a953cd8ddb7043e99810fed662f|c:\docume~1\admini~1\locals~1\temp\dgh5taiwwgh0hh8d.dll|1
+0706c599f27f892f5e4270314ab803ae|c:\windows\system32\gswb.ime|1
+8d4063bc637018c835d2b45bb5ab4892|d:\program files\qvodplayer\qvodwebbase\1.0.0.47\qvodwebbase.dll|1
+de0204beb11a821bc7bd8d3fd47bbaea|c:\windows\system32\vacrgysq\msvcr32.dll|1
+61ff906b9ddc6e5d8186065020105a9b|g:\mm\桌面\万千辅助免费版1.3.2\mir.dll|1
+7284f7fb0af831c9b5ab9310d14b7ffa|c:\program files\wannianli\vstart32.dll|1
+82436c1c63df464fd1fa2f437d6649eb|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+c5533d7d431938cf63ae27bb7cd561cc|c:\program files\baidusd2.1\baidusd\2.1.0.3086\bdkvdeskband.dll|1
+f4a5235fc8062abfca7cc12c113e0b9d|c:\windows\system32\msockwin.dll|1
+48d21b64e845144acb2b577ac08b4ba5|c:\users\administrator\appdata\roaming\fileproject.dll|1
+865f66743b99ade27c055c6469edf7ba|c:\users\administrator\appdata\roaming\libcurl-4.dll|1
+6ac05ae655e5940510a7f52feae95264|c:\progra~2\raptr\ltc_help32-88237.dll|1
+31694e977e8e4557f4f9ddee424a65ac|c:\windows\system32\wm_hooks.dll|1
+60c0a8978a6caf34258a52bc4155c6a5|c:\program files (x86)\rzx\plugin\itcs.plx|1
+7f8a845502d39525ea806cc8cae0749d|c:\program files (x86)\rzx\audiodg.dll|1
+ea91a21f9821c3ad1b4a169aacf33b4b|c:\program files (x86)\rzx\gi.dll|1
+d9fb5feb9a54ac8a931f7459da7c3091|c:\program files\baidu\baidupinyin\2.9.2.42\imefreetype.dll|1
+c2ee8e71683edc5c74a731ef8f7f30d7|c:\program files\baidu\baidupinyin\2.9.2.42\imepng.dll|1
+dbeb9d288c4cfd0718757871af8f785d|c:\program files\baidu\baidupinyin\2.9.2.42\imezlib.dll|1
+fcdb9bf546d0668d427912349643fba0|c:\windows\system32\aticfx32.dll|1
+8c9f51a39cbf6ceef3cbc83adfd6125a|c:\windows\system32\atiumdag.dll|1
+fde2f9cf1503be091845e708aea4761f|c:\windows\temp\glk_safe_5cac4c98d1be.dll|1
+0619ed29bc110e621569de22ffbf3f30|f:\program files (x86)\youku\youkuclient\ikutm.dll|1
+4d610761a8aa8ff424180222d2b92e10|f:\program files (x86)\youku\youkuclient\ikutmco.dll|1
+60c3963c26c3789dfaaa4089a1742b79|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+afebb81dfeadf067f186c8914a2303e5|c:\windows\system32\mousehook.dll|1
+9aaec91d41bfcc3c0ae6bf3035938af7|c:\windows\system32\nslxoe3nqmtop.dll|1
+2216eb51621401fe7cbd5fcaf7d105d4|c:\program files\lne52b\slowt.dll|1
+df966398dafe6786ce0ae1bccf2b374f|c:\program files\lne52b\slowt32.dll|1
+dc22073ac2b546a00af1696eb34ca6d7|c:\program files\lne52b\slowt64.dll|1
+c2351500991c20eacbb0e41fa012e54c|c:\windows\system32\cfhek2.ime|1
+152c10954517a3402a21f2eded1291fc|c:\windows\system32\hintsock.dll|1
+6f40d096323b03329c5054d0fae8c9c0|c:\windows\system32\hintsockchs.dll|1
+b5bcbc98a5f409b47a82f1720a56e284|c:\docume~1\admini~1\locals~1\temp\tqnxxg.dll|1
+277e005d9b350de4673b6c11c03accba|c:\windows\system32\rtwspi.dll|1
+3bc4efefcfb21702820e5d28ce1cc8e7|c:\program files\rilibiao\vstart32.dll|1
+0a87b027602f29e1fd93317ac6ae27af|c:\users\administrator\desktop\惊世1126\gom.dll|1
+c0b716b0a39e6bd5b97ad509c59616cd|c:\users\administrator\desktop\惊世1126\astar.dll|1
+22df7c2cb112d6deb80c5e5eaf1d25ba|c:\windows\temp\glk_safe_00e04c8c53f4.dll|1
+fdfa4dc5ba8ead871ba6a2b891c9f9dc|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+27d4a6b6466a411801115ea446541f79|c:\program files\2345safe\2345safemon.dll|1
+373b5df208cce774697e78718ede3948|c:\documents and settings\administrator\application data\taobaoprotect\taobaoprotectse.dll|1
+4d4adb346ad4f323abf7dab03ee74310|c:\windows\system32\lonlifelsp.dll|1
+8bc2e8fe0f0dc6ff926a8881a5cace9a|e:\qq2014显ip\syxgj.dll|1
+2372471f882364f5bf419c513acf104a|c:\windows\system32\aticfx32.dll|1
+f61a710613e67235baa9dd612e3d56cf|c:\windows\system32\atiumdag.dll|1
+f5b164bc9e9bc42b16f578d9ab0f15eb|c:\windows\system32\thooksv3.dll|1
+02d3fdc6d7638989b8e38f36c4220361|c:\windows\system32\tsysdrv.dll|1
+7fd6b2e16b00f0affb935cb1963a2ccb|c:\windows\system32\winhafnt.dll|1
+c9034675ac72059c1cf25fbe747247ce|c:\windows\system32\winhadnt.dll|1
+3c70f2b96d71e99f6469a93f6fefc5f2|c:\windows\system32\dtframe32.dll|1
+3ad89f59b638d58c81c7c691e8768ba3|c:\windows\system32\tijtdrvd32.dll|1
+89305ac2f744110bbc946f80f9b6c164|c:\windows\system32\drivers\atmfd.dll|1
+0b4992b3c5f6cb146173e45327219be1|c:\windows\system32\ddn\mod\pprotect.dll|1
+74551702e0feb366c92de5f0cdeb12ce|c:\program files\sangfor\ssl\clientcomponent\1_proxyie.dll|1
+9a6d626f6cb468f8a893ad0a4af5e39e|e:\热血传奇\wsock32.dll|1
+9fbb1e0bd621a5331b8dffb5d2989955|c:\windows\system32\espi11.dll|1
+0e063c073fa0e521956ac0226ad1ad70|c:\program files\sangfor\ssl\clientcomponent2\clientnspprj.dll|1
+410d37a7f26b25565818fcd1615513f0|c:\windows\ald\patchsd.dll|1
+667a6920bc571d7a8ab708e4b97d2d24|c:\windows\temp\mk_safe_74d43519f856.dll|1
+a1f5bd5ed3be124fb09057f8f1db649c|c:\program files (x86)\rzx\plugin\acsyy.plx|1
+a3dc775ec801870114ddfc4f9f04a168|c:\program files (x86)\rzx\plugin\mlang1.drw|1
+3b8dd4559bb8ea861bf070ab6bc4514e|c:\program files (x86)\rzx\audiodg.dll|1
+67d9fff1bdf695f3ff7ea1c42b82c1bb|c:\program files (x86)\rzx\gi.dll|1
+8b45e10bfcedd91a4761594f55285aab|c:\program files (x86)\rzx\safemon\index.dat|1
+bfb93f5a9aea018d1804142e0fb489ad|c:\documents and settings\all users\application data\funacce\funacce.dll|1
+5551e0034599689a1ff4eb2f5ad39368|c:\windows\system32\dhsp.dll|1
+9d338eac95ac84c5c79a1e0fd3fd7729|c:\documents and settings\all users\application data\zhezi\bin2\w\ljizeomw.dll|1
+0de1aaa6debf99f0819d10ec7c1f93c3|c:\windows\system32\aticfx32.dll|1
+e5c7e757186e96181ac64f0ff45e32bc|c:\windows\system32\atiumdag.dll|1
+6842fb786ce80ad7d6dc4f0e5980d82a|c:\program files\baidu\baidupinyin\2.13.2.59\imefreetype.dll|1
+9a7c7ee25438ff6218ffba7fc6dddd90|c:\program files\baidu\baidupinyin\2.13.2.59\imepng.dll|1
+68073b9ba575f85009ca1de0a04e7ad6|c:\program files\baidu\baidupinyin\2.13.2.59\imezlib.dll|1
+81d245ebc08443f600d200bb40a56ff8|c:\windows\system32\xlacclsp.dll|1
+818febb93587726a058372263ba4cbb9|c:\windows\system32\2345pinyin.ime|1
+b43c8e3fa2e574bd82e6293289e68c77|c:\windows\system32\aticfx32.dll|1
+41115772b900a226a738bde0e52898d6|c:\windows\system32\atiumdag.dll|1
+06e6f518b1d7e337a0580f90c7ded681|c:\program files (x86)\baidu\baidupinyin\2.13.2.6\imefreetype.dll|1
+966e365e1010ff6292bed55ab9fde003|c:\program files (x86)\baidu\baidupinyin\2.13.2.6\imepng.dll|1
+22c3923921ca92aa5c5e9a4689fb1b83|c:\program files (x86)\baidu\baidupinyin\2.13.2.6\imezlib.dll|1
+a8dbee3d8e18247c86101dd8f9ef679a|c:\windows\system32\qqpinyin.ime|1
+a55b9261b7f740e181ff137ed9390d54|c:\program files\bldbaseservice\hgcounter.dll|1
+bb013477b2c2486dfeb5da8fb3c80ad0|c:\program files\homesafe\hgprotect.dll|1
+ad85dbfd01b6e19d1f5da2b29ff971db|c:\windows\temp\glk_safe_00e04c54071c.dll|1
+6a158cba21df36e202247035d212a441|c:\program files\rzx\plugin\itcs.plx|1
+7bf0d97e3ac168c749fea7ab1015906d|c:\program files\rzx\audiodg.dll|1
+d4422e54802b4a6b1b091ef1acacd16d|c:\program files\rzx\gi.dll|1
+2ac5fa1379bbb32b6d150b9912840858|c:\windows\system32\dtmfd.dll|1
+66a1846d851485fd2ad44efeasf05156|e:\media\vstart32.dll|1
+bf71ccaa801289b529ec67aab4b69743|c:\windows\temp\mk_safe_4437e6376e01.dll|1
+07a297dd83bc67217f4b2a080a9319b5|c:\windows\system32\xunyount.dll|1
+0bb38042b4b9b6ad6c44b4323751d19e|c:\program files\baidu\baidupinyin\2.5.2.116\imefreetype.dll|1
+6bccb9992ed977124b2fe4798e4f703e|c:\program files\baidu\baidupinyin\2.5.2.116\imepng.dll|1
+ad0aacab84f05ba9a7280d9c16a22ca1|c:\windows\system32\y46ik6.dll|1
+4a2a05b25df4385f5aec6f07b1c1e93d|d:\gamemenu\tool\rocketdock\rocketdock.dll|1
+c7f1394be499037c570cd36fbe332863|c:\windows\system32\hintsock.dll|1
+22085fe2e22d85cc83357f9d52a92c2d|c:\windows\system32\iezxlhk.dll|1
+ac468aef6a2689e0f4eff1fb474345ba|c:\windows\system32\googlepinyin2.ime|1
+433e6b313181dcc28013e4e4cbf757fb|c:\windows\system32\aticfx32.dll|1
+ed02a0a6aca87d6229093a7d075fc7ab|c:\windows\system32\atiumdag.dll|1
+8840a4a2f24af74c55d5f1882665652b|c:\windows\system32\iclickpm.dll|1
+d0f7e6d625e4dfc60f9eba98866bf588|c:\windows\system32\wbem\20141127224849\hintsock\hintsock.dll|1
+2d52c0a6f5c600da48cf0792dcee69a1|c:\documents and settings\njet\桌面\万千辅助免费版1.3.1\mir.dll|1
+6e91d5bf6a5b70cd472a89eae8b690d6|c:\program files\rzx\plugin\acsyy.plx|1
+9047cc885636ba992d5e4d7bc2bbc30c|c:\program files\rzx\audiodg.dll|1
+f873831b46545b957a9bcbadfe34d55c|c:\program files\rzx\gi.dll|1
+58f2fc1ebe129c3e5ad257d045b895c5|c:\program files\rzx\safemon\index.dat|1
+adb61575e9f50a62dc8d03f3fbe3b9a2|c:\program files\sangfor\ssl\clientcomponent\sangfornsp.dll|1
+ee5c8d3b26e5fa5f2192f5a17186b4f6|c:\windows\system32\aticfx32.dll|1
+0fec9e98929dfd469587e53f876b7ab9|c:\windows\system32\atiumdag.dll|1
+67be66ae95716a191d6d79063d301d14|c:\program files\xrushhf\xrushsk.dll|1
+85486f6136f4599c19130253be0e4220|c:\users\public\funacce\funacce.dll|1
+57465cec9221a3371cde32ceddd5b548|c:\windows\system32\61z43i.ime|1
+3413f5e352e934fa5d737a6b892c8414|c:\windows\temp\mk_safe_78929c3d371d.dll|1
+40a01b03e036bca5b6c186c9c9929a3d|c:\windows\system32\1031\20141128105527\hintsock.dll|1
+d2b777a93719e548d0baf4c886e124d3|e:\传奇私服\lpk.dll|1
+71db69e3d3349d1ad1d6e9511a8ecc13|e:\avt\avtmon.dll|1
+ef4f06269d9394eddbf3d65bcfbfe2a8|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+2cc6164d7d06a96854bea9cd893a32cd|c:\windows\system32\iezxl.dll|1
+77afede3f9dce5ae135f803741ef3f18|c:\program files\baidusd3.0\baidusd\3.0.0.4605\bdkvdeskband.dll|1
+875a35247368dc4528c7cf328bec9eb1|c:\windows\system32\atiumdag.dll|1
+106821a9cea25dd173f003864ee5417e|c:\windows\system32\processhelperwin32.dll|1
+5f3cb992e4ce2f3e025ea4cfa390ba7f|c:\program files (x86)\nvshenli\vstart32.dll|1
+b01ab916ef28a46652137e5a16cdd0e8|c:\program files (x86)\rzx\plugin\acsyy.plx|1
+4400da2381d66e8ea98c7c70a0e52751|c:\program files (x86)\rzx\audiodg.dll|1
+14ff8c27db9aa1cead0114400fb31a80|c:\program files (x86)\rzx\gi.dll|1
+9d5c42a4919406a51de8b6104d5b4c74|c:\windows\system32\xunyount.dll|1
+d697b94a75cca940677212291b78f7a6|c:\windows\temp\mk_safe_00e066a94f53.dll|1
+a0e6a9b6ada0440b56786d4bd48c2c54|c:\program files\starsoftcomm\starcenter2.5\hookmgr.dll|1
+7f3ca21774d9f18ad5b49b196332411d|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+19c0277ecb95a3ffe220e5d3e99e5a52|c:\windows\system32\5485eu.ime|1
+54dabb65631da2d4a8686caee6fa7013|c:\windows\system32\dtrampo.dll|1
+b64e75902c1cacc80f4aa7d84ef0b825|c:\windows\system32\googlepinyin2.ime|1
+ddc7f824871cbd75e1aab391cafa3ce0|c:\windows\syswow64\ime\qqpinyintsf\qqpinyintsf.dll|1
+0d00f12d6d5e16f1ca240dcf4139f0de|c:\windows\system32\ime\qqpinyintsf\qqpinyin.ime|1
+5402b3aad5db39e588df42194fee9005|c:\windows\temp\ads_0026c7201d56.dll|1
+36aa4f980ec9e743c42449faf30f9b27|c:\windows\system32\hintsock.dll|1
+84ab59df8146bddb4a229a579ee3f372|d:\bosskey_v7.1\trayhook.dll|1
+f04ebc1d44f2266a80975f1dc54d5f06|c:\windows\system32\xlacclsp.dll|1
+317a4c014b46f03368ab63f5239941ad|c:\windows\temp\mlk_safe_74d43562c7b9.dll|1
+4c35d4dd9fbef9cc8196ced7bf70b69d|e:\baiduplayer\ikutm.dll|1
+de87e9b2e9d2e945680518e860856f7e|e:\baiduplayer\ikutmco.dll|1
+51cdfce2bf18f46de664ea3b32a158e4|c:\windows\system32\xunyount.dll|1
+eeeaba2b08f4144eee8d90475b7780f9|c:\windows\system32\ipjesw.dll|1
+f7db88a53bdf15a87a9bcafd67ef0e70|c:\windows\system32\xunyount.dll|1
+45c75687181c383ff1684a001a48056c|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+f7fc8339edee17ec3a2ba9f0dbf853ef|c:\windows\system32\gamelsp.dll|1
+9c9d9b2d49e08b478a83b907f8e6e252|c:\documents and settings\all users\application data\taotaosou\npext.dll|1
+a9acf44366e90114d34b2cdef47f6965|c:\windows\system32\aticfx32.dll|1
+b04b6c9a6b8350675fca2a7868865287|c:\windows\system32\atiumdag.dll|1
+be3516ef5c3856287e385cabbc4e3b76|c:\program files\baidu\baiduwubi\1.2.0.13\imezlib.dll|1
+276fa4e05f11a857fe5974dd2739b6bb|c:\program files\baidu\baiduwubi\1.2.0.13\imefreetype.dll|1
+ede6f656cedc5e5155bc4ae7d5d266aa|c:\program files\baidu\baiduwubi\1.2.0.13\imepng.dll|1
+6b69ea1ab7be7e3667b1de235b262d42|d:\program files\盛大网络\热血传奇\lpk.dll|1
+701174cf2b920953d927463ed51f7c78|c:\program files\yuguo\idle.dll|1
+2df0df5df46d1362e03130a332901693|c:\program files\sangfor\ssl\clientcomponent\1_sangfornsp.dll|1
+263849bc992585e721b76d0c4573b9fd|c:\program files\permeo\security driver\s5spi.dll|1
+f0c67749f241e8de47d17bc65295d8ea|c:\program files\permeo\security driver\s5impl.dll|1
+b2a72f1e03822fe69ad7f1630f1d8ea5|c:\program files\permeo\security driver\cldap.dll|1
+eee956973f305f1be22ec53ace3ec33f|c:\program files\permeo\security driver\cradius.dll|1
+d620e5d8a2f1dbf5f688c1fbb34cec5a|c:\program files\permeo\security driver\csecureid.dll|1
+bd4d2d64322ce236d348927f5af1ecc9|c:\program files\permeo\security driver\cssl.dll|1
+f717544512392ddadfeddfe7bf22c330|c:\program files\permeo\security driver\ctacacs.dll|1
+9fb643569c4a9a1ceeae6ba2f44fd6a5|c:\program files\permeo\security driver\cupwd.dll|1
+769d7e01afcac084480a2538c2b0cd29|c:\program files\permeo\security driver\cwindom.dll|1
+8c7e1d96aa9c383373fb4af43fddf190|c:\windows\system32\dqlsp.dll|1
+99e23ac27f1e1664eec621217d524e6a|c:\windows\system32\hintsock.dll|1
+c8a789816be29427932f4f60973b3e0e|c:\program files\lenovo\energy management\batterytestdll.dll|1
+42044c8f85d5b093075654b52a46fbfd|c:\windows\system32\hintsock.dll|1
+28c45e5273ac1146475c5da5c7c03d12|c:\windows\system32\hintsock.dll|1
+7971c3830b6214d12f3d62e9112c591a|c:\windows\system32\aticfx32.dll|1
+7c01aab248362e08950730005765f718|c:\windows\system32\atiumdag.dll|1
+ad745814e6bed30e9fd69175051978a8|c:\program files (x86)\rzx\plugin\itcs.plx|1
+c8f05bc7de66cf36e46f8c6a2169113d|c:\program files (x86)\rzx\audiodg.dll|1
+adbc44d75016f0e3651f8d2195e0e42e|c:\program files (x86)\rzx\gi.dll|1
+a2d327180b775543bde2a2d3cfaed3b7|c:\program files (x86)\rzx\safemon\index.dat|1
+3c187269383587c330fdac7a0b3ce8a5|c:\windows\system32\dhsp.dll|1
+6f7a08deb3265384612213138bd10127|c:\program files (x86)\baidu\baidupinyin\2.10.2.93\imefreetype.dll|1
+7587b65dad2321776d4fad1ab0f68c70|c:\program files (x86)\baidu\baidupinyin\2.10.2.93\imepng.dll|1
+e75731f729745750a30ee54775f919d1|c:\program files (x86)\baidu\baidupinyin\2.10.2.93\imezlib.dll|1
+9e02c4bb837854b4692ba7cecfaeab8f|c:\windows\system32\hintsockchs.dll|1
+e0949f82d3783444d646ea321a7db85c|c:\docume~1\admini~1\locals~1\temp\uxgwmv.dll|1
+a82526f64780ddf13d70af7437855811|c:\windows\system32\aticfx32.dll|1
+215c26ac59f92f367b93a1b3eb69d842|c:\windows\system32\atiumdag.dll|1
+db0ce97fc6a2053938bf1955238a7df7|c:\windows\temp\eovcsout.dll|1
+0d212f1c2f3d847cfe09fdfb7fa7e06a|c:\program files\baidu\baidupinyin\2.13.2.43\imefreetype.dll|1
+32c1b289ca503702358b6df8a8d4c45b|c:\program files\baidu\baidupinyin\2.13.2.43\imepng.dll|1
+be97eb486711e3bc53e21c26ef5ae94f|c:\program files\baidu\baidupinyin\2.13.2.43\imezlib.dll|1
+1c7e595819dcfadec2a7a6c9a7060922|c:\windows\system32\14765806.dll|1
+26f97c5fb0aa28022387ea8a025c9699|c:\windows\system\direct3d-hook.dll|1
+8f1688f8190891b3d0b364f01b5ed65d|c:\windows\temp\mk_safe_002618021705.dll|1
+74fbb43902778a29f08f9c3f6af28bf1|c:\windows\temp\glk_safe_00e04d5d5efa.dll|1
+cd393f142516f9ed0c7ebc873e82d3b0|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+6d42d9d7319233e9116cce268284d4d7|c:\windows\syswow64\ime\qqpinyintsf\qqpinyintsf.dll|1
+ad0be60d9b9c3978533be3dd0d5f4413|c:\windows\system32\ime\qqpinyintsf\qqpinyin.ime|1
+04a7e882c68fd7ad1208c12f2c623e69|c:\windows\system32\hintsock.dll|1
+00adae07b0e4acadbfc216179abef16c|c:\windows\system32\zh-cn\hintsock.dll|1
+b60da4e2e5aceba3ce3d87ee2cd872ee|c:\windows\system32\sougou.ime|1
+d9d54b4919798461adc178cdcb00bf56|c:\windows\system32\eigll.dat|1
+ee04d1eaa3093341c7e3070c33a82152|c:\windows\system32\aticfx32.dll|1
+997c0c1eea9022e141133f2a17176870|c:\windows\system32\atiumdag.dll|1
+71c506af981d7cff160c33d9a7beb9f0|c:\windows\system32\googlepinyin.ime|1
+54aa41c5d4dcbec7d21f224a47041fb7|c:\program files\baidu\baidupinyin\2.11.2.55\imefreetype.dll|1
+146a47b69403543c099b2fcfde3de799|c:\program files\baidu\baidupinyin\2.11.2.55\imepng.dll|1
+64ba6f928ef2787da6dacd0a6e9fd55f|c:\program files\baidu\baidupinyin\2.11.2.55\imezlib.dll|1
+4b3284a11d72a6a047c7ba26d6cb16ff|c:\windows\system32\atiumdag.dll|1
+fa87f2e480e0efcb55a5387ebec3d048|c:\windows\system32\exylah.dll|1
+1268f842f5a3db84bd59d44701bcf62e|c:\program files\baidu\baidusd\1.8.0.1255\bdkvdeskband.dll|1
+a68ebcdcc299b65fb80706196169944e|c:\windows\system32\ubxep.dat|1
+9edc901d37f5def94ee8a14974cf932a|c:\program files (x86)\nvidia corporation\coprocmanager\detoured.dll|1
+32e546d6899c270de057c98c151745ae|c:\windows\system32\mousehook.dll|1
+c3adbb35a05b44bc877a895d273aa270|c:\windows\system32\espi11.dll|1
+d9be155b2b0c25102222cdf7c7d6d636|c:\windows\temp\slk_safe_1c6f65de3e9e.dll|1
+0867640d782efb1e0a0c7f6f8ea1c708|c:\windows\system32\e2gsock.dll|1
+7ebd1129169f52a6223a9ee9a4929e6d|c:\users\admini~1\appdata\local\temp\tlwbxpwb.dll|1
+320247bef87ff15f498c1f5ddb9840a9|c:\program files (x86)\e-yoo\peyoorun.dll|1
+9cc5933ec8ef9f9441503bc43ad6e525|c:\windows\system32\eanpaj.dll|1
+bc63c5fc4c4fd50d634607a0b813c62a|c:\windows\temp\mk_safe_00ffecb8f1fb.dll|1
+c3a7c71bce4ec04d63b7ef8ec9958c39|c:\program files\common files\pplivenetwork\kernel\vaproxyd.dll|1
+41109bf0e294ced26c0c91fd1b00b046|c:\documents and settings\administrator\application data\netease\uu\uu_lsp.dll|1
+8eb710094e2ce2965f88e59eb269ae99|c:\windows\system32\aetpkss1.dll|1
+1b2da8cee36018f2817e0abafe8f5758|c:\superdisk\5xeza22iv2tkde-f\网络游戏\传奇外传\data\sky_use.wil|1
+41b4e8ed4b99ede855f86c585be75d17|c:\program files\nvidia corporation\coprocmanager\detoured.dll|1
+3205ad362da428741ac5929223d31803|c:\program files\bldbaseservice\hgcounter.dll|1
+3b7a0f2d848f3dfb017fc5f72b122ae4|c:\windows\system32\hintsockchs.dll|1
+bb1f5915d57fe0081873815ef22186aa|c:\windows\system32\aticfx32.dll|1
+e8d12c5925745bb5f791b41779857878|c:\windows\system32\atiumdag.dll|1
+3064d930624308d749a2466ee98a67b8|c:\windows\temp\glk_safe_1c6f658b5cf1.dll|1
+cc29795aa652100a47b8faba60a0d6f1|c:\windows\system32\31nkis.dll|1
+e2321708bb0c22326e709b5f97caf33a|v:\其他工具\ytdb\pxe\hookdll.dll|1
+16e3f0ebfe86e4e50db093a43ff4b210|c:\windows\system32\xlacclsp.dll|1
+f78cada21c4362b23900602330ca2cef|c:\windows\system32\gamelsp.dll|1
+25455f1d6c170db91f9a1308a442b87f|c:\windows\temp\mlk_safe_00e0b0f94548.dll|1
+f3d4e50a3b583e3600d6789bb7abdca3|c:\windows\system32\gamelsp.dll|1
+55b1e47bec2ade0385595a04ece99368|c:\documents and settings\administrator\桌面\万千辅助免费版1.0\mir.dll|1
+6298d4641b144cb0114e49b82adfe9ce|c:\windows\system32\xlacclsp.dll|1
+3a4c218f0674450eb9c59c9f5b2117de|c:\users\admini~1\appdata\local\temp\stwlrecr.dll|1
+3eeab52283d98a9a124d9d29b745b659|c:\windows\syswow64\dtrampo.dll|1
+15a608714ed5c7f8727614854816adf0|c:\windows\system32\palminputime.ime|1
+06de9a06c1e6612bba6fe96ab8b56a9c|c:\program files\lenovo\bluetooth software\btkeyind.dll|1
+72985e9de5060f52e0d3ffedd331f66b|c:\windows\system32\gswb.ime|1
+29996b31bd2aca63cfabe51af26ec0fd|c:\windows\system32\repin.ime|1
+2a8e4c6108bb58cf1f9ab7d824b60c31|c:\windows\system32\xunyount.dll|1
+c5ca412a34332ca90e89cd1f4a4b5c7a|c:\program files\nvidia corporation\nview\nview.dll|1
+0d326cc213f911bc195252e908d15e36|c:\program files\bluebox\hgcounter.dll|1

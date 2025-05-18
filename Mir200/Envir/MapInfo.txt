@@ -1,0 +1,725 @@
+[0 比奇省]
+[3 盟重省]
+; [公测福利活动地图|g003	公测福利活动地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石) nopositionmove noautorangepickitem
+; [n0 比奇省]
+; [影之道|h201 沙巴克影之道] norecall nodearrecall nomasterrecall norandommove noreconnect(n3:330:330) noallowuseitems(随机传送石|坐标记录石) nopositionmove
+; [红色方点名|pd 红色方点名地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove allowusemyshop
+; [蓝色方点名|pd 蓝色方点名地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove allowusemyshop
+; [胜利方奖励地图|pd 胜利方奖励地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove allowusemyshop
+; [失败方奖励地图|pd 失败方奖励地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove allowusemyshop
+; [安全交易地图|ga1 安全交易地图] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove
+; [开区等待室|pd 开区等待室] safe day noguildrecall norecall noreconnect(开区等待室) onkillmon noallowuseitems(随机传送石|坐标记录石|主城传送石) nopositionmove
+; [安全验证地图|pd 安全验证地图] safe day noguildrecall norecall noreconnect(安全验证地图) onkillmon noallowuseitems(随机传送石|坐标记录石|主城传送石) nopositionmove
+; [演武厅|pd 演武厅] safe day noguildrecall norecall noreconnect(n3:330:330) onkillmon noallowuseitems(随机传送石|坐标记录石) nopositionmove allowusemyshop
+; [乱斗之地|05385 乱斗之地] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石)
+; [浑水摸鱼|pd 浑水摸鱼] nopositionmove noautorangepickitem safe nodeal noreconnect(n3:330:330) notallowusemagic(十步一杀|野蛮冲撞|擒龙手)
+
+[05385	心魔殿堂] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术)
+;原地图名字流星之城
+[n3|new3 玄天大陆] allowusemyshop noautorangepickitem day MUSIC(100003) FIGHT3(1) LOADKF
+[0150 沙巴克皇宫] norecall nodearrecall nomasterrecall norandommove noallowuseitems(随机传送石|坐标记录石) nopositionmove noreconnect(n3:330:330) noautorangepickitem FIGHT3(1)
+[new0150 沙巴克皇宫] day norecall nodearrecall nomasterrecall norandommove noallowuseitems(随机传送石|坐标记录石) nopositionmove noreconnect(n3:330:330) noautorangepickitem FIGHT3(1)
+[边界山谷|10001 边界山谷] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[玄幽之境|chaostemple_6 玄幽之境] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[鬼城通道|d2003 鬼城通道] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop
+;———————————————————————————————————————————————————————————————————————————————— 3大陆(遗忘大陆)
+[遗忘大陆|new_map_04 遗忘古迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;———————————————————————————————————————————————————————————————————————————————— 1大陆(土城)
+[野兽之森|map139 野兽之森] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[桃花林|map138 桃花林] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[琉璃矿洞|map137a 琉璃矿洞] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[天元边关|map186 天元边关] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+[仙木林|map136 仙木林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[妖怪山谷|bag01 妖怪山谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[充满魔气的洞穴|dm002 充满魔气的洞穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[后山|map135 后山] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[风之洞穴|06552 风之洞穴] allowusemyshop noreconnect(n3:330:330)   onkillmon NOMANNOMON(60)
+
+;———————————————————————————————————————————————————————————————————————————————— 2大陆(天元大陆)
+[天元大陆|map140 天元大陆] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+;—————————————————————————————————————1
+[西海岸|10196 西海岸] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-1
+[暗域|10156 暗域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-1-1
+[放逐之域|06550 放逐之域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[放逐之域二层|06551 放逐之域二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[流放魔地|06553 流放魔地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-1-2
+[湿婆神殿|06653 湿婆神殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[湿婆神殿二层|06654 湿婆神殿二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[湿婆神宫|06657 湿婆神宫] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-1-3
+[罡风谷|05455 罡风谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[卧龙山脉|05456 卧龙山脉] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[卧龙部落|05462 卧龙部落] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[祭坛|nd2079 祭坛] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-2
+[月光森林|map141 月光森林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-2-1
+[卡亚神庙|05657 卡亚神庙] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神庙内部|05660 神庙内部] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神庙大厅|05662 神庙大厅] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-2-2
+[天然洞穴|06501 天然洞穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-2-2-1
+[地牢|05751 地牢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[剑冢|02452 剑冢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡墓地|05752 死亡墓地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————1-2-2-2
+;地图名尸魔洞窟 改成了 石魔洞窟
+[尸魔洞窟|d2051 石魔洞窟] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[尸魔洞窟一层|d2062 石魔洞窟一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[尸魔洞窟二层|d2063 石魔洞窟二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+[神龙帝国|map144 神龙帝国] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+[神龙幻境1|map144 神龙幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[神龙幻境2|map144 神龙幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+;—————————————————————————————————————
+[南荒蛮域|map185_04 南荒蛮域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔兽山脉|map185_09 魔兽山脉] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[沙暴镇|02501 沙暴镇] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[西极秘境|05203 西极秘境] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔祖遗迹|02803 魔祖遗迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————
+[白羽林|indun_03bossroom 白羽林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+[神女圣心湖|map145 神女圣心湖] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[湖心岛|map142 湖心岛] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[南风森林|map143 南风森林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[龙之禁域|10017 龙之禁域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+[雷州|06701 雷州] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[紫雷之地|06702 紫雷之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[雷鸣秘境|05310 雷鸣秘境] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[无尽雷鸣|05311 无尽雷鸣] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+;—————————————————————————————————————
+[域外战场|10010 域外战场] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+
+[最后禁地|10053 最后禁地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔宫王朝|10056 魔宫王朝] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[妖魔密室|10057 妖魔密室] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[万丈魔渊|10058 万丈魔渊] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔|hy_indun_04boss3 永恒之塔一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔2|hy_indun_04boss3 永恒之塔二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔3|hy_indun_04boss3 永恒之塔三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔4|hy_indun_04boss3 永恒之塔四层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔5|hy_indun_04boss3 永恒之塔五层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔6|hy_indun_04boss3 永恒之塔六层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔7|hy_indun_04boss3 永恒之塔七层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之塔8|hy_indun_04boss3 永恒之塔八层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[1号神秘房间|herom01 1号神秘房间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[2号神秘房间|herom01 2号神秘房间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[3号神秘房间|herom01 3号神秘房间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[4号神秘房间|herom01 4号神秘房间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔族巢穴|05631 魔族巢穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[幽冥之界|05405 幽冥之界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[生灵禁区|05413 生灵禁区] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡祭坛|05416 死亡祭坛] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔域秘境|05420 魔域秘境] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[血煞巢穴|05420 血煞巢穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[琳琅秘境|05420 琳琅秘境] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[灵魂牢笼|05632 灵魂牢笼] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[生死境界|05628 生死境界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神魔古战场|10003 神魔古战场] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[万骨枯地|chaostemple_3 万骨枯地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[遗忘前线|05330 遗忘前线] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[悲鸣哨塔|05331 悲鸣哨塔] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[活死人舰队|05332 活死人舰队] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[被遗落的港口|hy01_peunmokdo 被遗落的港口] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[妖月遗址|graytemple_2 妖月遗址] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒丘陵|hell01 永恒丘陵] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[游荡者之墓|hell03 游荡者之墓] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[守望之门|hell101 守望之门] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[拘灵之眼|sd_cem11 拘灵之眼] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑暗古境|sd_cem12 黑暗古境] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[迷幻深渊|sd_cem13 迷幻深渊] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡行刑场|samchungshadow_01 死亡行刑场] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+[酆都|shijiazhongdi 酆都鬼城] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+
+[酆都幻境1|shijiazhongdi 酆都幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石)  SAFE
+[酆都幻境2|shijiazhongdi 酆都幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石)  SAFE
+
+[往生客栈|10083 往生客栈] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阴间|10179 阴间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阳间|10120 阳间] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[鬼门关|youlingcheng 鬼门关] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[鬼界|02552 鬼界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[无魂之地|02553 无魂之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黄泉路|02554 黄泉路] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[无常殿|02555 无常殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阎王大殿|02556 阎王大殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阴司鬼街|05825 阴司鬼街] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阴司鬼街北|05851 阴司鬼街北] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡鬼沼|05852 死亡鬼沼] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[十恶之地|05853 十恶之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[幽暗鬼域|05856 幽暗鬼域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阴司鬼街南|05854 阴司鬼街南] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[暗巷|05861 暗巷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[奈何桥|05862 奈何桥] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[阴阳界|05871 阴阳界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[鬼国神宫|05868 鬼国神宫] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[亡魂塔|samchungshadow_01 亡魂塔] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石) NOMANNOMON(60)
+[失落鬼域|02757 失落鬼域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[猛鬼岛礁|02752 猛鬼岛礁] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[亡灵之角|02760 亡灵之角] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神泣之地|02765 神泣之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[九头蛇之巢|02770 九头蛇之巢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[北城遗迹|02253 北城遗迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑水古城|02251 黑水古城] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑水遗迹|02257 黑水遗迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑水废墟|02256 黑水废墟] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡墓场|gf0002 死亡墓场] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[魔之域|10073 魔之域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[轮回之地|hell304 轮回之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[时空通道|10093 时空通道] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术) NOMANNOMON(60)
+[时间迷宫|05200 时间迷宫] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术) NOMANNOMON(60)
+
+
+; ----------------------------------------------------时间迷宫副本地图----------------------------------------------------
+[jinxu 禁墟] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术)
+[jingtu 净土] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术)
+; --审判 调用的是神秘这个地图
+[shenmi 神秘] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术)  
+[zhixu 蛇巢禁地] nopositionmove noreconnect(n3:330:330) nodropuseitems killmon noallowuseitems(随机传送石|坐标记录石) notallowusemagic(分身术)
+; ----------------------------------------------------时间迷宫副本地图----------------------------------------------------
+
+[古老的试炼之路|05570 古老的试炼之路] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop mission NOMANNOMON(60)
+[秩序迷宫|06311 秩序迷宫] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[沉船湾|06392 沉船湾] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石) NOMANNOMON(60)
+[残破的小世界|canpodexiaoshijie 残破的小世界] allowusemyshop noreconnect(n3:330:330) secret(255|神秘人|2|10) onkillmon noallowuseitems(坐标记录石) nopositionmove
+; [极恶大陆|02 极恶大陆]allowusemyshop noreconnect(n3:330:330) onkillmon
+[极恶大陆|new_map_01 极恶大陆]allowusemyshop noreconnect(n3:330:330)  onkillmon day  NOMANNOMON(60)
+[极恶幻境1|map140 极恶幻境]allowusemyshop noreconnect(n3:330:330)  onkillmon day  NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[极恶幻境2|map140 极恶幻境]allowusemyshop noreconnect(n3:330:330)  onkillmon day  NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[灰烬裂谷|02358 灰烬裂谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[灰烬裂谷西|02401 灰烬裂谷西] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[洪荒古墓|05467 洪荒古墓] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[洪荒古墓一层|05462 洪荒古墓一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[洪荒古墓二层|05459 洪荒古墓二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[寒霜雪域|06139 寒霜雪域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[寒霜雪域一层|02008 寒霜雪域一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[寒霜雪域二层|02009 寒霜雪域二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[寒霜圣地|hell206 寒霜圣地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[灰烬裂谷东|02652 灰烬裂谷东] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神圣之原|02654 神圣之原] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑龙巢穴|hell301 黑龙巢穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑龙巢穴一层|hell302 黑龙巢穴一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑龙巢穴二层|hell303 黑龙巢穴二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑龙之巢|06564 黑龙之巢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[巨木神庙|f010 巨木神庙] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[长岁泉|sp004 长岁泉] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[世界树遗迹|sp001 世界树遗迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[光之域|06100 光之域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[暗黑之地|05301 暗黑之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑暗沃土|05302 黑暗沃土] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[废弃矿山|05303 废弃矿山] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[树妖森林|05257 树妖森林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[旅行者营地|10031 旅行者营地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[火之域|06561 火之域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[末日火山|06562 末日火山] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[邪恶火域|06563 邪恶火域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[安其拉废墟|06564 安其拉废墟] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[邪恶山谷|06431 邪恶山谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神秘洞穴|10115 神秘洞穴] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[月影神殿|m00wait 月影神殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[月影神殿一层|d5073 月影神殿一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[月影神殿二层|sd_cem13 月影神殿二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[月影神殿三层|nam_pri2 月影神殿三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[炼魂阵|10019 炼魂阵] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[半神者之墓|10102 半神者之墓] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[黄泉祭坛|05662 黄泉祭坛] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[太阳圣城|new_map_03 太阳圣城] allowusemyshop noreconnect(n3:330:330)  onkillmon day NOMANNOMON(60)
+
+[圣城幻境1|map185_04 圣城幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[圣城幻境2|map185_04 圣城幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[圣城秘宝阁1|mibaogu 圣城秘宝阁] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[圣城秘宝阁2|mibaogu 圣城秘宝阁] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+
+[圣城边界|02505 圣城边界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[魔法密林|02246 魔法密林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[世界之眼|05716 世界之眼] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[沉眠雨林|02247 沉眠雨林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[失语山脉|02510 失语山脉] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[日暮山脉|02509 日暮山脉] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[尘寂之地|06433 尘寂之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神风平原|06404 神风平原] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡禁地|06400 死亡禁地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[废弃沼泽|06280 废弃沼泽] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[鬼谷之崖|06021 鬼谷之崖] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[神语古道|05502 神语古道] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[炽热山谷|05503 炽热山谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒之城|10203 永恒之城] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[永恒密道|yonghenmidao 永恒密道] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+[冰洌暗河|hell204 冰洌暗河] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[冰洌暗河二层|hell205 冰洌暗河二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[冰洌暗河三层|10065 冰洌暗河三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[大墓场|map134 大墓场] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+; [大墓场|f009 大墓场] allowusemyshop noreconnect(n3:330:330) onkillmon
+[灵庙遗迹|d2075 灵庙遗迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[灵庙遗迹二层|d2076 灵庙遗迹二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[灵庙遗迹三层|d2079 灵庙遗迹三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[地心监牢|d2070 地心监牢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[时光神殿|d2079 时光神殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[异变海湾|06260 异变海湾] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[水下世界|06261 水下世界] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[水下世界上层|02158 水下世界上层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[水下世界中层|02159 水下世界中层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[水下世界底层|02160 水下世界底层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[古地下遗迹|05200 古地下遗迹] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[古地下遗迹1|05200 古地下遗迹] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[古地下遗迹2|05200 古地下遗迹] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[古地下遗迹3|05200 古地下遗迹] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[古地下遗迹4|05200 古地下遗迹] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[古科技中心|05201 古科技中心] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[变异研究院|05215 变异研究院] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[生化研究院|05215 生化研究院] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[尸骸峡谷|05251 尸骸峡谷] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[尸骸峡谷上层|05252 尸骸峡谷上层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[02407 异界大猎场一] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove
+[02405 异界大猎场二] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove
+[02406 异界大猎场三] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) lava(500000) thunder(500000) nopositionmove
+[14ani_ringmap01 异界大猎场(终)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove
+[异界大猎场一|02407 异界大猎场一] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove noautorangepickitem
+[异界大猎场二|02405 异界大猎场二] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove noautorangepickitem
+[异界大猎场三|02406 异界大猎场三] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) lava(500000) thunder(500000) nopositionmove noautorangepickitem
+[异界大猎场(终)|14ani_ringmap01 异界大猎场(终)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove noautorangepickitem
+; [05902 哈法西斯之墓(初)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove notallowusemagic(十步一杀) lava(1500000) thunder(1500000)
+; [06059 哈法西斯之墓(终)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove notallowusemagic(十步一杀)
+[05570 天劫之路] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) notallowusemagic(十步一杀) nopositionmove allowusemyshop
+[02454 王的藏宝库] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石) nopositionmove allowusemyshop notallowusemagic(分身术)
+[02778 地藏王的试炼] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop
+[06017 地藏王的试炼] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop lava(1500000) thunder(1500000)
+[02758 地藏王的试炼] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop
+[06019 地藏王的试炼] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop
+[02355 地藏王的秘密世界] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop
+[破晓之境|new_map_02 破晓之境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60)
+
+[破晓幻境1|poxiaohuanjing 破晓幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[破晓幻境2|poxiaohuanjing 破晓幻境] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[破晓秘宝阁1|mibaogu 破晓秘宝阁] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[破晓秘宝阁2|mibaogu 破晓秘宝阁] allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+
+
+[尸骸峡谷下层|05257 尸骸峡谷下层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[巫妖之巢|05304 巫妖之巢] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[极限之地|gonryunv02 极限之地] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[精灵之森|gonryunv03 精灵之森] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[武人之都|f002 武人之都] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[风铃道场|em000 风铃道场] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[扭曲丛林|gonryunv04 扭曲丛林] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑雾之源|gonryunv05 黑雾之源] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[黑度通道|d2003 黑度通道] noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove allowusemyshop NOMANNOMON(60)
+[黑暗之门|06053 黑暗之门] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[蔓草废墟|05608 蔓草废墟] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[蔓草废墟深处|05609 蔓草废墟深处] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[罪孽神坛|05569 罪孽神坛] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[堕落之迹|05571 堕落之迹] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[疾风地带|gumi202 疾风地带] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[血色防线|gumi203 血色防线] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[圣地龙之魂|hell102 圣地龙之魂] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[圣地龙之魂一层|hell103 圣地龙之魂一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[圣地龙之魂二层|hell104 圣地龙之魂二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[圣地龙之魂顶层|hell101 圣地龙之魂顶层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[时间界限|d505 时间界限] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[时间监狱|10099 时间监狱] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[第一狱|d2004 第一狱] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[第二狱|d2004 第二狱] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[第三狱|10051 第三狱] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[深渊漩涡|10091 深渊漩涡] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[绝密区域|10007 绝密区域] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[昔日悲鸣|10123 昔日悲鸣] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[迷之觉悟|10124 迷之觉悟] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[复活圣殿|10139 复活圣殿] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[废弃的庙宇|05850 废弃的庙宇] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡之堡|05852 死亡之堡] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡之堡一层|05854 死亡之堡一层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡之堡二层|05856 死亡之堡二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡之堡三层|05861 死亡之堡三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[死亡之堡底层|05865 死亡之堡底层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[db001 异次空间] noreconnect(n3:330:330) onkillmon noallowuseitems(主城传送石) nopositionmove allowusemyshop NODROPUSEITEMS
+
+;-------------
+[03221|03221 03221] allowusemyshop noreconnect(n3:330:330) onkillmon
+[03223|03223 03223] allowusemyshop noreconnect(n3:330:330) onkillmon
+[03224|03224 03224] allowusemyshop noreconnect(n3:330:330) onkillmon
+[07130|07130 07130] allowusemyshop noreconnect(n3:330:330) onkillmon
+[07135|07135 07135] allowusemyshop noreconnect(n3:330:330) onkillmon
+[07188|07188 07188] allowusemyshop noreconnect(n3:330:330) onkillmon
+[07215|07215 07215] allowusemyshop noreconnect(n3:330:330) onkillmon
+[07217|07217 07217] allowusemyshop noreconnect(n3:330:330) onkillmon
+[14028|14028 14028] allowusemyshop noreconnect(n3:330:330) onkillmon
+[50033|50033 50033] allowusemyshop noreconnect(n3:330:330) onkillmon
+[50041|50041 50041] allowusemyshop noreconnect(n3:330:330) onkillmon
+[zhu2|zhu2 zhu2] allowusemyshop noreconnect(n3:330:330) onkillmon
+
+;皇宫大门
+n3	617,269	->	new0150	19,23
+; n3	616,270	->	new0150	16,18
+new0150	20,24	->	n3	618,270
+new0150	19,25	->	n3	618,270
+
+;左侧门
+n3	610,272	->	new0150	12,28
+; new0150	12,28	->	n3	610,273
+
+;中间门
+n3	614,272	->	new0150	15,25
+; new0150	15,25	->	n3	614,273	
+
+;右边城墙
+n3	620,266	->	new0150	22,18
+; new0150	22,18	->	n3	620,267
+;--------------禁忌之门------------------
+[禁忌之门一层|35285 禁忌之门一层] allowusemyshop noreconnect(n3:330:330) onkillmon  NOMANNOMON(60)
+[禁忌之门二层|35285 禁忌之门二层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[禁忌之门三层|35285 禁忌之门三层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+[禁忌之门四层|35285 禁忌之门四层] allowusemyshop noreconnect(n3:330:330) onkillmon NOMANNOMON(60)
+
+[起源村|map188 起源村] RUNMON(1) RUNHUMAN(1) noallowuseitems(坐标记录石) MUSIC(100002) day LOADKF
+; [起源村备用|map189 起源村备用] 
+[宝库|map146 宝库] RUNMON(1) RUNHUMAN(1) noallowuseitems(坐标记录石)
+
+[newliexieyu 副本] 
+[荒古龙墓|newhuanggulongmu 荒古龙墓] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) 
+[newtaiji 副本] 
+[ShiZhiLieXi-GuMing    时之裂隙-古冥]  noreconnect(n3:330:330)
+[ShiZhiLieXi-HuanJing  时之裂隙-幻境]  noreconnect(n3:330:330)
+[ShiZhiLieXi-LieYan    时之裂隙-烈焰]  noreconnect(n3:330:330)
+[ShiZhiLieXi-YouMing   时之裂隙-幽冥]  noreconnect(n3:330:330)
+[ShiZhiLieXi-EYu       时之裂隙-恶狱]  noreconnect(n3:330:330)
+[ShiZhiLieXi-TianQiong 时之裂隙-天穹]  noreconnect(n3:330:330)
+[ShiZhiLieXi-PoXiao    时之裂隙-破晓]  noreconnect(n3:330:330)
+[newhuanggulongmu      时之裂隙-新月]  noreconnect(n3:330:330)
+[qipan    幽冥深渊] noreconnect(n3:330:330) 
+
+[叛军老巢|jingxiu   叛军老巢] noreconnect(n3:330:330) RUNMON(1) RUNHUMAN(1) NOMANNOMON(60)
+
+被遗落的港口	108,31	->	叛军老巢	33,38
+叛军老巢	33,39	->	被遗落的港口	108,33
+
+[灭世牢笼|zulongzhidi 灭世牢笼]  noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1) NOMANNOMON(60)
+[祖龙之地|zulongzhidi2 祖龙之地]  noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1) NOMANNOMON(60)
+[黑齿宝库|heicibaoku 黑齿宝库] noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1) NOMANNOMON(60)
+[youmingshenyuan 副本] noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1) NOMANNOMON(60)
+; [liudaomoyu 六道魔域副本]
+[qixinggongyue 七星拱月副本]
+[shenmichenchuan 神秘沉船副本]
+
+;----------------------------------------跨服地图begin----------------------------------------
+
+[kuafu1 跨服主城] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) day Kuafu FIGHT3(1)
+[kuafu2 跨服主城] noreconnect(n3:330:330) day Kuafu FIGHT3(1)
+[kuafu3 跨服沙巴克] noreconnect(n3:330:330) day Kuafu FIGHT3(1)
+[kuafu0150|new0150 跨服沙巴克皇宫] day norecall nodearrecall nomasterrecall norandommove noallowuseitems(随机传送石|坐标记录石) nopositionmove noreconnect(n3:330:330) Kuafu FIGHT3(1)
+[神魂蝶谷|shenhun1   神魂蝶谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[神魂魔窟|shenhun2   神魂魔窟] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[神魂古庙|shenhun3   神魂古庙] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[神魂暗殿|shenhun4   神魂暗殿] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[神魂圣殿|shenhun5   神魂圣殿] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[牛马矿场|niumamuchang 牛马矿场] noallowuseitems(随机传送石|坐标记录石) nopositionmove noreconnect(n3:330:330) Kuafu
+[dati   答题] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) Kuafu
+[天下第一|tianxiadiyi   天下第一] noreconnect(n3:330:330) SECRET(63|神秘人|40096|0) NODROPUSEITEMS Kuafu
+[斩将夺旗|zhanjiang 斩将夺旗] noallowuseitems(随机传送石|坐标记录石) noreconnect(n3:330:330) Kuafu
+-----------------------------------神魂炼狱-----------------------------------
+[神魂炼狱1层|shenhunlianyu 天启至尊[炼狱]]  Kuafu
+[神魂炼狱2层|shenhunlianyu 双星至尊[炼狱]]  Kuafu
+[神魂炼狱3层|shenhunlianyu 三魂至尊[炼狱]]  Kuafu
+[神魂炼狱4层|shenhunlianyu 四玄至尊[炼狱]]  Kuafu
+[神魂炼狱5层|shenhunlianyu 五岳至尊[炼狱]]  Kuafu
+[神魂炼狱6层|shenhunlianyu 六合至尊[炼狱]]  Kuafu
+[神魂炼狱7层|shenhunlianyu 七星至尊[炼狱]]  Kuafu
+[神魂炼狱8层|shenhunlianyu 八荒至尊[炼狱]]  Kuafu
+[神魂炼狱9层|shenhunlianyu 九曜至尊[炼狱]]  Kuafu
+[神魂炼狱10层|shenhunlianyu 十都至尊[炼狱]] Kuafu
+[神魂炼狱11层|shenhunlianyu 百威至尊[炼狱]] Kuafu
+[神魂炼狱12层|shenhunlianyu 千煞至尊[炼狱]] Kuafu
+[神魂炼狱13层|shenhunlianyu 万世至尊[炼狱]] Kuafu
+[神魂炼狱14层|shenhunlianyu 亿冥至尊[炼狱]] Kuafu
+
+; [zhanjiangduoqi    斩将夺旗] day Kuafu
+; [kuafu4   沙丘沙巴克]
+;皇宫大门
+kuafu3	131, 141	->	kuafu0150	19,23
+kuafu3	130, 142	->	kuafu0150	19,23
+kuafu0150	20,24	->	kuafu3	131,143
+kuafu0150	19,25	->	kuafu3	131,143
+
+;二楼
+kuafu0150	11,27	->	kuafu3	124,139
+kuafu3	124,138	->	kuafu0150	12,27
+
+;左侧门
+kuafu3	124,146	->	kuafu0150	12,28
+
+;中间门
+kuafu3	128,145	->	kuafu0150	14,26
+
+;右边城墙
+kuafu3	134,139	->	kuafu0150	22,18
+
+;----------------------------------------跨服地图end----------------------------------------
+
+
+[异界迷城1|yijiemicheng 异界迷城一层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城2|yijiemicheng 异界迷城二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城3|yijiemicheng 异界迷城三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城4|yijiemicheng 异界迷城四层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城5|yijiemicheng 异界迷城五层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城6|yijiemicheng 异界迷城六层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城7|yijiemicheng 异界迷城七层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城8|yijiemicheng 异界迷城八层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城9|yijiemicheng 异界迷城九层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界迷城10|yijiemicheng 异界迷城十层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[异界深渊|michengshenyuan 异界深渊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+;活动地图
+[xianwang 仙王宝藏]
+; [paoku 跑酷活动]
+[quanminghuashui 全民划水] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1) SAFE NOPOSITIONMOVE NORECALL NOGUILDRECALL NOMASTERRECALL NORANDOMMOVE NOTALLOWUSEMAGIC(十步一杀) noallowuseitems(坐标记录石|随机传送石) day
+[moyu 摸鱼之王] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1) SAFE NOPOSITIONMOVE NORECALL NOGUILDRECALL NOMASTERRECALL NORANDOMMOVE NOTALLOWUSEMAGIC(十步一杀) noallowuseitems(坐标记录石) day
+[福星棋盘|fuxingqipan 福星棋盘] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1) NOPOSITIONMOVE NOTALLOWUSEMAGIC(十步一杀) noallowuseitems(坐标记录石) day
+[激情泡点|wuxingbagua 激情泡点] noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) day
+;活动地图end
+
+永恒之城	229,325	->	永恒密道1层	41,41
+; -----------------------------------永恒密道1层-----------------------------------
+[永恒密道1层|yonghenmidao 永恒密道]
+永恒密道1层	73,12	->	永恒密道2层	 41,41
+永恒密道1层	72,77	->	永恒密道1层	 41,41
+永恒密道1层	11,78  	->	永恒密道1层	 41,41
+永恒密道1层	10,13	->	永恒密道1层	 41,41
+; -----------------------------------永恒密道2层-----------------------------------
+[永恒密道2层|yonghenmidao 永恒密道]
+永恒密道2层	73,12	->	永恒密道1层	 41,41
+永恒密道2层	72,77	->	永恒密道1层	 41,41
+永恒密道2层	11,78  	->	永恒密道3层	 41,41
+永恒密道2层	10,13	->	永恒密道1层	 41,41
+; -----------------------------------永恒密道3层-----------------------------------
+[永恒密道3层|yonghenmidao 永恒密道]
+永恒密道3层	73,12	->	永恒密道1层	 41,41
+永恒密道3层	72,77	->	永恒密道1层	 41,41
+永恒密道3层	11,78  	->	永恒密道1层	 41,41
+永恒密道3层	10,13	->	永恒密道4层	 41,41
+; -----------------------------------永恒密道4层-----------------------------------
+[永恒密道4层|yonghenmidao 永恒密道]
+永恒密道4层	73,12	->	永恒密道1层	 41,41
+永恒密道4层	72,77	->	永恒密道5层	 41,41
+永恒密道4层	11,78  	->	永恒密道1层	 41,41
+永恒密道4层	10,13	->	永恒密道1层	 41,41
+; -----------------------------------永恒密道5层-----------------------------------
+[永恒密道5层|yonghenmidao 永恒密道]
+[五行聚灵域|wuxingbagua 五行聚灵域] noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[newhafaxisi 哈法西斯之墓(一层)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove notallowusemagic(十步一杀) RUNMON(1) RUNHUMAN(1)
+[newhafaxisi2 哈法西斯之墓(二层)] allowusemyshop noreconnect(n3:330:330) onkillmon noallowuseitems(坐标记录石|随机传送石) nopositionmove notallowusemagic(十步一杀) RUNMON(1) RUNHUMAN(1)
+[英灵殿|yinglingdianyi 英灵殿] noreconnect(n3:330:330) RUNMON(1) RUNHUMAN(1)
+;隐藏地图
+[血狱深渊|yinglingdianer 血狱深渊]
+[玄霄禁域|xuanxiaojinyu  玄霄禁域]
+[边陲战魂殿|bianchuizhanhundian 边陲战魂殿]
+[天穹裂隙|tianqiongliexi 天穹裂隙]
+[黯影迷城|anyingmicheng 黯影迷城]
+[皇极龙窟|huangjilongku 皇极龙窟]
+[黄泉鬼廊|q004 黄泉鬼廊]
+[日曜禁域|riyaojinyu 日曜禁域]
+[晨曦圣坛|chengxishengtan 晨曦圣坛]
+[太玄秘渊|taixuanmiyuan 太玄秘渊]
+[远古封印谷|yuangufengyingu 远古封印谷]
+[龙渊禁宫|longyuanjingong 龙渊禁宫]
+[神域禁地|longyuanjingong 神域禁地]
+
+-----------------------------------隐藏地图进图点-----------------------------------
+n3	284,342	->	玄霄禁域	 13,25 
+天元边关 169,39 ->	边陲战魂殿  14,25
+天元大陆 399,140 ->	天穹裂隙  20,26
+遗忘大陆 71,123  ->	黯影迷城  20,35
+神龙帝国 204,217 ->	皇极龙窟  9,16
+酆都   263,122  ->	黄泉鬼廊  14,22
+极恶大陆 71,137  ->	血狱深渊  18,31
+太阳圣城 146,103  -> 日曜禁域  44,56
+破晓之境 68,142  ->	晨曦圣坛  19,37
+n3 861,175  ->	太玄秘渊  14,32
+天元大陆 322,485  -> 远古封印谷  33,38
+神龙帝国 289,205  -> 龙渊禁宫  9,16
+新月神域 114,171  -> 神域禁地  10,11
+
+
+;异界地下城地图
+[dixiachengrukou 异界地下城入口] noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[dixiachengyiceng 异界地下城一层] noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[dixiachengerceng 异界地下城二层] noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[dixiachengsanceng 异界地下城三层] noallowuseitems(坐标记录石) RUNMON(1) RUNHUMAN(1)
+[dixiachengdiceng 异界地下城(终)] noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+
+;暗域裂隙完成剧情任务地图
+[暗域裂隙|d10053 暗域裂隙] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[暗域峡谷|d10054 暗域峡谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[哥布林洞窟|hell108 哥布林洞窟] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+
+
+; 六大陆地图
+[liudaomoyu 六道魔域]  noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[六道魔域|liudaomoyu 六道魔域]  noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) RUNMON(1) RUNHUMAN(1)
+[七星拱月阵|qixinggongyue 七星拱月阵]  noreconnect(n3:330:330) RUNMON(1) RUNHUMAN(1)
+[幽冥沉船|shenmichenchuan 幽冥沉船]  noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1)
+[使徒实验室|jjc01 使徒实验室] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1)
+[玄幽魔境|d10062 玄幽魔境] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1)
+[阴寰谷|d2002 阴寰谷] noreconnect(n3:330:330)  RUNMON(1) RUNHUMAN(1)
+;其他地图
+[疾星斩月|g015 疾星斩月] noreconnect(n3:330:330) RUNMON(1) RUNHUMAN(1)
+
+-----------------------------------八大陆地图-----------------------------------
+[新月神域|xinyueshenyu   新月神域] RUNMON(1) RUNHUMAN(1)
+[夜风高塔|ygfx2 夜风高塔] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[血刃神庙一层|d2004 血刃神庙一层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[血刃神庙二层|d2013 血刃神庙二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[血刃神庙三层|d2008 血刃神庙三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[血刃禁地|d2012 血刃禁地] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[溶血之池|hsdk3 溶血之池] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风深渊|ygsd1 夜风深渊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风溪谷|ygsd2 夜风溪谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风森林|ygsd3 夜风森林] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风废墟|f006 夜风废墟] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风秘境|wyzz01 夜风秘境] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风王城|f009 夜风王城] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[夜风王座|ygsd4 夜风王座] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[群星观测站|qxgcz 群星观测站] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[群星图书馆|qxtsg 群星图书馆] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[群星门户|qxmh 群星门户] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[群星大殿|qxdd 群星大殿] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[陨星台|yxt 陨星台] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉殿堂一层|yhdt1 月辉殿堂一层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉殿堂二层|yhdte 月辉殿堂二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉殿堂三层|yhdt3 月辉殿堂三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉广场|yhgc 月辉广场] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉之门|yhzm 月辉之门] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[月辉神居|yhsj 月辉神居] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[混乱裂隙|f001 混乱裂隙] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[混乱之地|f005 混乱之地] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[断裂平原|nch001 断裂平原] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[崩塌遗迹|village 崩塌遗迹] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[旋涡沼泽|mhfy 旋涡沼泽] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[无序死海|moyu 无序死海] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[无序教会|05330 无序教会] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[无序长廊|05332 无序长廊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60) 
+[无序深渊|05385 无序深渊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60) 
+[破碎大厅|jjc04 破碎大厅] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60) 
+[逆流河谷|10001 逆流河谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[暮色园林|msyl 暮色园林] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[暮色走廊|mszl 暮色走廊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[暮色余晖|msyh 暮色余晖] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[新月幻境1|xyhj 新月幻境] RUNMON(1) RUNHUMAN(1) allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[新月幻境2|xyhj 新月幻境] RUNMON(1) RUNHUMAN(1) allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[新月秘宝阁1|xymbg 新月秘宝阁] RUNMON(1) RUNHUMAN(1) allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+[新月秘宝阁2|xymbg 新月秘宝阁] RUNMON(1) RUNHUMAN(1) allowusemyshop noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE
+
+-----------------------------------九大陆地图-----------------------------------
+[暮色玄境|musexuancheng  暮色玄境] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) day
+
+[巽风之岭|poxiaohuanjing 巽风之岭] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[细语谷|map139 细语谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[轻风十字|nam_pri3 轻风十字] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[回音岭|map136 回音岭] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[狂风峰|kuangfengfeng 狂风峰] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[迷雾洼地|map145 迷雾洼地] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[叶语林|map142 叶语林] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[风语小径|map143 风语小径] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[震雷之谷|06561 震雷之谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[闪电平原|hell101 闪电平原] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[雷鸣峡谷|06552 雷鸣峡谷] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[电光森林|06550 电光森林] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[风暴之眼|10073 风暴之眼] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[雷神领域|chaostemple_6 雷神领域] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[艮山之巅|622 艮山之巅] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[碎石坡|02506 碎石坡] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[远眺峰|02505 远眺峰] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[障碍崖|02510 障碍崖] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[坚石径|3205 坚石径] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[封峰洞穴|05571 封峰洞穴] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[石门古径|05570 石门古径] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[苍岭遗迹|05569 苍岭遗迹] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[坤土之境|05631 坤土之境] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[丰沃原野|fengwoyuanye 丰沃原野] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[沃野神庙|woyeshenmiao 沃野神庙] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[沃野神坛|woyeshentan 沃野神坛] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[沃野之核|woyezhihe 沃野之核] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[古土遗迹|gutuyiji 古土遗迹] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[兑泽之地|05251 兑泽之地] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[镜水平台|05252 镜水平台] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[莲花浅滩|05257 莲花浅滩] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[潭影洲|05301 潭影洲] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[悦音湖畔|hy01_peunmokdo 悦音湖畔] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[涟漪密林|fishery 涟漪密林] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[碧泉瀑|06280 碧泉瀑] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[坎水之渊|shenmichenchuan 坎水之渊] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[离火之湖|liudaomoyu 离火之湖] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[汇泽源潭|huizeyuantan 汇泽源潭] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[乾金之域|qianjinzhiyu 乾金之域] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[金光殿堂|jinguangdiantang 金光殿堂] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[铜天广场|tongtianguangchang 铜天广场] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[霜金矿脉|shuangjinkuangmai 霜金矿脉] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+[炼阳高塔|lianyanggaota 炼阳高塔] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) NOMANNOMON(60)
+
+-----------------------------------十陆地图-----------------------------------
+[天启圣地|tianqishengdi  天启圣地] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) day
+
+; --------------------------------↓↓↓↓↓副本地图↓↓↓↓↓-----------------------------------
+[leiyintianzunge             风隙劫] noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[zytzg1                      火焰劫] noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[bbtzg1                      水镜劫] noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[lytzg1                      土缚劫] noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+; --------------------------------↑↑↑↑↑副本地图↑↑↑↑↑-----------------------------------
+[雷隐天尊阁|leiyintianzunge 雷隐天尊阁] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[雷隐天尊阁二层|leiyintianzunge 雷隐天尊阁二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[雷隐天尊阁三层|leiyintianzunge 雷隐天尊阁三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[雷隐天尊阁四层|leiyintianzunge 雷隐天尊阁四层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+雷隐天尊阁	36,15	->	雷隐天尊阁二层	 25,25 
+雷隐天尊阁二层	36,15	->	雷隐天尊阁三层	 25,25 
+雷隐天尊阁三层	36,15	->	雷隐天尊阁四层	 25,25 
+
+[炽焰天尊阁|zytzg1 炽焰天尊阁] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[炽焰天尊阁二层|zytzg1 炽焰天尊阁二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[炽焰天尊阁三层|zytzg1 炽焰天尊阁三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[炽焰天尊阁四层|zytzg1 炽焰天尊阁四层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+炽焰天尊阁	35,15	->	炽焰天尊阁二层	 25,25 
+炽焰天尊阁二层	35,15	->	炽焰天尊阁三层	 25,25 
+炽焰天尊阁三层	35,15	->	炽焰天尊阁四层	 25,25 
+
+[碧波天尊阁|bbtzg1 碧波天尊阁] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[碧波天尊阁二层|bbtzg1 碧波天尊阁二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[碧波天尊阁三层|bbtzg1 碧波天尊阁三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[碧波天尊阁四层|bbtzg1 碧波天尊阁四层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+碧波天尊阁	35,15	->	碧波天尊阁二层	 24,25 
+碧波天尊阁二层	35,15	->	碧波天尊阁三层	 24,25 
+碧波天尊阁三层	35,15	->	碧波天尊阁四层	 24,25 
+
+[落岩天尊阁|lytzg1 落岩天尊阁] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[落岩天尊阁二层|lytzg1 落岩天尊阁二层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[落岩天尊阁三层|lytzg1 落岩天尊阁三层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[落岩天尊阁四层|lytzg1 落岩天尊阁四层] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+落岩天尊阁	35,16	->	落岩天尊阁二层	 24,26 
+落岩天尊阁二层	35,16	->	落岩天尊阁三层	 24,26  
+落岩天尊阁三层	35,16	->	落岩天尊阁四层	 24,26  
+
+[圣人阁|srg 圣人阁] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[月夜密室|ShiZhiLieXi-PoXiao 月夜密室] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石)
+[无序空间|jinxu 无序空间] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330)
+[神魂古墓|shenhungumu 神魂古墓] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) Kuafu
+[龙骸遗迹|ShiZhiLieXi-EYu 龙骸遗迹] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) noallowuseitems(坐标记录石|随机传送石) Kuafu
+[狂欢小镇|kuanghuanxiaozhen 狂欢小镇] RUNMON(1) RUNHUMAN(1) noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) MUSIC(100053) SAFE
+[heicibaoku 麋鹿宝藏] noreconnect(n3:330:330) onkillmon day NOMANNOMON(60) noallowuseitems(坐标记录石) SAFE NOTALLOWUSEMAGIC(分身术)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

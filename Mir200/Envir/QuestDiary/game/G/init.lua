@@ -1,0 +1,34 @@
+
+include("QuestDiary/game/G/ShenHunJianJia.lua")           --神魂剑甲
+include("QuestDiary/game/G/ShengRenFaXiang.lua")          --圣人法相
+include("QuestDiary/game/G/ShengRenGe.lua")               --圣人阁
+include("QuestDiary/game/G/LunHuiYongJie.lua")            --轮回永劫
+include("QuestDiary/game/G/XinYueHuanJing.lua")           --新月幻境
+include("QuestDiary/game/G/FengXiJie.lua")                --风隙劫
+include("QuestDiary/game/G/HuoYanJie.lua")                --火焰劫
+include("QuestDiary/game/G/ShuiJingJie.lua")              --水镜劫
+include("QuestDiary/game/G/TuFuJie.lua")                  --土缚劫
+include("QuestDiary/game/G/LeiYinTianZunGe.lua")          --雷隐天尊阁
+include("QuestDiary/game/G/ChiYanTianZunGe.lua")          --炽焰天尊阁
+include("QuestDiary/game/G/BiBoTianZunGe.lua")            --碧波天尊阁
+include("QuestDiary/game/G/LuoYanTianZunGe.lua")          --落岩天尊阁
+
+include("QuestDiary/game/G/LeiYinQiangHua.lua")     --雷隐强化
+include("QuestDiary/game/G/ChiReQiangHua.lua")     --炽热强化
+include("QuestDiary/game/G/BiBoQiangHua.lua")     --碧波强化
+include("QuestDiary/game/G/LuoYanQiangHua.lua")     --落岩强化
+include("QuestDiary/game/G/HunYuanFaXiang.lua")     --混元法相
+include("QuestDiary/game/G/ChaoShenGe.lua")     --超神阁
+include("QuestDiary/game/G/QianMenBaJiang.lua")     --千门八将
+include("QuestDiary/game/G/YeMuJiangLing.lua")     --夜幕将领
+include("QuestDiary/game/G/RongXueZhiChi.lua")     --溶血之池
+include("QuestDiary/game/G/XingCuiCan.lua")     --星璀璨
+include("QuestDiary/game/G/YuShenJi.lua")     --御神机
+include("QuestDiary/game/G/YueYeMiShi.lua")     --月夜密室
+include("QuestDiary/game/G/YueHuiBiHu.lua")     --月辉庇护
+include("QuestDiary/game/G/WuXuKongJian.lua")     --无序空间
+include("QuestDiary/game/G/XinYueMiBaoGe1.lua")     --新月秘宝阁1
+include("QuestDiary/game/G/XinYueMiBaoGe2.lua")     --新月秘宝阁2
+include("QuestDiary/game/G/YeFengWangZuo.lua")     --夜风王座
+include("QuestDiary/game/G/BuQiYanDeQiGai.lua")     --不起眼的乞丐
+include("QuestDiary/game/G/HunLuanDuTu.lua")     --混乱赌徒

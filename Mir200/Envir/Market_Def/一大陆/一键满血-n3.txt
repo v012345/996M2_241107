@@ -1,0 +1,13 @@
+[@main]
+
+#IF
+not INSAFEZONE
+#ACT
+sendmsg 9 请在安全区使用!
+break
+
+#IF
+#ACT
+addhpper = 100
+addmpper = 100
+sendmsg 9 已经帮你恢复了满血状态！

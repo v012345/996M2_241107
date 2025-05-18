@@ -1,0 +1,8 @@
+[@main]
+#IF
+#ACT
+; rangeharm <$x>  <$x>  8  0  6 10000 0 2 0 10
+
+RangeHarm <$X> <$Y> 12 3000 1 2 0 0 56 2
+Screffects 100 4004 600 600 1 0 0
+sendmsg 9 ????
