@@ -1,6 +1,6 @@
-local config = {
-	[1] = {
-		points = 50,
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		rewards = {
 			[1] = {
 				[1] = "1亿经验卷",
@@ -11,9 +11,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		points = 50,
 	},
-	[2] = {
-		points = 120,
+	[2] = { 
+		xls_id = 2,
 		rewards = {
 			[1] = {
 				[1] = "境界丹",
@@ -24,9 +25,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		points = 120,
 	},
-	[3] = {
-		points = 200,
+	[3] = { 
+		xls_id = 3,
 		rewards = {
 			[1] = {
 				[1] = "金条",
@@ -37,9 +39,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		points = 200,
 	},
-	[4] = {
-		points = 300,
+	[4] = { 
+		xls_id = 4,
 		rewards = {
 			[1] = {
 				[1] = "气运精魄",
@@ -50,24 +53,27 @@ local config = {
 				[2] = 2,
 			},
 		},
+		points = 300,
 	},
-	[5] = {
-		points = 420,
+	[5] = { 
+		xls_id = 5,
 		rewards = {
 			[1] = {
 				[1] = "摸鱼达人(称号卷)",
 				[2] = 1,
 			},
 		},
+		points = 420,
 	},
-	[6] = {
-		points = 600,
+	[6] = { 
+		xls_id = 6,
 		rewards = {
 			[1] = {
 				[1] = "泳装达人[时装]",
 				[2] = 1,
 			},
 		},
+		points = 600,
 	},
 }
 return config

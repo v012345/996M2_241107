@@ -1,73 +1,213 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		SubcategoryID = 1,
+		CategoryID = 1,
+		imagePath = 1,
+		name = "01阶-05阶装备",
 	},
-	[2] = {
+	[2] = { 
+		SubcategoryID = 2,
+		CategoryID = 1,
+		imagePath = 2,
+		name = "06阶-10阶装备",
 	},
-	[3] = {
+	[3] = { 
+		SubcategoryID = 3,
+		CategoryID = 1,
+		imagePath = 3,
+		name = "11阶-15阶装备",
 	},
-	[4] = {
+	[4] = { 
+		SubcategoryID = 4,
+		CategoryID = 1,
+		imagePath = 4,
+		name = "16阶-20阶装备",
 	},
-	[5] = {
+	[5] = { 
+		SubcategoryID = 5,
+		CategoryID = 1,
+		imagePath = 5,
+		name = "21阶-22阶装备",
 	},
-	[6] = {
+	[6] = { 
+		SubcategoryID = 6,
+		CategoryID = 1,
+		imagePath = 6,
+		name = "普通[珍宝]",
 	},
-	[7] = {
+	[7] = { 
+		SubcategoryID = 7,
+		CategoryID = 1,
+		imagePath = 7,
+		name = "普通[首饰]",
 	},
-	[8] = {
+	[8] = { 
+		SubcategoryID = 8,
+		CategoryID = 1,
+		imagePath = 8,
+		name = "普通[时装]",
 	},
-	[9] = {
+	[9] = { 
+		SubcategoryID = 9,
+		CategoryID = 2,
+		imagePath = 1,
+		name = "高级神器[首饰]",
 	},
-	[10] = {
+	[10] = { 
+		SubcategoryID = 10,
+		CategoryID = 2,
+		imagePath = 2,
+		name = "高级神器[剑甲]",
 	},
-	[11] = {
+	[11] = { 
+		SubcategoryID = 11,
+		CategoryID = 2,
+		imagePath = 3,
+		name = "特殊神器",
 	},
-	[12] = {
+	[12] = { 
+		SubcategoryID = 12,
+		CategoryID = 2,
+		imagePath = 4,
+		name = "特殊套装",
 	},
-	[13] = {
+	[13] = { 
+		SubcategoryID = 13,
+		CategoryID = 3,
+		imagePath = 1,
+		name = "价值灵石[01~03]",
 	},
-	[14] = {
+	[14] = { 
+		SubcategoryID = 14,
+		CategoryID = 3,
+		imagePath = 2,
+		name = "价值灵石[04~06]",
 	},
-	[15] = {
+	[15] = { 
+		SubcategoryID = 15,
+		CategoryID = 3,
+		imagePath = 3,
+		name = "价值灵石[07~10]",
 	},
-	[16] = {
+	[16] = { 
+		SubcategoryID = 16,
+		CategoryID = 3,
+		imagePath = 4,
+		name = "价值灵石[11~15]",
 	},
-	[17] = {
+	[17] = { 
+		SubcategoryID = 17,
+		CategoryID = 3,
+		imagePath = 5,
+		name = "价值灵石[16~20]",
 	},
-	[18] = {
+	[18] = { 
+		SubcategoryID = 18,
+		CategoryID = 3,
+		imagePath = 6,
+		name = "价值灵石[30]",
 	},
-	[19] = {
+	[19] = { 
+		SubcategoryID = 19,
+		CategoryID = 3,
+		imagePath = 7,
+		name = "价值灵石[40]",
 	},
-	[20] = {
+	[20] = { 
+		SubcategoryID = 20,
+		CategoryID = 3,
+		imagePath = 8,
+		name = "价值灵石[50]",
 	},
-	[21] = {
+	[21] = { 
+		SubcategoryID = 21,
+		CategoryID = 3,
+		imagePath = 9,
+		name = "价值灵石[60]",
 	},
-	[22] = {
+	[22] = { 
+		SubcategoryID = 22,
+		CategoryID = 4,
+		imagePath = 1,
+		name = "玄天大陆材料",
 	},
-	[23] = {
+	[23] = { 
+		SubcategoryID = 23,
+		CategoryID = 4,
+		imagePath = 2,
+		name = "天元大陆材料",
 	},
-	[24] = {
+	[24] = { 
+		SubcategoryID = 24,
+		CategoryID = 4,
+		imagePath = 3,
+		name = "神龙帝国材料",
 	},
-	[25] = {
+	[25] = { 
+		SubcategoryID = 25,
+		CategoryID = 4,
+		imagePath = 8,
+		name = "酆都鬼城材料",
 	},
-	[26] = {
+	[26] = { 
+		SubcategoryID = 26,
+		CategoryID = 4,
+		imagePath = 4,
+		name = "极恶大陆材料",
 	},
-	[27] = {
+	[27] = { 
+		SubcategoryID = 27,
+		CategoryID = 4,
+		imagePath = 5,
+		name = "太阳圣城材料",
 	},
-	[28] = {
+	[28] = { 
+		SubcategoryID = 28,
+		CategoryID = 4,
+		imagePath = 6,
+		name = "破晓之境材料",
 	},
-	[29] = {
+	[29] = { 
+		SubcategoryID = 29,
+		CategoryID = 4,
+		imagePath = 7,
+		name = "其他材料",
 	},
-	[30] = {
+	[30] = { 
+		SubcategoryID = 30,
+		CategoryID = 5,
+		imagePath = 1,
+		name = "经验卷",
 	},
-	[31] = {
+	[31] = { 
+		SubcategoryID = 31,
+		CategoryID = 5,
+		imagePath = 2,
+		name = "美酒",
 	},
-	[32] = {
+	[32] = { 
+		SubcategoryID = 32,
+		CategoryID = 5,
+		imagePath = 3,
+		name = "普通禁物",
 	},
-	[33] = {
+	[33] = { 
+		SubcategoryID = 33,
+		CategoryID = 5,
+		imagePath = 4,
+		name = "稀有禁物",
 	},
-	[34] = {
+	[34] = { 
+		SubcategoryID = 34,
+		CategoryID = 5,
+		imagePath = 5,
+		name = "史诗禁物",
 	},
-	[35] = {
+	[35] = { 
+		SubcategoryID = 35,
+		CategoryID = 5,
+		imagePath = 6,
+		name = "传说禁物",
 	},
 }
 return config

@@ -1,8 +1,9 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		monName = "*",
-		numVar = "J24",
 		stateVar = "J25",
+		numVar = "J24",
 		max = 50,
 		give = {
 			[1] = {
@@ -11,17 +12,18 @@ local config = {
 			},
 		},
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
 		monName = "仙王奴仆",
-		numVar = "J26",
 		stateVar = "J30",
-		max = 10,
 		cost = {
 			[1] = {
 				[1] = "元宝",
 				[2] = 200000,
 			},
 		},
+		numVar = "J26",
+		max = 10,
 		give = {
 			[1] = {
 				[1] = "境界丹",
@@ -29,17 +31,18 @@ local config = {
 			},
 		},
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
 		monName = "仙王侍从",
-		numVar = "J27",
 		stateVar = "J31",
-		max = 10,
 		cost = {
 			[1] = {
 				[1] = "元宝",
 				[2] = 200000,
 			},
 		},
+		numVar = "J27",
+		max = 10,
 		give = {
 			[1] = {
 				[1] = "境界丹",
@@ -47,17 +50,18 @@ local config = {
 			},
 		},
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
 		monName = "仙王侍女",
-		numVar = "J28",
 		stateVar = "J32",
-		max = 10,
 		cost = {
 			[1] = {
 				[1] = "灵符",
 				[2] = 200,
 			},
 		},
+		numVar = "J28",
+		max = 10,
 		give = {
 			[1] = {
 				[1] = "境界丹",
@@ -65,17 +69,18 @@ local config = {
 			},
 		},
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
 		monName = "仙王力士",
-		numVar = "J29",
 		stateVar = "J33",
-		max = 10,
 		cost = {
 			[1] = {
 				[1] = "灵符",
 				[2] = 200,
 			},
 		},
+		numVar = "J29",
+		max = 10,
 		give = {
 			[1] = {
 				[1] = "境界丹",

@@ -1,5 +1,7 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		flag = 125,
 		cost = {
 			[1] = {
 				[1] = "风之高歌",
@@ -12,9 +14,10 @@ local config = {
 				[2] = 333,
 			},
 		},
-		flag = 125,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		flag = 126,
 		cost = {
 			[1] = {
 				[1] = "风之低语",
@@ -27,7 +30,6 @@ local config = {
 				[2] = 333,
 			},
 		},
-		flag = 126,
 	},
 }
 return config

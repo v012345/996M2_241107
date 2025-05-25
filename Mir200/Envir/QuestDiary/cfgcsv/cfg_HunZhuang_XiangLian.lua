@@ -1,5 +1,6 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		equip = "天启项链[魂]",
 		give = {
 			[1] = {
@@ -22,7 +23,8 @@ local config = {
 			},
 		},
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
 		equip = "双星项链[魂]",
 		give = {
 			[1] = {
@@ -45,7 +47,8 @@ local config = {
 			},
 		},
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
 		equip = "三魂项链[魂]",
 		give = {
 			[1] = {
@@ -68,7 +71,8 @@ local config = {
 			},
 		},
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
 		equip = "四玄项链[魂]",
 		give = {
 			[1] = {
@@ -91,7 +95,8 @@ local config = {
 			},
 		},
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
 		equip = "五岳项链[魂]",
 		give = {
 			[1] = {
@@ -118,7 +123,8 @@ local config = {
 			},
 		},
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
 		equip = "六合项链[魂]",
 		give = {
 			[1] = {
@@ -145,7 +151,8 @@ local config = {
 			},
 		},
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
 		equip = "七星项链[魂]",
 		give = {
 			[1] = {
@@ -172,7 +179,8 @@ local config = {
 			},
 		},
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
 		equip = "八荒项链[魂]",
 		give = {
 			[1] = {
@@ -199,7 +207,8 @@ local config = {
 			},
 		},
 	},
-	[9] = {
+	[9] = { 
+		xls_id = 9,
 		equip = "九曜项链[魂]",
 		give = {
 			[1] = {

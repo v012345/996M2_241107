@@ -1,213 +1,255 @@
-local config = {
-	tc1 = {
-		Id = "n3",
+local config = { 
+	["boss2"] = { 
+		xls_id = "boss2",
 		npc = 333,
+		Id = "n3",
 		npcidx = 333,
 	},
-	tc2 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc3 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc4 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc5 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc6 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc7 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc8 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc9 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc10 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc11 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc12 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc13 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc14 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	tc15 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	boss1 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	boss2 = {
-		Id = "n3",
-		npc = 333,
-		npcidx = 333,
-	},
-	bg1 = {
-		Id = "edl",
+	["dsg"] = { 
+		xls_id = "dsg",
 		npc = 109,
+		Id = "edl",
 		npcidx = 105,
 	},
-	cxly1 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	dg = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	dyzl2 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	dsg = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	mayi1 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	msjd1 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	nm1 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	brm = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	boss3 = {
-		Id = "edl",
-		npc = 109,
-		npcidx = 105,
-	},
-	edl = {
-		Id = "n3",
+	["tc14"] = { 
+		xls_id = "tc14",
 		npc = 333,
+		Id = "n3",
 		npcidx = 333,
 	},
-	sdl = {
-		Id = "edl",
+	["bg1"] = { 
+		xls_id = "bg1",
 		npc = 109,
+		Id = "edl",
 		npcidx = 105,
 	},
-	byzd = {
-		Id = "sdl",
+	["tc15"] = { 
+		xls_id = "tc15",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["edl"] = { 
+		xls_id = "edl",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["boss1"] = { 
+		xls_id = "boss1",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["tc4"] = { 
+		xls_id = "tc4",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["dyzl2"] = { 
+		xls_id = "dyzl2",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["tc11"] = { 
+		xls_id = "tc11",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["tc12"] = { 
+		xls_id = "tc12",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["lys"] = { 
+		xls_id = "lys",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	szbd = {
-		Id = "sdl",
+	["sdl"] = { 
+		xls_id = "sdl",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["boss4"] = { 
+		xls_id = "boss4",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	fcmk = {
-		Id = "sdl",
+	["sly"] = { 
+		xls_id = "sly",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	sggc = {
-		Id = "sdl",
+	["tc6"] = { 
+		xls_id = "tc6",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["sggc"] = { 
+		xls_id = "sggc",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	ctd = {
-		Id = "sdl",
+	["tc13"] = { 
+		xls_id = "tc13",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["mayi1"] = { 
+		xls_id = "mayi1",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["szbd"] = { 
+		xls_id = "szbd",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	xdc = {
-		Id = "sdl",
+	["fcmk"] = { 
+		xls_id = "fcmk",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	lys = {
-		Id = "sdl",
+	["tc3"] = { 
+		xls_id = "tc3",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["boss3"] = { 
+		xls_id = "boss3",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["tc7"] = { 
+		xls_id = "tc7",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["tc10"] = { 
+		xls_id = "tc10",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["byzd"] = { 
+		xls_id = "byzd",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	swg = {
-		Id = "sdl",
+	["ctd"] = { 
+		xls_id = "ctd",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	sly  = {
-		Id = "sdl",
+	["nm1"] = { 
+		xls_id = "nm1",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["cxly1"] = { 
+		xls_id = "cxly1",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["tc1"] = { 
+		xls_id = "tc1",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["gsc"] = { 
+		xls_id = "gsc",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	gsc = {
-		Id = "sdl",
+	["xsj"] = { 
+		xls_id = "xsj",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	mgk = {
-		Id = "sdl",
+	["swg"] = { 
+		xls_id = "swg",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	xsj = {
-		Id = "sdl",
+	["dg"] = { 
+		xls_id = "dg",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["mgk"] = { 
+		xls_id = "mgk",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
 	},
-	boss4 = {
-		Id = "sdl",
+	["tc5"] = { 
+		xls_id = "tc5",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["tc2"] = { 
+		xls_id = "tc2",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["tc8"] = { 
+		xls_id = "tc8",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
+	},
+	["brm"] = { 
+		xls_id = "brm",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["xdc"] = { 
+		xls_id = "xdc",
 		npc = 76,
+		Id = "sdl",
 		npcidx = 58,
+	},
+	["msjd1"] = { 
+		xls_id = "msjd1",
+		npc = 109,
+		Id = "edl",
+		npcidx = 105,
+	},
+	["tc9"] = { 
+		xls_id = "tc9",
+		npc = 333,
+		Id = "n3",
+		npcidx = 333,
 	},
 }
 return config

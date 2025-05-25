@@ -1,3488 +1,4185 @@
-local config = {
-	[20001] = {
-		targetMap = "dt112",
-		x = 34,
-		y = 19,
-	},
-	[20002] = {
-		targetMap = "dt113",
-		x = 157,
-		y = 186,
-	},
-	[20003] = {
-		targetMap = "dt110",
-		x = 20,
-		y = 54,
-	},
-	[20004] = {
-		targetMap = "dt113",
-		x = 27,
-		y = 35,
-	},
-	[20005] = {
-		targetMap = "dt122",
-		x = 80,
-		y = 119,
-	},
-	[20006] = {
-		targetMap = "dt113",
-		x = 140,
-		y = 32,
-	},
-	[20007] = {
-		targetMap = "dt111",
-		x = 20,
-		y = 84,
-	},
-	[20008] = {
-		targetMap = "dt113",
-		x = 27,
-		y = 192,
-	},
-	[20009] = {
-		targetMap = "dt064",
-		x = 3,
-		y = 31,
-	},
-	[20010] = {
-		targetMap = "dt122",
-		x = 116,
-		y = 7,
-	},
-	[20011] = {
-		targetMap = "dt123",
-		x = 100,
-		y = 99,
-	},
-	[20012] = {
-		targetMap = "dt122",
-		x = 16,
-		y = 24,
-	},
-	[20013] = {
-		targetMap = "dt126",
-		x = 119,
-		y = 130,
-	},
-	[20014] = {
-		targetMap = "dt122",
-		x = 22,
-		y = 114,
-	},
-	[20015] = {
-		targetMap = "dt055",
-		x = 336,
-		y = 125,
-	},
-	[20016] = {
-		targetMap = "dt122",
-		x = 119,
-		y = 116,
-	},
-	[20017] = {
-		targetMap = "dt094",
-		x = 116,
-		y = 14,
-	},
-	[20018] = {
-		targetMap = "dt122",
-		x = 88,
-		y = 53,
-	},
-	[20019] = {
-		targetMap = "dt097",
-		x = 15,
-		y = 126,
-	},
-	[20020] = {
-		targetMap = "dt122",
-		x = 46,
-		y = 69,
-	},
-	[20021] = {
-		targetMap = "dt066",
-		x = 133,
-		y = 132,
-	},
-	[20022] = {
-		targetMap = "dt126",
-		x = 113,
-		y = 21,
-	},
-	[20023] = {
-		targetMap = "dt074",
-		x = 155,
-		y = 145,
-	},
-	[20024] = {
-		targetMap = "dt126",
-		x = 17,
-		y = 115,
-	},
-	[20025] = {
-		targetMap = "dt202",
-		x = 13,
-		y = 20,
-	},
-	[20026] = {
-		targetMap = "dt126",
-		x = 17,
-		y = 115,
-	},
-	[20027] = {
-		targetMap = "dt132",
-		x = 42,
-		y = 40,
-	},
-	[20028] = {
-		targetMap = "dt126",
-		x = 15,
-		y = 17,
-	},
-	[20029] = {
-		targetMap = "dt075",
-		x = 447,
-		y = 190,
-	},
-	[20030] = {
-		targetMap = "dt126",
-		x = 60,
-		y = 59,
-	},
-	[20031] = {
-		targetMap = "dt017",
-		x = 99,
-		y = 146,
-	},
-	[20032] = {
-		targetMap = "dt075",
-		x = 57,
-		y = 68,
-	},
-	[20033] = {
-		targetMap = "dt125",
-		x = 111,
-		y = 119,
-	},
-	[20034] = {
-		targetMap = "dt075",
-		x = 441,
-		y = 65,
-	},
-	[20035] = {
-		targetMap = "dt091",
-		x = 107,
-		y = 109,
-	},
-	[20036] = {
-		targetMap = "dt075",
-		x = 380,
-		y = 420,
-	},
-	[20037] = {
-		targetMap = "dt056",
-		x = 94,
-		y = 148,
-	},
-	[20038] = {
-		targetMap = "dt075",
-		x = 73,
-		y = 445,
-	},
-	[20039] = {
-		targetMap = "dt116",
-		x = 109,
-		y = 105,
-	},
-	[20040] = {
-		targetMap = "dt075",
-		x = 219,
-		y = 198,
-	},
-	[20041] = {
-		targetMap = "dt129",
-		x = 23,
-		y = 176,
-	},
-	[20042] = {
-		targetMap = "dt047",
-		x = 68,
-		y = 20,
-	},
-	[20043] = {
-		targetMap = "dt117",
-		x = 19,
-		y = 158,
-	},
-	[20044] = {
-		targetMap = "dt129",
-		x = 137,
-		y = 36,
-	},
-	[20045] = {
-		targetMap = "dt118",
-		x = 86,
-		y = 172,
-	},
-	[20046] = {
-		targetMap = "dt117",
-		x = 184,
-		y = 18,
-	},
-	[20047] = {
-		targetMap = "dt044",
-		x = 171,
-		y = 187,
-	},
-	[20048] = {
-		targetMap = "dt118",
-		x = 120,
-		y = 134,
-	},
-	[20049] = {
-		targetMap = "dt003",
-		x = 38,
-		y = 45,
-	},
-	[20050] = {
-		targetMap = "dt044",
-		x = 119,
-		y = 27,
-	},
-	[20051] = {
-		targetMap = "dt001",
-		x = 37,
-		y = 60,
-	},
-	[20052] = {
-		targetMap = "dt044",
-		x = 102,
-		y = 36,
-	},
-	[20053] = {
-		targetMap = "dt120",
-		x = 25,
-		y = 33,
-	},
-	[20054] = {
-		targetMap = "dt129",
-		x = 165,
-		y = 63,
-	},
-	[20055] = {
-		targetMap = "dt120",
-		x = 25,
-		y = 33,
-	},
-	[20056] = {
-		targetMap = "dt120",
-		x = 38,
-		y = 21,
-	},
-	[20057] = {
-		targetMap = "dt120",
-		x = 25,
-		y = 33,
-	},
-	[20058] = {
-		targetMap = "dt120",
-		x = 38,
-		y = 47,
-	},
-	[20059] = {
-		targetMap = "dt120",
-		x = 25,
-		y = 33,
-	},
-	[20060] = {
-		targetMap = "dt120",
-		x = 38,
-		y = 21,
-	},
-	[20061] = {
-		targetMap = "dt120",
-		x = 25,
-		y = 33,
-	},
-	[20062] = {
-		targetMap = "dt120",
-		x = 13,
-		y = 46,
-	},
-	[20063] = {
-		targetMap = "dt046",
-		x = 125,
-		y = 64,
-	},
-	[20064] = {
-		targetMap = "dt120",
-		x = 12,
-		y = 21,
-	},
-	[20065] = {
-		targetMap = "dt049",
-		x = 195,
-		y = 382,
-	},
-	[20066] = {
-		targetMap = "dt046",
-		x = 30,
-		y = 24,
-	},
-	[20067] = {
-		targetMap = "dt069",
-		x = 37,
-		y = 99,
-	},
-	[20068] = {
-		targetMap = "dt047",
-		x = 160,
-		y = 138,
-	},
-	[20069] = {
-		targetMap = "dt071",
-		x = 95,
-		y = 98,
-	},
-	[20070] = {
-		targetMap = "dt069",
-		x = 213,
-		y = 42,
-	},
-	[20071] = {
-		targetMap = "dt033",
-		x = 71,
-		y = 19,
-	},
-	[20072] = {
-		targetMap = "dt071",
-		x = 50,
-		y = 48,
-	},
-	[20073] = {
-		targetMap = "dt077",
-		x = 34,
-		y = 28,
-	},
-	[20074] = {
-		targetMap = "dt033",
-		x = 127,
-		y = 67,
-	},
-	[20075] = {
-		targetMap = "dt114",
-		x = 281,
-		y = 238,
-	},
-	[20076] = {
-		targetMap = "dt033",
-		x = 127,
-		y = 95,
-	},
-	[20077] = {
-		targetMap = "dt070",
-		x = 10,
-		y = 124,
-	},
-	[20078] = {
-		targetMap = "dt069",
-		x = 136,
-		y = 53,
-	},
-	[20079] = {
-		targetMap = "dt115",
-		x = 38,
-		y = 24,
-	},
-	[20080] = {
-		targetMap = "dt070",
-		x = 172,
-		y = 111,
-	},
-	[20081] = {
-		targetMap = "dt068",
-		x = 112,
-		y = 79,
-	},
-	[20082] = {
-		targetMap = "dt115",
-		x = 172,
-		y = 177,
-	},
-	[20083] = {
-		targetMap = "dt063",
-		x = 212,
-		y = 232,
-	},
-	[20084] = {
-		targetMap = "dt115",
-		x = 150,
-		y = 58,
-	},
-	[20085] = {
-		targetMap = "dt007",
-		x = 98,
-		y = 203,
-	},
-	[20086] = {
-		targetMap = "dt047",
-		x = 160,
-		y = 20,
-	},
-	[20087] = {
-		targetMap = "dt006",
-		x = 187,
-		y = 170,
-	},
-	[20088] = {
-		targetMap = "dt007",
-		x = 176,
-		y = 24,
-	},
-	[20089] = {
-		targetMap = "dt008",
-		x = 13,
-		y = 31,
-	},
-	[20090] = {
-		targetMap = "dt006",
-		x = 154,
-		y = 41,
-	},
-	[20091] = {
-		targetMap = "dt109",
-		x = 33,
-		y = 80,
-	},
-	[20092] = {
-		targetMap = "dt008",
-		x = 91,
-		y = 10,
-	},
-	[20093] = {
-		targetMap = "dt076",
-		x = 84,
-		y = 37,
-	},
-	[20094] = {
-		targetMap = "dt007",
-		x = 29,
-		y = 21,
-	},
-	[20095] = {
-		targetMap = "dt018",
-		x = 21,
-		y = 29,
-	},
-	[20096] = {
-		targetMap = "dt076",
-		x = 33,
-		y = 28,
-	},
-	[20097] = {
-		targetMap = "dt092",
-		x = 20,
-		y = 18,
-	},
-	[20098] = {
-		targetMap = "dt018",
-		x = 101,
-		y = 106,
-	},
-	[20099] = {
-		targetMap = "dt062",
-		x = 11,
-		y = 49,
-	},
-	[20100] = {
-		targetMap = "dt047",
-		x = 27,
-		y = 134,
-	},
-	[20101] = {
-		targetMap = "dt078",
-		x = 29,
-		y = 24,
-	},
-	[20102] = {
-		targetMap = "dt062",
-		x = 53,
-		y = 9,
-	},
-	[20103] = {
-		targetMap = "dt002",
-		x = 27,
-		y = 54,
-	},
-	[20104] = {
-		targetMap = "dt078",
-		x = 29,
-		y = 39,
-	},
-	[20105] = {
-		targetMap = "dt060",
-		x = 39,
-		y = 32,
-	},
-	[20106] = {
-		targetMap = "dt002",
-		x = 127,
-		y = 98,
-	},
-	[20107] = {
-		targetMap = "dt015",
-		x = 59,
-		y = 73,
-	},
-	[20108] = {
-		targetMap = "dt060",
-		x = 54,
-		y = 57,
-	},
-	[20109] = {
-		targetMap = "dt045",
-		x = 32,
-		y = 238,
-	},
-	[20110] = {
-		targetMap = "dt048",
-		x = 78,
-		y = 425,
-	},
-	[20111] = {
-		targetMap = "dt087",
-		x = 59,
-		y = 66,
-	},
-	[20112] = {
-		targetMap = "dt045",
-		x = 46,
-		y = 72,
-	},
-	[20113] = {
-		targetMap = "dt130",
-		x = 100,
-		y = 113,
-	},
-	[20114] = {
-		targetMap = "dt087",
-		x = 46,
-		y = 72,
-	},
-	[20115] = {
-		targetMap = "dt057",
-		x = 25,
-		y = 32,
-	},
-	[20116] = {
-		targetMap = "dt130",
-		x = 34,
-		y = 37,
-	},
-	[20117] = {
-		targetMap = "dt135",
-		x = 22,
-		y = 293,
-	},
-	[20118] = {
-		targetMap = "dt045",
-		x = 188,
-		y = 50,
-	},
-	[20119] = {
-		targetMap = "dt099",
-		x = 16,
-		y = 22,
-	},
-	[20120] = {
-		targetMap = "dt0135",
-		x = 235,
-		y = 57,
-	},
-	[20121] = {
-		targetMap = "dt131",
-		x = 92,
-		y = 311,
-	},
-	[20122] = {
-		targetMap = "dt045",
-		x = 187,
-		y = 205,
-	},
-	[20123] = {
-		targetMap = "dt134",
-		x = 58,
-		y = 52,
-	},
-	[20124] = {
-		targetMap = "dt131",
-		x = 135,
-		y = 17,
-	},
-	[20125] = {
-		targetMap = "dt089",
-		x = 14,
-		y = 81,
-	},
-	[20126] = {
-		targetMap = "dt048",
-		x = 455,
-		y = 418,
-	},
-	[20127] = {
-		targetMap = "dt119",
-		x = 68,
-		y = 29,
-	},
-	[20128] = {
-		targetMap = "dt089",
-		x = 67,
-		y = 39,
-	},
-	[20129] = {
-		targetMap = "dt019",
-		x = 73,
-		y = 67,
-	},
-	[20130] = {
-		targetMap = "dt119",
-		x = 53,
-		y = 47,
-	},
-	[20131] = {
-		targetMap = "dt010",
-		x = 26,
-		y = 79,
-	},
-	[20132] = {
-		targetMap = "dt089",
-		x = 22,
-		y = 35,
-	},
-	[20133] = {
-		targetMap = "dt009",
-		x = 58,
-		y = 21,
-	},
-	[20134] = {
-		targetMap = "dt010",
-		x = 67,
-		y = 72,
-	},
-	[20135] = {
-		targetMap = "dt019",
-		x = 73,
-		y = 67,
-	},
-	[20136] = {
-		targetMap = "dt009",
-		x = 58,
-		y = 53,
-	},
-	[20137] = {
-		targetMap = "dt104",
-		x = 190,
-		y = 184,
-	},
-	[20138] = {
-		targetMap = "dt048",
-		x = 405,
-		y = 150,
-	},
-	[20139] = {
-		targetMap = "dt108",
-		x = 47,
-		y = 50,
-	},
-	[20140] = {
-		targetMap = "dt104",
-		x = 118,
-		y = 87,
-	},
-	[20141] = {
-		targetMap = "dt036",
-		x = 158,
-		y = 152,
-	},
-	[20142] = {
-		targetMap = "dt048",
-		x = 421,
-		y = 39,
-	},
-	[20143] = {
-		targetMap = "dt103",
-		x = 24,
-		y = 41,
-	},
-	[20144] = {
-		targetMap = "dt036",
-		x = 39,
-		y = 60,
-	},
-	[20145] = {
-		targetMap = "dt090",
-		x = 41,
-		y = 69,
-	},
-	[20146] = {
-		targetMap = "dt036",
-		x = 87,
-		y = 35,
-	},
-	[20147] = {
-		targetMap = "dt301",
-		x = 24,
-		y = 57,
-	},
-	[20148] = {
-		targetMap = "dt036",
-		x = 226,
-		y = 39,
-	},
-	[20149] = {
-		targetMap = "dt052",
-		x = 32,
-		y = 39,
-	},
-	[20150] = {
-		targetMap = "dt036",
-		x = 259,
-		y = 68,
-	},
-	[20151] = {
-		targetMap = "dt054",
-		x = 15,
-		y = 55,
-	},
-	[20152] = {
-		targetMap = "dt036",
-		x = 51,
-		y = 244,
-	},
-	[20153] = {
-		targetMap = "dt127",
-		x = 58,
-		y = 45,
-	},
-	[20154] = {
-		targetMap = "dt036",
-		x = 162,
-		y = 275,
-	},
-	[20155] = {
-		targetMap = "dt713",
-		x = 153,
-		y = 33,
-	},
-	[20156] = {
-		targetMap = "dt138",
-		x = 20,
-		y = 208,
-	},
-	[20157] = {
-		targetMap = "dt714",
-		x = 29,
-		y = 24,
-	},
-	[20158] = {
-		targetMap = "dt138",
-		x = 213,
-		y = 198,
-	},
-	[20159] = {
-		targetMap = "dt096",
-		x = 78,
-		y = 107,
-	},
-	[20160] = {
-		targetMap = "dt138",
-		x = 26,
-		y = 46,
-	},
-	[20161] = {
-		targetMap = "dt041",
-		x = 7,
-		y = 94,
-	},
-	[20162] = {
-		targetMap = "dt096",
-		x = 73,
-		y = 25,
-	},
-	[20163] = {
-		targetMap = "dt067",
-		x = 77,
-		y = 81,
-	},
-	[20164] = {
-		targetMap = "dt041",
-		x = 82,
-		y = 15,
-	},
-	[20165] = {
-		targetMap = "dt128",
-		x = 42,
-		y = 48,
-	},
-	[20166] = {
-		targetMap = "dt067",
-		x = 22,
-		y = 27,
-	},
-	[20167] = {
-		targetMap = "dt095",
-		x = 113,
-		y = 185,
-	},
-	[20168] = {
-		targetMap = "dt096",
-		x = 23,
-		y = 18,
-	},
-	[20169] = {
-		targetMap = "dt051",
-		x = 98,
-		y = 205,
-	},
-	[20170] = {
-		targetMap = "dt095",
-		x = 22,
-		y = 16,
-	},
-	[20171] = {
-		targetMap = "dt040",
-		x = 30,
-		y = 36,
-	},
-	[20172] = {
-		targetMap = "dt051",
-		x = 94,
-		y = 89,
-	},
-	[20173] = {
-		targetMap = "dt101",
-		x = 88,
-		y = 91,
-	},
-	[20174] = {
-		targetMap = "dt138",
-		x = 190,
-		y = 56,
-	},
-	[20175] = {
-		targetMap = "dt137",
-		x = 24,
-		y = 260,
-	},
-	[20176] = {
-		targetMap = "dt101",
-		x = 51,
-		y = 45,
-	},
-	[20177] = {
-		targetMap = "dt012",
-		x = 111,
-		y = 178,
-	},
-	[20178] = {
-		targetMap = "dt137",
-		x = 150,
-		y = 16,
-	},
-	[20179] = {
-		targetMap = "dt136",
-		x = 92,
-		y = 76,
-	},
-	[20180] = {
-		targetMap = "dt137",
-		x = 269,
-		y = 165,
-	},
-	[20181] = {
-		targetMap = "dt013",
-		x = 59,
-		y = 73,
-	},
-	[20182] = {
-		targetMap = "dt137",
-		x = 213,
-		y = 265,
-	},
-	[20183] = {
-		targetMap = "dt139",
-		x = 180,
-		y = 192,
-	},
-	[20184] = {
-		targetMap = "dt101",
-		x = 128,
-		y = 122,
-	},
-	[20185] = {
-		targetMap = "dt100",
-		x = 32,
-		y = 35,
-	},
-	[20186] = {
-		targetMap = "dt139",
-		x = 186,
-		y = 35,
-	},
-	[20187] = {
-		targetMap = "dt102",
-		x = 22,
-		y = 118,
-	},
-	[20188] = {
-		targetMap = "dt139",
-		x = 27,
-		y = 25,
-	},
-	[20189] = {
-		targetMap = "dt011",
-		x = 150,
-		y = 40,
-	},
-	[20190] = {
-		targetMap = "dt139",
-		x = 14,
-		y = 198,
-	},
-	[20191] = {
-		targetMap = "dt106",
-		x = 69,
-		y = 58,
-	},
-	[20192] = {
-		targetMap = "dt085",
-		x = 26,
-		y = 20,
-	},
-	[20193] = {
-		targetMap = "dt093",
-		x = 16,
-		y = 133,
-	},
-	[20194] = {
-		targetMap = "dt106",
-		x = 23,
-		y = 20,
-	},
-	[20195] = {
-		targetMap = "dt105",
-		x = 39,
-		y = 173,
-	},
-	[20196] = {
-		targetMap = "dt093",
-		x = 100,
-		y = 22,
-	},
-	[20197] = {
-		targetMap = "dt107",
-		x = 64,
-		y = 74,
-	},
-	[20198] = {
-		targetMap = "dt105",
-		x = 54,
-		y = 20,
-	},
-	[20199] = {
-		targetMap = "dt121",
-		x = 15,
-		y = 56,
-	},
-	[20200] = {
-		targetMap = "dt0107",
-		x = 42,
-		y = 21,
-	},
-	[20201] = {
-		targetMap = "dt035",
-		x = 58,
-		y = 11,
-	},
-	[20202] = {
-		targetMap = "dt106",
-		x = 111,
-		y = 25,
-	},
-	[20203] = {
-		targetMap = "dt079",
-		x = 17,
-		y = 16,
-	},
-	[20204] = {
-		targetMap = "dt035",
-		x = 93,
-		y = 79,
-	},
-	[20205] = {
-		targetMap = "dt043",
-		x = 105,
-		y = 76,
-	},
-	[20206] = {
-		targetMap = "dt079",
-		x = 90,
-		y = 94,
-	},
-	[20207] = {
-		targetMap = "dt711",
-		x = 13,
-		y = 27,
-	},
-	[20208] = {
-		targetMap = "dt106",
-		x = 99,
-		y = 94,
-	},
-	[20209] = {
-		targetMap = "dt124",
-		x = 34,
-		y = 30,
-	},
-	[20210] = {
-		targetMap = "dt711",
-		x = 140,
-		y = 64,
-	},
-	[20211] = {
-		targetMap = "dt058",
-		x = 35,
-		y = 32,
-	},
-	[20212] = {
-		targetMap = "dt106",
-		x = 29,
-		y = 110,
-	},
-	[20213] = {
-		targetMap = "dt086",
-		x = 59,
-		y = 93,
-	},
-	[20214] = {
-		targetMap = "dt085",
-		x = 36,
-		y = 140,
-	},
-	[20215] = {
-		targetMap = "dt065",
-		x = 26,
-		y = 33,
-	},
-	[20216] = {
-		targetMap = "dt086",
-		x = 135,
-		y = 123,
-	},
-	[20217] = {
-		targetMap = "dt061",
-		x = 50,
-		y = 194,
-	},
-	[20218] = {
-		targetMap = "dt086",
-		x = 38,
-		y = 39,
-	},
-	[20219] = {
-		targetMap = "dt098",
-		x = 40,
-		y = 43,
-	},
-	[20220] = {
-		targetMap = "dt061",
-		x = 113,
-		y = 46,
-	},
-	[20221] = {
-		targetMap = "dt042",
-		x = 20,
-		y = 40,
-	},
-	[20222] = {
-		targetMap = "dt098",
-		x = 115,
-		y = 99,
-	},
-	[20223] = {
-		targetMap = "dt024",
-		x = 17,
-		y = 74,
-	},
-	[20224] = {
-		targetMap = "dt042",
-		x = 46,
-		y = 33,
-	},
-	[20225] = {
-		targetMap = "dt034",
-		x = 77,
-		y = 129,
-	},
-	[20226] = {
-		targetMap = "dt086",
-		x = 39,
-		y = 118,
-	},
-	[20227] = {
-		targetMap = "dt133",
-		x = 70,
-		y = 72,
-	},
-	[20228] = {
-		targetMap = "dt086",
-		x = 133,
-		y = 22,
-	},
-	[20229] = {
-		targetMap = "dt005",
-		x = 33,
-		y = 128,
-	},
-	[20230] = {
-		targetMap = "dt086",
-		x = 78,
-		y = 51,
-	},
-	[20231] = {
-		targetMap = "dt025",
-		x = 53,
-		y = 32,
-	},
-	[20232] = {
-		targetMap = "dt005",
-		x = 126,
-		y = 128,
-	},
-	[20233] = {
-		targetMap = "dt014",
-		x = 51,
-		y = 147,
-	},
-	[20234] = {
-		targetMap = "dt085",
-		x = 158,
-		y = 82,
-	},
-	[20235] = {
-		targetMap = "dt039",
-		x = 12,
-		y = 18,
-	},
-	[20236] = {
-		targetMap = "dt014",
-		x = 130,
-		y = 63,
-	},
-	[20237] = {
-		targetMap = "dt037",
-		x = 41,
-		y = 48,
-	},
-	[20238] = {
-		targetMap = "dt014",
-		x = 172,
-		y = 93,
-	},
-	[20239] = {
-		targetMap = "dt038",
-		x = 60,
-		y = 29,
-	},
-	[20240] = {
-		targetMap = "dt014",
-		x = 85,
-		y = 72,
-	},
-	[20241] = {
-		targetMap = "user001",
-		x = 124,
-		y = 186,
-	},
-	[20242] = {
-		targetMap = "xbxj",
-		x = 4,
-		y = 45,
-	},
-	[20243] = {
-		targetMap = "dxcj",
+local config = { 
+	[20460] = { 
+		xls_id = 20460,
 		x = 6,
-		y = 127,
-	},
-	[20244] = {
-		targetMap = "zlmg",
-		x = 50,
-		y = 72,
-	},
-	[20245] = {
-		targetMap = "dxcj",
-		x = 46,
-		y = 60,
-	},
-	[20246] = {
-		targetMap = "wlg",
-		x = 4,
-		y = 25,
-	},
-	[20247] = {
-		targetMap = "xbxj",
-		x = 10,
-		y = 14,
-	},
-	[20248] = {
-		targetMap = "zlsc",
-		x = 6,
-		y = 90,
-	},
-	[20249] = {
-		targetMap = "dxcj",
-		x = 46,
-		y = 60,
-	},
-	[20250] = {
-		targetMap = "zlmg",
-		x = 11,
-		y = 9,
-	},
-	[20251] = {
-		targetMap = "user001",
-		x = 454,
-		y = 204,
-	},
-	[20252] = {
-		targetMap = "hngx",
-		x = 24,
-		y = 104,
-	},
-	[20253] = {
-		targetMap = "smzz",
-		x = 68,
-		y = 104,
-	},
-	[20254] = {
-		targetMap = "ylkg",
-		x = 125,
-		y = 62,
-	},
-	[20255] = {
-		targetMap = "hng",
-		x = 88,
-		y = 17,
-	},
-	[20256] = {
-		targetMap = "hngx",
-		x = 56,
-		y = 27,
-	},
-	[20257] = {
-		targetMap = "hngd",
-		x = 13,
-		y = 33,
-	},
-	[20258] = {
-		targetMap = "ylkg",
-		x = 73,
-		y = 76,
-	},
-	[20259] = {
-		targetMap = "dy",
-		x = 21,
-		y = 22,
-	},
-	[20260] = {
-		targetMap = "hngd",
-		x = 48,
-		y = 103,
-	},
-	[20261] = {
-		targetMap = "hnzd",
-		x = 44,
-		y = 73,
-	},
-	[20262] = {
-		targetMap = "dy",
-		x = 23,
-		y = 163,
-	},
-	[20263] = {
-		targetMap = "hng",
-		x = 78,
-		y = 79,
-	},
-	[20264] = {
-		targetMap = "mscx",
-		x = 61,
-		y = 30,
-	},
-	[20265] = {
-		targetMap = "smzz",
-		x = 4,
-		y = 17,
-	},
-	[20266] = {
-		targetMap = "user001",
-		x = 190,
-		y = 55,
-	},
-	[20267] = {
-		targetMap = "zwck",
-		x = 19,
-		y = 83,
-	},
-	[20268] = {
-		targetMap = "cjml",
-		x = 16,
-		y = 84,
-	},
-	[20269] = {
-		targetMap = "cjz",
-		x = 73,
-		y = 28,
-	},
-	[20270] = {
-		targetMap = "cjzxz",
-		x = 186,
-		y = 102,
-	},
-	[20271] = {
-		targetMap = "cjzxs",
-		x = 64,
-		y = 57,
-	},
-	[20272] = {
-		targetMap = "cjdg",
-		x = 137,
-		y = 109,
-	},
-	[20273] = {
-		targetMap = "zwck",
-		x = 74,
-		y = 69,
-	},
-	[20274] = {
-		targetMap = "cjzlz",
-		x = 51,
-		y = 229,
-	},
-	[20275] = {
-		targetMap = "cjzxz",
-		x = 189,
-		y = 173,
-	},
-	[20276] = {
-		targetMap = "cjzxs",
-		x = 11,
-		y = 24,
-	},
-	[20277] = {
-		targetMap = "cjzxz",
-		x = 119,
-		y = 111,
-	},
-	[20278] = {
-		targetMap = "cjgd",
-		x = 91,
-		y = 98,
-	},
-	[20279] = {
-		targetMap = "cjz",
-		x = 129,
-		y = 78,
-	},
-	[20280] = {
-		targetMap = "cjml",
-		x = 90,
-		y = 17,
-	},
-	[20281] = {
-		targetMap = "gsl",
-		x = 12,
-		y = 76,
-	},
-	[20282] = {
-		targetMap = "shszm",
-		x = 140,
-		y = 93,
-	},
-	[20283] = {
-		targetMap = "user001",
-		x = 448,
-		y = 340,
-	},
-	[20284] = {
-		targetMap = "txql",
-		x = 44,
-		y = 21,
-	},
-	[20285] = {
-		targetMap = "shs",
-		x = 23,
-		y = 27,
-	},
-	[20286] = {
-		targetMap = "yhpt",
-		x = 39,
-		y = 27,
-	},
-	[20287] = {
-		targetMap = "gsl",
-		x = 53,
-		y = 7,
-	},
-	[20288] = {
-		targetMap = "mysk",
-		x = 40,
-		y = 58,
-	},
-	[20289] = {
-		targetMap = "txql",
-		x = 15,
-		y = 86,
-	},
-	[20290] = {
-		targetMap = "yhpt",
-		x = 129,
-		y = 13,
-	},
-	[20291] = {
-		targetMap = "shsz",
-		x = 13,
-		y = 11,
-	},
-	[20292] = {
-		targetMap = "shs",
-		x = 11,
-		y = 123,
-	},
-	[20293] = {
-		targetMap = "shszm",
-		x = 10,
-		y = 13,
-	},
-	[20294] = {
-		targetMap = "myyj",
-		x = 41,
-		y = 45,
-	},
-	[20295] = {
-		targetMap = "mymj",
-		x = 167,
-		y = 47,
-	},
-	[20296] = {
-		targetMap = "user001",
-		x = 388,
-		y = 372,
-	},
-	[20297] = {
-		targetMap = "mysc",
-		x = 137,
-		y = 130,
-	},
-	[20298] = {
-		targetMap = "myf",
-		x = 44,
-		y = 29,
-	},
-	[20299] = {
-		targetMap = "my1j",
-		x = 44,
-		y = 109,
-	},
-	[20300] = {
-		targetMap = "myyj",
-		x = 127,
-		y = 173,
-	},
-	[20301] = {
-		targetMap = "ydkj",
-		x = 7,
-		y = 134,
-	},
-	[20302] = {
-		targetMap = "mysc",
-		x = 21,
-		y = 87,
-	},
-	[20303] = {
-		targetMap = "wjzl",
-		x = 167,
-		y = 47,
-	},
-	[20304] = {
-		targetMap = "my1j",
-		x = 96,
-		y = 44,
-	},
-	[20305] = {
-		targetMap = "ydkj",
-		x = 92,
-		y = 15,
-	},
-	[20306] = {
-		targetMap = "mycs",
-		x = 180,
-		y = 182,
-	},
-	[20307] = {
-		targetMap = "myf",
-		x = 18,
-		y = 35,
-	},
-	[20308] = {
-		targetMap = "mymj",
-		x = 32,
-		y = 82,
-	},
-	[20309] = {
-		targetMap = "hwzm",
-		x = 103,
-		y = 149,
-	},
-	[20310] = {
-		targetMap = "fxmg",
-		x = 10,
-		y = 45,
-	},
-	[20311] = {
-		targetMap = "user001",
-		x = 100,
-		y = 383,
-	},
-	[20312] = {
-		targetMap = "ywsy",
-		x = 111,
-		y = 15,
-	},
-	[20313] = {
-		targetMap = "smyj",
-		x = 21,
-		y = 17,
-	},
-	[20314] = {
-		targetMap = "ywzd",
-		x = 32,
-		y = 19,
-	},
-	[20315] = {
-		targetMap = "hwzm",
-		x = 12,
-		y = 29,
-	},
-	[20316] = {
-		targetMap = "ywsy",
-		x = 15,
-		y = 168,
-	},
-	[20317] = {
-		targetMap = "aymd",
-		x = 104,
-		y = 25,
-	},
-	[20318] = {
-		targetMap = "smyj",
-		x = 74,
-		y = 10,
-	},
-	[20319] = {
-		targetMap = "aydd",
-		x = 49,
-		y = 131,
-	},
-	[20320] = {
-		targetMap = "xsd",
-		x = 105,
-		y = 24,
-	},
-	[20321] = {
-		targetMap = "fxmg",
-		x = 92,
-		y = 15,
-	},
-	[20322] = {
-		targetMap = "shzj",
-		x = 72,
-		y = 22,
-	},
-	[20323] = {
-		targetMap = "aymd",
-		x = 40,
-		y = 133,
-	},
-	[20324] = {
-		targetMap = "aydd",
-		x = 22,
-		y = 19,
-	},
-	[20325] = {
-		targetMap = "qngm",
-		x = 11,
-		y = 148,
-	},
-	[20326] = {
-		targetMap = "aymd",
-		x = 16,
-		y = 104,
-	},
-	[20327] = {
-		targetMap = "gmsc",
-		x = 27,
-		y = 55,
-	},
-	[20328] = {
-		targetMap = "xsd",
-		x = 13,
-		y = 147,
-	},
-	[20329] = {
-		targetMap = "qngm",
-		x = 15,
-		y = 18,
-	},
-	[20330] = {
-		targetMap = "sjrk",
-		x = 137,
-		y = 28,
-	},
-	[20331] = {
-		targetMap = "bdpb",
-		x = 14,
-		y = 63,
-	},
-	[20332] = {
-		targetMap = "user001",
-		x = 118,
-		y = 24,
-	},
-	[20333] = {
-		targetMap = "bfzl",
-		x = 14,
-		y = 123,
-	},
-	[20334] = {
-		targetMap = "ssm",
-		x = 130,
-		y = 97,
-	},
-	[20335] = {
-		targetMap = "sszy",
-		x = 63,
-		y = 71,
-	},
-	[20336] = {
-		targetMap = "sjrk",
-		x = 76,
-		y = 56,
-	},
-	[20337] = {
-		targetMap = "ywbz",
-		x = 63,
-		y = 18,
-	},
-	[20338] = {
-		targetMap = "bfzl",
-		x = 19,
-		y = 17,
-	},
-	[20339] = {
-		targetMap = "sszy",
-		x = 34,
-		y = 34,
-	},
-	[20340] = {
-		targetMap = "sjzm",
-		x = 88,
-		y = 23,
-	},
-	[20341] = {
-		targetMap = "ssm",
-		x = 97,
-		y = 27,
-	},
-	[20342] = {
-		targetMap = "fbzd",
-		x = 44,
-		y = 66,
-	},
-	[20343] = {
-		targetMap = "bdpb",
-		x = 93,
-		y = 8,
-	},
-	[20344] = {
-		targetMap = "sjzm",
-		x = 8,
-		y = 105,
-	},
-	[20345] = {
-		targetMap = "yzsl",
-		x = 68,
-		y = 101,
-	},
-	[20346] = {
-		targetMap = "2dl",
-		x = 28,
-		y = 162,
-	},
-	[20347] = {
-		targetMap = "yzzz",
-		x = 203,
-		y = 188,
-	},
-	[20348] = {
-		targetMap = "yzhy",
-		x = 6,
-		y = 6,
-	},
-	[20349] = {
-		targetMap = "yzl",
-		x = 25,
-		y = 14,
-	},
-	[20350] = {
-		targetMap = "dwzz",
-		x = 97,
-		y = 23,
-	},
-	[20351] = {
-		targetMap = "yzsl",
-		x = 7,
-		y = 10,
-	},
-	[20352] = {
-		targetMap = "gdzc",
-		x = 60,
-		y = 54,
-	},
-	[20353] = {
-		targetMap = "yzzz",
-		x = 119,
-		y = 145,
-	},
-	[20354] = {
-		targetMap = "dwzz",
-		x = 13,
-		y = 145,
-	},
-	[20355] = {
-		targetMap = "mjzd",
-		x = 18,
-		y = 118,
-	},
-	[20356] = {
-		targetMap = "yzsl",
-		x = 64,
-		y = 16,
-	},
-	[20357] = {
-		targetMap = "yzhy",
-		x = 69,
-		y = 86,
-	},
-	[20358] = {
-		targetMap = "wgsqy",
-		x = 72,
-		y = 179,
-	},
-	[20359] = {
-		targetMap = "sjmg",
-		x = 44,
-		y = 262,
-	},
-	[20360] = {
-		targetMap = "2dl",
-		x = 107,
-		y = 112,
-	},
-	[20361] = {
-		targetMap = "wgscjg",
-		x = 44,
-		y = 14,
-	},
-	[20362] = {
-		targetMap = "wgs",
-		x = 21,
-		y = 29,
-	},
-	[20363] = {
-		targetMap = "dxbd",
-		x = 60,
-		y = 93,
-	},
-	[20364] = {
-		targetMap = "wgsqy",
-		x = 44,
-		y = 70,
-	},
-	[20365] = {
-		targetMap = "slt",
-		x = 69,
-		y = 74,
-	},
-	[20366] = {
-		targetMap = "wgscjg",
-		x = 4,
-		y = 27,
-	},
-	[20367] = {
-		targetMap = "pty",
-		x = 7,
-		y = 47,
-	},
-	[20368] = {
-		targetMap = "dxbd",
-		x = 60,
-		y = 3,
-	},
-	[20369] = {
-		targetMap = "slt",
-		x = 20,
-		y = 30,
-	},
-	[20370] = {
-		targetMap = "dxmx",
-		x = 4,
-		y = 61,
-	},
-	[20371] = {
-		targetMap = "wgs",
-		x = 56,
-		y = 25,
-	},
-	[20372] = {
-		targetMap = "smmx",
-		x = 115,
-		y = 232,
-	},
-	[20373] = {
-		targetMap = "sjmg",
-		x = 148,
-		y = 91,
-	},
-	[20374] = {
-		targetMap = "wgshj",
-		x = 18,
-		y = 81,
-	},
-	[20375] = {
-		targetMap = "dxmx",
-		x = 50,
-		y = 5,
-	},
-	[20376] = {
-		targetMap = "smmx",
-		x = 156,
-		y = 40,
-	},
-	[20377] = {
-		targetMap = "sptx",
-		x = 5,
-		y = 78,
-	},
-	[20378] = {
-		targetMap = "hpyg",
-		x = 23,
-		y = 27,
-	},
-	[20379] = {
-		targetMap = "2dl",
-		x = 110,
-		y = 189,
-	},
-	[20380] = {
-		targetMap = "hxd",
-		x = 48,
-		y = 47,
-	},
-	[20381] = {
-		targetMap = "sp",
-		x = 55,
-		y = 42,
-	},
-	[20382] = {
-		targetMap = "spzy",
-		x = 4,
-		y = 18,
-	},
-	[20383] = {
-		targetMap = "sptx",
-		x = 4,
-		y = 6,
-	},
-	[20384] = {
-		targetMap = "spgzc",
-		x = 26,
-		y = 126,
-	},
-	[20385] = {
-		targetMap = "hxd",
-		x = 20,
-		y = 20,
-	},
-	[20386] = {
-		targetMap = "spzy",
-		x = 26,
-		y = 11,
-	},
-	[20387] = {
-		targetMap = "hpyj",
-		x = 149,
-		y = 45,
-	},
-	[20388] = {
-		targetMap = "sp",
-		x = 95,
-		y = 6,
-	},
-	[20389] = {
-		targetMap = "hpyg",
-		x = 111,
-		y = 14,
-	},
-	[20390] = {
-		targetMap = "slmj",
-		x = 17,
-		y = 72,
-	},
-	[20391] = {
-		targetMap = "tmls",
-		x = 100,
-		y = 65,
-	},
-	[20392] = {
-		targetMap = "2dl",
-		x = 59,
-		y = 190,
-	},
-	[20393] = {
-		targetMap = "mjsc",
-		x = 99,
-		y = 18,
-	},
-	[20394] = {
-		targetMap = "ls",
-		x = 5,
-		y = 203,
-	},
-	[20395] = {
-		targetMap = "lsjd",
-		x = 5,
-		y = 136,
-	},
-	[20396] = {
-		targetMap = "slmj",
-		x = 34,
-		y = 39,
-	},
-	[20397] = {
-		targetMap = "jdgt",
-		x = 5,
-		y = 80,
-	},
-	[20398] = {
-		targetMap = "mjsc",
-		x = 17,
-		y = 21,
-	},
-	[20399] = {
-		targetMap = "sykm",
-		x = 7,
-		y = 94,
-	},
-	[20400] = {
-		targetMap = "lsjd",
-		x = 9,
-		y = 38,
-	},
-	[20401] = {
-		targetMap = "jdgt",
-		x = 59,
-		y = 32,
-	},
-	[20402] = {
-		targetMap = "lsgd",
-		x = 66,
-		y = 101,
-	},
-	[20403] = {
-		targetMap = "ls",
-		x = 166,
-		y = 196,
-	},
-	[20404] = {
-		targetMap = "szfc",
-		x = 25,
-		y = 206,
-	},
-	[20405] = {
-		targetMap = "ymdx",
-		x = 152,
-		y = 153,
-	},
-	[20406] = {
-		targetMap = "tmls",
-		x = 6,
-		y = 6,
-	},
-	[20407] = {
-		targetMap = "lszd",
-		x = 9,
-		y = 28,
-	},
-	[20408] = {
-		targetMap = "lsgd",
-		x = 13,
-		y = 100,
-	},
-	[20409] = {
-		targetMap = "szfc",
-		x = 179,
-		y = 36,
-	},
-	[20410] = {
-		targetMap = "lsgd",
-		x = 6,
-		y = 9,
-	},
-	[20411] = {
-		targetMap = "fxmw",
-		x = 5,
-		y = 103,
-	},
-	[20412] = {
-		targetMap = "2dl",
-		x = 35,
-		y = 88,
-	},
-	[20413] = {
-		targetMap = "lmz",
-		x = 73,
-		y = 135,
-	},
-	[20414] = {
-		targetMap = "bgzf",
-		x = 92,
-		y = 100,
-	},
-	[20415] = {
-		targetMap = "fxm",
-		x = 148,
-		y = 25,
-	},
-	[20416] = {
-		targetMap = "lmd",
-		x = 97,
-		y = 80,
-	},
-	[20417] = {
-		targetMap = "fxmw",
-		x = 84,
-		y = 208,
-	},
-	[20418] = {
-		targetMap = "fxzy",
-		x = 46,
-		y = 109,
-	},
-	[20419] = {
-		targetMap = "lmz",
-		x = 16,
-		y = 90,
-	},
-	[20420] = {
-		targetMap = "fxcc",
-		x = 41,
-		y = 12,
-	},
-	[20421] = {
-		targetMap = "lmd",
-		x = 22,
-		y = 70,
-	},
-	[20422] = {
-		targetMap = "fxzy",
-		x = 21,
-		y = 77,
-	},
-	[20423] = {
-		targetMap = "yyj",
-		x = 16,
-		y = 85,
-	},
-	[20424] = {
-		targetMap = "fxmw",
-		x = 68,
-		y = 101,
-	},
-	[20425] = {
-		targetMap = "jtxng",
-		x = 34,
-		y = 49,
-	},
-	[20426] = {
-		targetMap = "bgzf",
-		x = 20,
-		y = 22,
-	},
-	[20427] = {
-		targetMap = "yyj",
-		x = 90,
-		y = 17,
-	},
-	[20428] = {
-		targetMap = "3dl",
-		x = 53,
-		y = 82,
-	},
-	[20429] = {
-		targetMap = "mwsg",
-		x = 67,
-		y = 104,
-	},
-	[20430] = {
-		targetMap = "ths",
-		x = 58,
-		y = 95,
-	},
-	[20431] = {
-		targetMap = "yxzl",
-		x = 10,
-		y = 147,
-	},
-	[20432] = {
-		targetMap = "mwsg",
-		x = 3,
-		y = 18,
-	},
-	[20433] = {
-		targetMap = "tszy",
-		x = 205,
-		y = 188,
-	},
-	[20434] = {
-		targetMap = "yxzl",
-		x = 105,
-		y = 108,
-	},
-	[20435] = {
-		targetMap = "thxj",
-		x = 118,
-		y = 124,
-	},
-	[20436] = {
-		targetMap = "yxzl",
-		x = 183,
-		y = 198,
-	},
-	[20437] = {
-		targetMap = "sjgd",
-		x = 3,
-		y = 5,
-	},
-	[20438] = {
-		targetMap = "ths",
-		x = 9,
-		y = 90,
-	},
-	[20439] = {
-		targetMap = "mlyj",
-		x = 4,
-		y = 29,
-	},
-	[20440] = {
-		targetMap = "sjgd",
-		x = 100,
-		y = 99,
-	},
-	[20441] = {
-		targetMap = "sqxl",
-		x = 53,
-		y = 69,
-	},
-	[20442] = {
-		targetMap = "mlyj",
-		x = 11,
-		y = 10,
-	},
-	[20443] = {
-		targetMap = "thsl",
-		x = 67,
-		y = 68,
-	},
-	[20444] = {
-		targetMap = "sqxl",
-		x = 26,
-		y = 5,
-	},
-	[20445] = {
-		targetMap = "thsz",
-		x = 7,
-		y = 139,
-	},
-	[20446] = {
-		targetMap = "thsl",
-		x = 42,
-		y = 9,
-	},
-	[20447] = {
-		targetMap = "3dl",
-		x = 189,
-		y = 214,
-	},
-	[20448] = {
-		targetMap = "elsjx",
-		x = 30,
-		y = 252,
-	},
-	[20449] = {
-		targetMap = "els",
-		x = 64,
-		y = 19,
-	},
-	[20450] = {
-		targetMap = "elsgd",
-		x = 45,
-		y = 11,
-	},
-	[20451] = {
-		targetMap = "elsjx",
-		x = 89,
-		y = 26,
-	},
-	[20452] = {
-		targetMap = "elssc",
-		x = 8,
-		y = 73,
-	},
-	[20453] = {
-		targetMap = "elsgd",
-		x = 16,
-		y = 85,
-	},
-	[20454] = {
-		targetMap = "elsz",
-		x = 170,
-		y = 38,
-	},
-	[20455] = {
-		targetMap = "elssc",
-		x = 53,
-		y = 7,
-	},
-	[20456] = {
-		targetMap = "elsww",
-		x = 41,
-		y = 113,
-	},
-	[20457] = {
-		targetMap = "els",
-		x = 6,
-		y = 11,
-	},
-	[20458] = {
-		targetMap = "smdx",
-		x = 82,
-		y = 29,
-	},
-	[20459] = {
-		targetMap = "elsww",
-		x = 73,
-		y = 135,
-	},
-	[20460] = {
 		targetMap = "mmtd",
-		x = 6,
 		y = 64,
 	},
-	[20461] = {
-		targetMap = "smdx",
+	[20461] = { 
+		xls_id = 20461,
 		x = 21,
+		targetMap = "smdx",
 		y = 77,
 	},
-	[20462] = {
+	[20462] = { 
+		xls_id = 20462,
+		x = 59,
 		targetMap = "dyjd",
-		x = 59,
 		y = 59,
 	},
-	[20463] = {
-		targetMap = "mmtd",
+	[20463] = { 
+		xls_id = 20463,
 		x = 63,
+		targetMap = "mmtd",
 		y = 7,
 	},
-	[20464] = {
-		targetMap = "bzzd",
+	[20464] = { 
+		xls_id = 20464,
 		x = 68,
+		targetMap = "bzzd",
 		y = 101,
 	},
-	[20465] = {
-		targetMap = "smdx",
+	[20465] = { 
+		xls_id = 20465,
 		x = 46,
+		targetMap = "smdx",
 		y = 109,
 	},
-	[20466] = {
-		targetMap = "3dl",
+	[20466] = { 
+		xls_id = 20466,
 		x = 102,
+		targetMap = "3dl",
 		y = 56,
 	},
-	[20467] = {
-		targetMap = "kdtx",
+	[20467] = { 
+		xls_id = 20467,
 		x = 18,
+		targetMap = "kdtx",
 		y = 165,
 	},
-	[20468] = {
-		targetMap = "ygxj",
+	[20468] = { 
+		xls_id = 20468,
 		x = 8,
+		targetMap = "ygxj",
 		y = 26,
 	},
-	[20469] = {
-		targetMap = "hxmg",
+	[20469] = { 
+		xls_id = 20469,
 		x = 48,
+		targetMap = "hxmg",
 		y = 34,
 	},
-	[20470] = {
-		targetMap = "kdtx",
+	[20470] = { 
+		xls_id = 20470,
 		x = 42,
+		targetMap = "kdtx",
 		y = 22,
 	},
-	[20471] = {
-		targetMap = "zjmh",
+	[20471] = { 
+		xls_id = 20471,
 		x = 54,
+		targetMap = "zjmh",
 		y = 47,
 	},
-	[20472] = {
-		targetMap = "hxmg",
+	[20472] = { 
+		xls_id = 20472,
 		x = 111,
+		targetMap = "hxmg",
 		y = 143,
 	},
-	[20473] = {
-		targetMap = "jfjd",
+	[20473] = { 
+		xls_id = 20473,
 		x = 45,
+		targetMap = "jfjd",
 		y = 50,
 	},
-	[20474] = {
-		targetMap = "zjmh",
+	[20474] = { 
+		xls_id = 20474,
 		x = 13,
+		targetMap = "zjmh",
 		y = 15,
 	},
-	[20475] = {
-		targetMap = "ygxjj",
+	[20475] = { 
+		xls_id = 20475,
 		x = 28,
+		targetMap = "ygxjj",
 		y = 113,
 	},
-	[20476] = {
-		targetMap = "ygxj",
+	[20476] = { 
+		xls_id = 20476,
 		x = 6,
+		targetMap = "ygxj",
 		y = 128,
 	},
-	[20477] = {
-		targetMap = "ygsl",
+	[20477] = { 
+		xls_id = 20477,
 		x = 15,
+		targetMap = "ygsl",
 		y = 12,
 	},
-	[20478] = {
-		targetMap = "ygxjj",
+	[20478] = { 
+		xls_id = 20478,
 		x = 29,
+		targetMap = "ygxjj",
 		y = 68,
 	},
-	[20479] = {
-		targetMap = "xjgm",
+	[20479] = { 
+		xls_id = 20479,
 		x = 99,
+		targetMap = "xjgm",
 		y = 19,
 	},
-	[20480] = {
-		targetMap = "ygsl",
+	[20480] = { 
+		xls_id = 20480,
 		x = 52,
+		targetMap = "ygsl",
 		y = 82,
 	},
-	[20481] = {
-		targetMap = "hysj",
+	[20481] = { 
+		xls_id = 20481,
 		x = 11,
+		targetMap = "hysj",
 		y = 107,
 	},
-	[20482] = {
-		targetMap = "ygsl",
+	[20482] = { 
+		xls_id = 20482,
 		x = 9,
+		targetMap = "ygsl",
 		y = 62,
 	},
-	[20483] = {
-		targetMap = "jyg",
+	[20483] = { 
+		xls_id = 20483,
 		x = 7,
+		targetMap = "jyg",
 		y = 47,
 	},
-	[20484] = {
-		targetMap = "hysj",
+	[20484] = { 
+		xls_id = 20484,
 		x = 43,
+		targetMap = "hysj",
 		y = 6,
 	},
-	[20485] = {
-		targetMap = "mhcx",
+	[20485] = { 
+		xls_id = 20485,
 		x = 9,
+		targetMap = "mhcx",
 		y = 75,
 	},
-	[20486] = {
-		targetMap = "jyg",
+	[20486] = { 
+		xls_id = 20486,
 		x = 35,
+		targetMap = "jyg",
 		y = 27,
 	},
-	[20487] = {
-		targetMap = "jygzd",
+	[20487] = { 
+		xls_id = 20487,
 		x = 5,
+		targetMap = "jygzd",
 		y = 78,
 	},
-	[20488] = {
-		targetMap = "jyg",
+	[20488] = { 
+		xls_id = 20488,
 		x = 5,
+		targetMap = "jyg",
 		y = 17,
 	},
-	[20489] = {
-		targetMap = "3dl",
+	[20489] = { 
+		xls_id = 20489,
 		x = 63,
+		targetMap = "3dl",
 		y = 217,
 	},
-	[20490] = {
-		targetMap = "pxml",
+	[20490] = { 
+		xls_id = 20490,
 		x = 21,
+		targetMap = "pxml",
 		y = 207,
 	},
-	[20491] = {
-		targetMap = "szp",
+	[20491] = { 
+		xls_id = 20491,
 		x = 7,
+		targetMap = "szp",
 		y = 104,
 	},
-	[20492] = {
-		targetMap = "ylg",
+	[20492] = { 
+		xls_id = 20492,
 		x = 12,
+		targetMap = "ylg",
 		y = 146,
 	},
-	[20493] = {
-		targetMap = "pxml",
+	[20493] = { 
+		xls_id = 20493,
 		x = 19,
+		targetMap = "pxml",
 		y = 104,
 	},
-	[20494] = {
-		targetMap = "glzc",
+	[20494] = { 
+		xls_id = 20494,
 		x = 103,
+		targetMap = "glzc",
 		y = 26,
 	},
-	[20495] = {
-		targetMap = "ylg",
+	[20495] = { 
+		xls_id = 20495,
 		x = 23,
+		targetMap = "ylg",
 		y = 13,
 	},
-	[20496] = {
-		targetMap = "szlk",
+	[20496] = { 
+		xls_id = 20496,
 		x = 9,
+		targetMap = "szlk",
 		y = 133,
 	},
-	[20497] = {
-		targetMap = "szp",
+	[20497] = { 
+		xls_id = 20497,
 		x = 115,
+		targetMap = "szp",
 		y = 19,
 	},
-	[20498] = {
-		targetMap = "sjxj",
+	[20498] = { 
+		xls_id = 20498,
 		x = 142,
+		targetMap = "sjxj",
 		y = 99,
 	},
-	[20499] = {
-		targetMap = "szlk",
+	[20499] = { 
+		xls_id = 20499,
 		x = 96,
+		targetMap = "szlk",
 		y = 8,
 	},
-	[20500] = {
-		targetMap = "ssl",
+	[20500] = { 
+		xls_id = 20500,
 		x = 36,
+		targetMap = "ssl",
 		y = 61,
 	},
-	[20501] = {
-		targetMap = "sjxj",
+	[20501] = { 
+		xls_id = 20501,
 		x = 10,
+		targetMap = "sjxj",
 		y = 14,
 	},
-	[20502] = {
-		targetMap = "syl",
+	[20502] = { 
+		xls_id = 20502,
 		x = 64,
+		targetMap = "syl",
 		y = 36,
 	},
-	[20503] = {
-		targetMap = "ssl",
+	[20503] = { 
+		xls_id = 20503,
 		x = 40,
+		targetMap = "ssl",
 		y = 33,
 	},
-	[20504] = {
-		targetMap = "pm",
+	[20504] = { 
+		xls_id = 20504,
 		x = 72,
+		targetMap = "pm",
 		y = 179,
 	},
-	[20505] = {
-		targetMap = "ssl",
+	[20505] = { 
+		xls_id = 20505,
 		x = 37,
+		targetMap = "ssl",
 		y = 14,
 	},
-	[20506] = {
-		targetMap = "yld",
+	[20506] = { 
+		xls_id = 20506,
 		x = 14,
+		targetMap = "yld",
 		y = 48,
 	},
-	[20507] = {
-		targetMap = "pm",
+	[20507] = { 
+		xls_id = 20507,
 		x = 35,
+		targetMap = "pm",
 		y = 46,
 	},
-	[20508] = {
-		targetMap = "3dl",
+	[20508] = { 
+		xls_id = 20508,
 		x = 140,
+		targetMap = "3dl",
 		y = 245,
 	},
-	[20509] = {
-		targetMap = "ymsg",
+	[20509] = { 
+		xls_id = 20509,
 		x = 7,
+		targetMap = "ymsg",
 		y = 207,
 	},
-	[20510] = {
-		targetMap = "khl",
+	[20510] = { 
+		xls_id = 20510,
 		x = 6,
+		targetMap = "khl",
 		y = 13,
 	},
-	[20511] = {
-		targetMap = "mlsc",
+	[20511] = { 
+		xls_id = 20511,
 		x = 68,
+		targetMap = "mlsc",
 		y = 101,
 	},
-	[20512] = {
-		targetMap = "ymsg",
+	[20512] = { 
+		xls_id = 20512,
 		x = 15,
+		targetMap = "ymsg",
 		y = 8,
 	},
-	[20513] = {
-		targetMap = "khlsz",
+	[20513] = { 
+		xls_id = 20513,
 		x = 122,
+		targetMap = "khlsz",
 		y = 127,
 	},
-	[20514] = {
-		targetMap = "mlsc",
+	[20514] = { 
+		xls_id = 20514,
 		x = 63,
+		targetMap = "mlsc",
 		y = 17,
 	},
-	[20515] = {
-		targetMap = "llxj",
+	[20515] = { 
+		xls_id = 20515,
 		x = 16,
+		targetMap = "llxj",
 		y = 82,
 	},
-	[20516] = {
-		targetMap = "khl",
+	[20516] = { 
+		xls_id = 20516,
 		x = 14,
+		targetMap = "khl",
 		y = 99,
 	},
-	[20517] = {
-		targetMap = "jhmc",
+	[20517] = { 
+		xls_id = 20517,
 		x = 36,
+		targetMap = "jhmc",
 		y = 104,
 	},
-	[20518] = {
-		targetMap = "llxj",
+	[20518] = { 
+		xls_id = 20518,
 		x = 82,
+		targetMap = "llxj",
 		y = 92,
 	},
-	[20519] = {
-		targetMap = "xsys",
+	[20519] = { 
+		xls_id = 20519,
 		x = 90,
+		targetMap = "xsys",
 		y = 97,
 	},
-	[20520] = {
-		targetMap = "jhmc",
+	[20520] = { 
+		xls_id = 20520,
 		x = 68,
+		targetMap = "jhmc",
 		y = 49,
 	},
-	[20521] = {
-		targetMap = "jhjg",
+	[20521] = { 
+		xls_id = 20521,
 		x = 20,
+		targetMap = "jhjg",
 		y = 176,
 	},
-	[20522] = {
-		targetMap = "llxj",
+	[20522] = { 
+		xls_id = 20522,
 		x = 89,
+		targetMap = "llxj",
 		y = 18,
 	},
-	[20523] = {
-		targetMap = "jgmd",
+	[20523] = { 
+		xls_id = 20523,
 		x = 16,
+		targetMap = "jgmd",
 		y = 175,
 	},
-	[20524] = {
-		targetMap = "jhjg",
+	[20524] = { 
+		xls_id = 20524,
 		x = 199,
+		targetMap = "jhjg",
 		y = 43,
 	},
-	[20525] = {
-		targetMap = "yadx",
+	[20525] = { 
+		xls_id = 20525,
 		x = 60,
+		targetMap = "yadx",
 		y = 43,
 	},
-	[20526] = {
-		targetMap = "jgmd",
+	[20526] = { 
+		xls_id = 20526,
 		x = 160,
+		targetMap = "jgmd",
 		y = 112,
 	},
-	[20527] = {
-		targetMap = "ftcx",
+	[20527] = { 
+		xls_id = 20527,
 		x = 107,
+		targetMap = "ftcx",
 		y = 95,
 	},
-	[20528] = {
-		targetMap = "yadx",
+	[20528] = { 
+		xls_id = 20528,
 		x = 37,
+		targetMap = "yadx",
 		y = 143,
 	},
-	[20529] = {
-		targetMap = "4dl2",
+	[20529] = { 
+		xls_id = 20529,
 		x = 99,
+		targetMap = "4dl2",
 		y = 15,
 	},
-	[20530] = {
-		targetMap = "qfsk",
+	[20530] = { 
+		xls_id = 20530,
 		x = 82,
+		targetMap = "qfsk",
 		y = 88,
 	},
-	[20531] = {
-		targetMap = "qfs",
+	[20531] = { 
+		xls_id = 20531,
 		x = 120,
+		targetMap = "qfs",
 		y = 24,
 	},
-	[20532] = {
-		targetMap = "yyd",
+	[20532] = { 
+		xls_id = 20532,
 		x = 23,
+		targetMap = "yyd",
 		y = 70,
 	},
-	[20533] = {
-		targetMap = "qfsk",
+	[20533] = { 
+		xls_id = 20533,
 		x = 21,
+		targetMap = "qfsk",
 		y = 83,
 	},
-	[20534] = {
-		targetMap = "qfsgd",
+	[20534] = { 
+		xls_id = 20534,
 		x = 25,
+		targetMap = "qfsgd",
 		y = 105,
 	},
-	[20535] = {
-		targetMap = "yyd",
+	[20535] = { 
+		xls_id = 20535,
 		x = 29,
+		targetMap = "yyd",
 		y = 26,
 	},
-	[20536] = {
-		targetMap = "qfsgc",
+	[20536] = { 
+		xls_id = 20536,
 		x = 126,
+		targetMap = "qfsgc",
 		y = 80,
 	},
-	[20537] = {
-		targetMap = "yyd",
+	[20537] = { 
+		xls_id = 20537,
 		x = 86,
+		targetMap = "yyd",
 		y = 18,
 	},
-	[20538] = {
-		targetMap = "qfz",
+	[20538] = { 
+		xls_id = 20538,
 		x = 50,
+		targetMap = "qfz",
 		y = 12,
 	},
-	[20539] = {
-		targetMap = "qfsgc",
+	[20539] = { 
+		xls_id = 20539,
 		x = 42,
+		targetMap = "qfsgc",
 		y = 82,
 	},
-	[20540] = {
-		targetMap = "yhgc",
+	[20540] = { 
+		xls_id = 20540,
 		x = 118,
+		targetMap = "yhgc",
 		y = 124,
 	},
-	[20541] = {
-		targetMap = "qfz",
+	[20541] = { 
+		xls_id = 20541,
 		x = 65,
+		targetMap = "qfz",
 		y = 58,
 	},
-	[20542] = {
-		targetMap = "qfskm",
+	[20542] = { 
+		xls_id = 20542,
 		x = 12,
+		targetMap = "qfskm",
 		y = 145,
 	},
-	[20543] = {
-		targetMap = "qfs",
+	[20543] = { 
+		xls_id = 20543,
 		x = 184,
+		targetMap = "qfs",
 		y = 85,
 	},
-	[20544] = {
-		targetMap = "qfmd",
+	[20544] = { 
+		xls_id = 20544,
 		x = 60,
+		targetMap = "qfmd",
 		y = 43,
 	},
-	[20545] = {
-		targetMap = "qfskm",
+	[20545] = { 
+		xls_id = 20545,
 		x = 212,
+		targetMap = "qfskm",
 		y = 111,
 	},
-	[20546] = {
-		targetMap = "yghs",
+	[20546] = { 
+		xls_id = 20546,
 		x = 32,
+		targetMap = "yghs",
 		y = 113,
 	},
-	[20547] = {
-		targetMap = "qfmd",
+	[20547] = { 
+		xls_id = 20547,
 		x = 178,
+		targetMap = "qfmd",
 		y = 73,
 	},
-	[20548] = {
-		targetMap = "smzm",
+	[20548] = { 
+		xls_id = 20548,
 		x = 118,
+		targetMap = "smzm",
 		y = 111,
 	},
-	[20549] = {
-		targetMap = "yghs",
+	[20549] = { 
+		xls_id = 20549,
 		x = 29,
+		targetMap = "yghs",
 		y = 69,
 	},
-	[20550] = {
-		targetMap = "4dl2",
+	[20550] = { 
+		xls_id = 20550,
 		x = 4,
+		targetMap = "4dl2",
 		y = 11,
 	},
-	[20551] = {
-		targetMap = "clsg",
+	[20551] = { 
+		xls_id = 20551,
 		x = 66,
+		targetMap = "clsg",
 		y = 71,
 	},
-	[20552] = {
-		targetMap = "jyl",
+	[20552] = { 
+		xls_id = 20552,
 		x = 11,
+		targetMap = "jyl",
 		y = 14,
 	},
-	[20553] = {
-		targetMap = "qhxg",
+	[20553] = { 
+		xls_id = 20553,
 		x = 15,
+		targetMap = "qhxg",
 		y = 86,
 	},
-	[20554] = {
-		targetMap = "clsg",
+	[20554] = { 
+		xls_id = 20554,
 		x = 55,
+		targetMap = "clsg",
 		y = 19,
 	},
-	[20555] = {
-		targetMap = "smql",
+	[20555] = { 
+		xls_id = 20555,
 		x = 9,
+		targetMap = "smql",
 		y = 75,
 	},
-	[20556] = {
-		targetMap = "qhxg",
+	[20556] = { 
+		xls_id = 20556,
 		x = 5,
+		targetMap = "qhxg",
 		y = 16,
 	},
-	[20557] = {
-		targetMap = "jylsz",
+	[20557] = { 
+		xls_id = 20557,
 		x = 51,
+		targetMap = "jylsz",
 		y = 92,
 	},
-	[20558] = {
-		targetMap = "smql",
+	[20558] = { 
+		xls_id = 20558,
 		x = 72,
+		targetMap = "smql",
 		y = 18,
 	},
-	[20559] = {
-		targetMap = "jylml",
+	[20559] = { 
+		xls_id = 20559,
 		x = 52,
+		targetMap = "jylml",
 		y = 82,
 	},
-	[20560] = {
-		targetMap = "jyl",
+	[20560] = { 
+		xls_id = 20560,
 		x = 51,
+		targetMap = "jyl",
 		y = 61,
 	},
-	[20561] = {
-		targetMap = "jylgd",
+	[20561] = { 
+		xls_id = 20561,
 		x = 6,
+		targetMap = "jylgd",
 		y = 64,
 	},
-	[20562] = {
-		targetMap = "jylml",
+	[20562] = { 
+		xls_id = 20562,
 		x = 15,
+		targetMap = "jylml",
 		y = 12,
 	},
-	[20563] = {
-		targetMap = "mwsl",
+	[20563] = { 
+		xls_id = 20563,
 		x = 90,
+		targetMap = "mwsl",
 		y = 83,
 	},
-	[20564] = {
-		targetMap = "jylgd",
+	[20564] = { 
+		xls_id = 20564,
 		x = 64,
+		targetMap = "jylgd",
 		y = 6,
 	},
-	[20565] = {
-		targetMap = "4dl2",
+	[20565] = { 
+		xls_id = 20565,
 		x = 34,
+		targetMap = "4dl2",
 		y = 72,
 	},
-	[20566] = {
-		targetMap = "hfhy",
+	[20566] = { 
+		xls_id = 20566,
 		x = 18,
+		targetMap = "hfhy",
 		y = 114,
 	},
-	[20567] = {
-		targetMap = "hfk",
+	[20567] = { 
+		xls_id = 20567,
 		x = 92,
+		targetMap = "hfk",
 		y = 129,
 	},
-	[20568] = {
-		targetMap = "hfzz",
+	[20568] = { 
+		xls_id = 20568,
 		x = 8,
+		targetMap = "hfzz",
 		y = 79,
 	},
-	[20569] = {
-		targetMap = "hfhy",
+	[20569] = { 
+		xls_id = 20569,
 		x = 142,
+		targetMap = "hfhy",
 		y = 19,
 	},
-	[20570] = {
-		targetMap = "hfmj",
+	[20570] = { 
+		xls_id = 20570,
 		x = 91,
+		targetMap = "hfmj",
 		y = 100,
 	},
-	[20571] = {
-		targetMap = "hfzz",
+	[20571] = { 
+		xls_id = 20571,
 		x = 23,
+		targetMap = "hfzz",
 		y = 24,
 	},
-	[20572] = {
-		targetMap = "hfxg",
+	[20572] = { 
+		xls_id = 20572,
 		x = 62,
+		targetMap = "hfxg",
 		y = 17,
 	},
-	[20573] = {
-		targetMap = "hfk",
+	[20573] = { 
+		xls_id = 20573,
 		x = 177,
+		targetMap = "hfk",
 		y = 73,
 	},
-	[20574] = {
-		targetMap = "half",
+	[20574] = { 
+		xls_id = 20574,
 		x = 17,
+		targetMap = "half",
 		y = 85,
 	},
-	[20575] = {
-		targetMap = "hfxg",
+	[20575] = { 
+		xls_id = 20575,
 		x = 101,
+		targetMap = "hfxg",
 		y = 71,
 	},
-	[20576] = {
-		targetMap = "kfg",
+	[20576] = { 
+		xls_id = 20576,
 		x = 129,
+		targetMap = "kfg",
 		y = 91,
 	},
-	[20577] = {
-		targetMap = "half",
+	[20577] = { 
+		xls_id = 20577,
 		x = 79,
+		targetMap = "half",
 		y = 86,
 	},
-	[20578] = {
-		targetMap = "hfz",
+	[20578] = { 
+		xls_id = 20578,
 		x = 72,
+		targetMap = "hfz",
 		y = 24,
 	},
-	[20579] = {
-		targetMap = "kfg",
+	[20579] = { 
+		xls_id = 20579,
 		x = 76,
+		targetMap = "kfg",
 		y = 11,
 	},
-	[20580] = {
-		targetMap = "hjmg",
+	[20580] = { 
+		xls_id = 20580,
 		x = 5,
+		targetMap = "hjmg",
 		y = 61,
 	},
-	[20581] = {
-		targetMap = "kfg",
+	[20581] = { 
+		xls_id = 20581,
 		x = 37,
+		targetMap = "kfg",
 		y = 104,
 	},
-	[20582] = {
-		targetMap = "ywzdd",
+	[20582] = { 
+		xls_id = 20582,
 		x = 9,
+		targetMap = "ywzdd",
 		y = 35,
 	},
-	[20583] = {
-		targetMap = "hjmg",
+	[20583] = { 
+		xls_id = 20583,
 		x = 53,
+		targetMap = "hjmg",
 		y = 16,
 	},
-	[20584] = {
-		targetMap = "hjmg",
+	[20584] = { 
+		xls_id = 20584,
 		x = 90,
+		targetMap = "hjmg",
 		y = 44,
 	},
-	[20585] = {
-		targetMap = "hjmg",
+	[20585] = { 
+		xls_id = 20585,
 		x = 27,
+		targetMap = "hjmg",
 		y = 43,
 	},
-	[20586] = {
-		targetMap = "4dl2",
+	[20586] = { 
+		xls_id = 20586,
 		x = 96,
+		targetMap = "4dl2",
 		y = 96,
 	},
-	[20587] = {
-		targetMap = "dyyg",
+	[20587] = { 
+		xls_id = 20587,
 		x = 4,
+		targetMap = "dyyg",
 		y = 79,
 	},
-	[20588] = {
-		targetMap = "dys",
+	[20588] = { 
+		xls_id = 20588,
 		x = 76,
+		targetMap = "dys",
 		y = 57,
 	},
-	[20589] = {
-		targetMap = "yyg",
+	[20589] = { 
+		xls_id = 20589,
 		x = 4,
+		targetMap = "yyg",
 		y = 18,
 	},
-	[20590] = {
-		targetMap = "dyyg",
+	[20590] = { 
+		xls_id = 20590,
 		x = 4,
+		targetMap = "dyyg",
 		y = 5,
 	},
-	[20591] = {
-		targetMap = "yysg",
+	[20591] = { 
+		xls_id = 20591,
 		x = 40,
+		targetMap = "yysg",
 		y = 58,
 	},
-	[20592] = {
-		targetMap = "yyg",
+	[20592] = { 
+		xls_id = 20592,
 		x = 30,
+		targetMap = "yyg",
 		y = 12,
 	},
-	[20593] = {
-		targetMap = "syxg",
+	[20593] = { 
+		xls_id = 20593,
 		x = 62,
+		targetMap = "syxg",
 		y = 85,
 	},
-	[20594] = {
-		targetMap = "yysg",
+	[20594] = { 
+		xls_id = 20594,
 		x = 33,
+		targetMap = "yysg",
 		y = 27,
 	},
-	[20595] = {
-		targetMap = "yyfc",
+	[20595] = { 
+		xls_id = 20595,
 		x = 183,
+		targetMap = "yyfc",
 		y = 182,
 	},
-	[20596] = {
-		targetMap = "syxg",
+	[20596] = { 
+		xls_id = 20596,
 		x = 60,
+		targetMap = "syxg",
 		y = 19,
 	},
-	[20597] = {
-		targetMap = "cysl",
+	[20597] = { 
+		xls_id = 20597,
 		x = 205,
+		targetMap = "cysl",
 		y = 187,
 	},
-	[20598] = {
-		targetMap = "dys",
+	[20598] = { 
+		xls_id = 20598,
 		x = 137,
+		targetMap = "dys",
 		y = 30,
 	},
-	[20599] = {
-		targetMap = "yzmj",
+	[20599] = { 
+		xls_id = 20599,
 		x = 13,
+		targetMap = "yzmj",
 		y = 144,
 	},
-	[20600] = {
-		targetMap = "cysl",
+	[20600] = { 
+		xls_id = 20600,
 		x = 113,
+		targetMap = "cysl",
 		y = 137,
 	},
-	[20601] = {
-		targetMap = "dysnz",
+	[20601] = { 
+		xls_id = 20601,
 		x = 49,
+		targetMap = "dysnz",
 		y = 131,
 	},
-	[20602] = {
-		targetMap = "yzmj",
+	[20602] = { 
+		xls_id = 20602,
 		x = 215,
+		targetMap = "yzmj",
 		y = 114,
 	},
-	[20603] = {
-		targetMap = "dysbz",
+	[20603] = { 
+		xls_id = 20603,
 		x = 18,
+		targetMap = "dysbz",
 		y = 122,
 	},
-	[20604] = {
-		targetMap = "yzmj",
+	[20604] = { 
+		xls_id = 20604,
 		x = 95,
+		targetMap = "yzmj",
 		y = 23,
 	},
-	[20605] = {
-		targetMap = "yjbz",
+	[20605] = { 
+		xls_id = 20605,
 		x = 43,
+		targetMap = "yjbz",
 		y = 43,
 	},
-	[20606] = {
-		targetMap = "dysbz",
+	[20606] = { 
+		xls_id = 20606,
 		x = 116,
+		targetMap = "dysbz",
 		y = 24,
 	},
-	[20607] = {
-		targetMap = "5dl",
+	[20607] = { 
+		xls_id = 20607,
 		x = 80,
+		targetMap = "5dl",
 		y = 133,
 	},
-	[20608] = {
-		targetMap = "pyhp",
+	[20608] = { 
+		xls_id = 20608,
 		x = 48,
+		targetMap = "pyhp",
 		y = 47,
 	},
-	[20609] = {
-		targetMap = "pyh",
+	[20609] = { 
+		xls_id = 20609,
 		x = 99,
+		targetMap = "pyh",
 		y = 51,
 	},
-	[20610] = {
-		targetMap = "hxmj",
+	[20610] = { 
+		xls_id = 20610,
 		x = 125,
+		targetMap = "hxmj",
 		y = 58,
 	},
-	[20611] = {
-		targetMap = "pyhp",
+	[20611] = { 
+		xls_id = 20611,
 		x = 14,
+		targetMap = "pyhp",
 		y = 31,
 	},
-	[20612] = {
-		targetMap = "pyhzy",
+	[20612] = { 
+		xls_id = 20612,
 		x = 149,
+		targetMap = "pyhzy",
 		y = 47,
 	},
-	[20613] = {
+	[20613] = { 
+		xls_id = 20613,
+		x = 11,
 		targetMap = "hxmj",
-		x = 11,
 		y = 57,
 	},
-	[20614] = {
+	[20614] = { 
+		xls_id = 20614,
+		x = 11,
 		targetMap = "sdbz",
-		x = 11,
 		y = 57,
 	},
-	[20615] = {
-		targetMap = "pyhzy",
+	[20615] = { 
+		xls_id = 20615,
 		x = 8,
+		targetMap = "pyhzy",
 		y = 30,
 	},
-	[20616] = {
-		targetMap = "smsy",
+	[20616] = { 
+		xls_id = 20616,
 		x = 14,
+		targetMap = "smsy",
 		y = 86,
 	},
-	[20617] = {
-		targetMap = "pyh",
+	[20617] = { 
+		xls_id = 20617,
 		x = 19,
+		targetMap = "pyh",
 		y = 104,
 	},
-	[20618] = {
-		targetMap = "zzzd",
+	[20618] = { 
+		xls_id = 20618,
 		x = 86,
+		targetMap = "zzzd",
 		y = 28,
 	},
-	[20619] = {
-		targetMap = "smsy",
+	[20619] = { 
+		xls_id = 20619,
 		x = 93,
+		targetMap = "smsy",
 		y = 10,
 	},
-	[20620] = {
-		targetMap = "syzy",
+	[20620] = { 
+		xls_id = 20620,
 		x = 108,
+		targetMap = "syzy",
 		y = 195,
 	},
-	[20621] = {
-		targetMap = "zzzd",
+	[20621] = { 
+		xls_id = 20621,
 		x = 8,
+		targetMap = "zzzd",
 		y = 113,
 	},
-	[20622] = {
-		targetMap = "ymmj",
+	[20622] = { 
+		xls_id = 20622,
 		x = 3,
+		targetMap = "ymmj",
 		y = 50,
 	},
-	[20623] = {
-		targetMap = "syzy",
+	[20623] = { 
+		xls_id = 20623,
 		x = 20,
+		targetMap = "syzy",
 		y = 134,
 	},
-	[20624] = {
-		targetMap = "ssmj",
+	[20624] = { 
+		xls_id = 20624,
 		x = 168,
+		targetMap = "ssmj",
 		y = 130,
 	},
-	[20625] = {
-		targetMap = "syzy",
+	[20625] = { 
+		xls_id = 20625,
 		x = 96,
+		targetMap = "syzy",
 		y = 28,
 	},
-	[20626] = {
-		targetMap = "5dl",
+	[20626] = { 
+		xls_id = 20626,
 		x = 133,
+		targetMap = "5dl",
 		y = 125,
 	},
-	[20627] = {
-		targetMap = "xyjb",
+	[20627] = { 
+		xls_id = 20627,
 		x = 25,
+		targetMap = "xyjb",
 		y = 72,
 	},
-	[20628] = {
-		targetMap = "xyj",
+	[20628] = { 
+		xls_id = 20628,
 		x = 99,
+		targetMap = "xyj",
 		y = 99,
 	},
-	[20629] = {
-		targetMap = "xyyc",
+	[20629] = { 
+		xls_id = 20629,
 		x = 69,
+		targetMap = "xyyc",
 		y = 104,
 	},
-	[20630] = {
-		targetMap = "xyjb",
+	[20630] = { 
+		xls_id = 20630,
 		x = 27,
+		targetMap = "xyjb",
 		y = 6,
 	},
-	[20631] = {
-		targetMap = "xysl",
+	[20631] = { 
+		xls_id = 20631,
 		x = 88,
+		targetMap = "xysl",
 		y = 84,
 	},
-	[20632] = {
-		targetMap = "xyyc",
+	[20632] = { 
+		xls_id = 20632,
 		x = 7,
+		targetMap = "xyyc",
 		y = 6,
 	},
-	[20633] = {
-		targetMap = "pgdk",
+	[20633] = { 
+		xls_id = 20633,
 		x = 51,
+		targetMap = "pgdk",
 		y = 94,
 	},
-	[20634] = {
-		targetMap = "xyjb",
+	[20634] = { 
+		xls_id = 20634,
 		x = 34,
+		targetMap = "xyjb",
 		y = 39,
 	},
-	[20635] = {
-		targetMap = "xysz",
+	[20635] = { 
+		xls_id = 20635,
 		x = 32,
+		targetMap = "xysz",
 		y = 114,
 	},
-	[20636] = {
-		targetMap = "pgdk",
+	[20636] = { 
+		xls_id = 20636,
 		x = 24,
+		targetMap = "pgdk",
 		y = 6,
 	},
-	[20637] = {
-		targetMap = "jszy",
+	[20637] = { 
+		xls_id = 20637,
 		x = 137,
+		targetMap = "jszy",
 		y = 141,
 	},
-	[20638] = {
-		targetMap = "xysz",
+	[20638] = { 
+		xls_id = 20638,
 		x = 53,
+		targetMap = "xysz",
 		y = 19,
 	},
-	[20639] = {
-		targetMap = "ylch",
+	[20639] = { 
+		xls_id = 20639,
 		x = 23,
+		targetMap = "ylch",
 		y = 113,
 	},
-	[20640] = {
-		targetMap = "jszy",
+	[20640] = { 
+		xls_id = 20640,
 		x = 93,
+		targetMap = "jszy",
 		y = 79,
 	},
-	[20641] = {
-		targetMap = "jbgd",
+	[20641] = { 
+		xls_id = 20641,
 		x = 27,
+		targetMap = "jbgd",
 		y = 20,
 	},
-	[20642] = {
-		targetMap = "xyj",
+	[20642] = { 
+		xls_id = 20642,
 		x = 6,
+		targetMap = "xyj",
 		y = 6,
 	},
-	[20643] = {
-		targetMap = "jpgc",
+	[20643] = { 
+		xls_id = 20643,
 		x = 5,
+		targetMap = "jpgc",
 		y = 101,
 	},
-	[20644] = {
-		targetMap = "jbgd",
+	[20644] = { 
+		xls_id = 20644,
 		x = 113,
+		targetMap = "jbgd",
 		y = 135,
 	},
-	[20645] = {
-		targetMap = "lqgs",
+	[20645] = { 
+		xls_id = 20645,
 		x = 14,
+		targetMap = "lqgs",
 		y = 34,
 	},
-	[20646] = {
-		targetMap = "jpgc",
+	[20646] = { 
+		xls_id = 20646,
 		x = 88,
+		targetMap = "jpgc",
 		y = 23,
 	},
-	[20647] = {
-		targetMap = "xyyj",
+	[20647] = { 
+		xls_id = 20647,
 		x = 61,
+		targetMap = "xyyj",
 		y = 30,
 	},
-	[20648] = {
-		targetMap = "lqgs",
+	[20648] = { 
+		xls_id = 20648,
 		x = 48,
+		targetMap = "lqgs",
 		y = 103,
 	},
-	[20649] = {
-		targetMap = "xyzc",
+	[20649] = { 
+		xls_id = 20649,
 		x = 5,
+		targetMap = "xyzc",
 		y = 60,
 	},
-	[20650] = {
-		targetMap = "xyyj",
+	[20650] = { 
+		xls_id = 20650,
 		x = 56,
+		targetMap = "xyyj",
 		y = 76,
 	},
-	[20651] = {
-		targetMap = "5dl",
+	[20651] = { 
+		xls_id = 20651,
 		x = 118,
+		targetMap = "5dl",
 		y = 18,
 	},
-	[20652] = {
-		targetMap = "zjzqz",
+	[20652] = { 
+		xls_id = 20652,
 		x = 128,
+		targetMap = "zjzqz",
 		y = 80,
 	},
-	[20653] = {
-		targetMap = "zjz",
+	[20653] = { 
+		xls_id = 20653,
 		x = 73,
+		targetMap = "zjz",
 		y = 94,
 	},
-	[20654] = {
-		targetMap = "zjzpz",
+	[20654] = { 
+		xls_id = 20654,
 		x = 110,
+		targetMap = "zjzpz",
 		y = 48,
 	},
-	[20655] = {
-		targetMap = "zjzqz",
+	[20655] = { 
+		xls_id = 20655,
 		x = 65,
+		targetMap = "zjzqz",
 		y = 103,
 	},
-	[20656] = {
-		targetMap = "zjzs",
+	[20656] = { 
+		xls_id = 20656,
 		x = 45,
+		targetMap = "zjzs",
 		y = 50,
 	},
-	[20657] = {
-		targetMap = "zjzpz",
+	[20657] = { 
+		xls_id = 20657,
 		x = 77,
+		targetMap = "zjzpz",
 		y = 99,
 	},
-	[20658] = {
-		targetMap = "zqmd",
+	[20658] = { 
+		xls_id = 20658,
 		x = 110,
+		targetMap = "zqmd",
 		y = 149,
 	},
-	[20659] = {
-		targetMap = "zjz",
+	[20659] = { 
+		xls_id = 20659,
 		x = 116,
+		targetMap = "zjz",
 		y = 33,
 	},
-	[20660] = {
-		targetMap = "ymtd",
+	[20660] = { 
+		xls_id = 20660,
 		x = 44,
+		targetMap = "ymtd",
 		y = 263,
 	},
-	[20661] = {
-		targetMap = "zqmd",
+	[20661] = { 
+		xls_id = 20661,
 		x = 132,
+		targetMap = "zqmd",
 		y = 46,
 	},
-	[20662] = {
-		targetMap = "zjjd",
+	[20662] = { 
+		xls_id = 20662,
 		x = 154,
+		targetMap = "zjjd",
 		y = 43,
 	},
-	[20663] = {
-		targetMap = "ymtd",
+	[20663] = { 
+		xls_id = 20663,
 		x = 90,
+		targetMap = "ymtd",
 		y = 46,
 	},
-	[20664] = {
-		targetMap = "msbz",
+	[20664] = { 
+		xls_id = 20664,
 		x = 43,
+		targetMap = "msbz",
 		y = 15,
 	},
-	[20665] = {
-		targetMap = "zjjd",
+	[20665] = { 
+		xls_id = 20665,
 		x = 116,
+		targetMap = "zjjd",
 		y = 229,
 	},
-	[20666] = {
-		targetMap = "zjbl",
+	[20666] = { 
+		xls_id = 20666,
 		x = 23,
+		targetMap = "zjbl",
 		y = 99,
 	},
-	[20667] = {
-		targetMap = "zqmd",
+	[20667] = { 
+		xls_id = 20667,
 		x = 212,
+		targetMap = "zqmd",
 		y = 126,
 	},
-	[20668] = {
-		targetMap = "zjzgd",
+	[20668] = { 
+		xls_id = 20668,
 		x = 37,
+		targetMap = "zjzgd",
 		y = 103,
 	},
-	[20669] = {
-		targetMap = "zjbl",
+	[20669] = { 
+		xls_id = 20669,
 		x = 94,
+		targetMap = "zjbl",
 		y = 28,
 	},
-	[20670] = {
-		targetMap = "ywdbz",
+	[20670] = { 
+		xls_id = 20670,
 		x = 10,
+		targetMap = "ywdbz",
 		y = 51,
 	},
-	[20671] = {
-		targetMap = "zjzgd",
+	[20671] = { 
+		xls_id = 20671,
 		x = 90,
+		targetMap = "zjzgd",
 		y = 51,
 	},
-	[20672] = {
-		targetMap = "5dl",
+	[20672] = { 
+		xls_id = 20672,
 		x = 19,
+		targetMap = "5dl",
 		y = 106,
 	},
-	[20673] = {
-		targetMap = "mdgc",
+	[20673] = { 
+		xls_id = 20673,
 		x = 35,
+		targetMap = "mdgc",
 		y = 81,
 	},
-	[20674] = {
-		targetMap = "mds",
+	[20674] = { 
+		xls_id = 20674,
 		x = 43,
+		targetMap = "mds",
 		y = 10,
 	},
-	[20675] = {
-		targetMap = "mdjg",
+	[20675] = { 
+		xls_id = 20675,
 		x = 72,
+		targetMap = "mdjg",
 		y = 44,
 	},
-	[20676] = {
-		targetMap = "mdgc",
+	[20676] = { 
+		xls_id = 20676,
 		x = 52,
+		targetMap = "mdgc",
 		y = 10,
 	},
-	[20677] = {
-		targetMap = "mdjy",
+	[20677] = { 
+		xls_id = 20677,
 		x = 15,
+		targetMap = "mdjy",
 		y = 117,
 	},
-	[20678] = {
-		targetMap = "mdjg",
+	[20678] = { 
+		xls_id = 20678,
 		x = 6,
+		targetMap = "mdjg",
 		y = 33,
 	},
-	[20679] = {
-		targetMap = "mdmj",
+	[20679] = { 
+		xls_id = 20679,
 		x = 15,
+		targetMap = "mdmj",
 		y = 50,
 	},
-	[20680] = {
-		targetMap = "mdjy",
+	[20680] = { 
+		xls_id = 20680,
 		x = 77,
+		targetMap = "mdjy",
 		y = 60,
 	},
-	[20681] = {
-		targetMap = "mdsk",
+	[20681] = { 
+		xls_id = 20681,
 		x = 6,
+		targetMap = "mdsk",
 		y = 33,
 	},
-	[20682] = {
-		targetMap = "mds",
+	[20682] = { 
+		xls_id = 20682,
 		x = 55,
+		targetMap = "mds",
 		y = 19,
 	},
-	[20683] = {
-		targetMap = "fypb",
+	[20683] = { 
+		xls_id = 20683,
 		x = 5,
+		targetMap = "fypb",
 		y = 31,
 	},
-	[20684] = {
-		targetMap = "mdsk",
+	[20684] = { 
+		xls_id = 20684,
 		x = 68,
+		targetMap = "mdsk",
 		y = 12,
 	},
-	[20685] = {
-		targetMap = "dsg",
+	[20685] = { 
+		xls_id = 20685,
 		x = 52,
+		targetMap = "dsg",
 		y = 82,
 	},
-	[20686] = {
-		targetMap = "fypb",
+	[20686] = { 
+		xls_id = 20686,
 		x = 60,
+		targetMap = "fypb",
 		y = 11,
 	},
-	[20687] = {
-		targetMap = "wslq",
+	[20687] = { 
+		xls_id = 20687,
 		x = 4,
+		targetMap = "wslq",
 		y = 103,
 	},
-	[20688] = {
-		targetMap = "dsg",
+	[20688] = { 
+		xls_id = 20688,
 		x = 9,
+		targetMap = "dsg",
 		y = 62,
 	},
-	[20689] = {
-		targetMap = 0150,
+	[20689] = { 
+		xls_id = 20689,
 		x = 15,
+		targetMap = 150,
 		y = 19,
 	},
-	[20690] = {
-		targetMap = 0150,
+	[20690] = { 
+		xls_id = 20690,
 		x = 16,
+		targetMap = 150,
 		y = 18,
 	},
-	[20691] = {
-		targetMap = 3,
+	[20691] = { 
+		xls_id = 20691,
 		x = 631,
+		targetMap = 3,
 		y = 275,
 	},
-	[20692] = {
-		targetMap = 3,
+	[20692] = { 
+		xls_id = 20692,
 		x = 632,
+		targetMap = 3,
 		y = 274,
 	},
-	[20693] = {
-		targetMap = 3,
+	[20693] = { 
+		xls_id = 20693,
 		x = 624,
+		targetMap = 3,
 		y = 271,
 	},
-	[20694] = {
-		targetMap = 0150,
+	[20694] = { 
+		xls_id = 20694,
 		x = 9,
+		targetMap = 150,
 		y = 23,
 	},
-	[20695] = {
-		targetMap = 0150,
+	[20695] = { 
+		xls_id = 20695,
 		x = 6,
+		targetMap = 150,
 		y = 21,
 	},
-	[20696] = {
-		targetMap = 0150,
+	[20696] = { 
+		xls_id = 20696,
 		x = 11,
+		targetMap = 150,
 		y = 22,
 	},
-	[20697] = {
-		targetMap = 0150,
+	[20697] = { 
+		xls_id = 20697,
 		x = 19,
+		targetMap = 150,
 		y = 14,
+	},
+	[20001] = { 
+		xls_id = 20001,
+		x = 34,
+		targetMap = "dt112",
+		y = 19,
+	},
+	[20002] = { 
+		xls_id = 20002,
+		x = 157,
+		targetMap = "dt113",
+		y = 186,
+	},
+	[20003] = { 
+		xls_id = 20003,
+		x = 20,
+		targetMap = "dt110",
+		y = 54,
+	},
+	[20004] = { 
+		xls_id = 20004,
+		x = 27,
+		targetMap = "dt113",
+		y = 35,
+	},
+	[20005] = { 
+		xls_id = 20005,
+		x = 80,
+		targetMap = "dt122",
+		y = 119,
+	},
+	[20006] = { 
+		xls_id = 20006,
+		x = 140,
+		targetMap = "dt113",
+		y = 32,
+	},
+	[20007] = { 
+		xls_id = 20007,
+		x = 20,
+		targetMap = "dt111",
+		y = 84,
+	},
+	[20008] = { 
+		xls_id = 20008,
+		x = 27,
+		targetMap = "dt113",
+		y = 192,
+	},
+	[20009] = { 
+		xls_id = 20009,
+		x = 3,
+		targetMap = "dt064",
+		y = 31,
+	},
+	[20010] = { 
+		xls_id = 20010,
+		x = 116,
+		targetMap = "dt122",
+		y = 7,
+	},
+	[20011] = { 
+		xls_id = 20011,
+		x = 100,
+		targetMap = "dt123",
+		y = 99,
+	},
+	[20012] = { 
+		xls_id = 20012,
+		x = 16,
+		targetMap = "dt122",
+		y = 24,
+	},
+	[20013] = { 
+		xls_id = 20013,
+		x = 119,
+		targetMap = "dt126",
+		y = 130,
+	},
+	[20014] = { 
+		xls_id = 20014,
+		x = 22,
+		targetMap = "dt122",
+		y = 114,
+	},
+	[20015] = { 
+		xls_id = 20015,
+		x = 336,
+		targetMap = "dt055",
+		y = 125,
+	},
+	[20016] = { 
+		xls_id = 20016,
+		x = 119,
+		targetMap = "dt122",
+		y = 116,
+	},
+	[20017] = { 
+		xls_id = 20017,
+		x = 116,
+		targetMap = "dt094",
+		y = 14,
+	},
+	[20018] = { 
+		xls_id = 20018,
+		x = 88,
+		targetMap = "dt122",
+		y = 53,
+	},
+	[20019] = { 
+		xls_id = 20019,
+		x = 15,
+		targetMap = "dt097",
+		y = 126,
+	},
+	[20020] = { 
+		xls_id = 20020,
+		x = 46,
+		targetMap = "dt122",
+		y = 69,
+	},
+	[20021] = { 
+		xls_id = 20021,
+		x = 133,
+		targetMap = "dt066",
+		y = 132,
+	},
+	[20022] = { 
+		xls_id = 20022,
+		x = 113,
+		targetMap = "dt126",
+		y = 21,
+	},
+	[20023] = { 
+		xls_id = 20023,
+		x = 155,
+		targetMap = "dt074",
+		y = 145,
+	},
+	[20024] = { 
+		xls_id = 20024,
+		x = 17,
+		targetMap = "dt126",
+		y = 115,
+	},
+	[20025] = { 
+		xls_id = 20025,
+		x = 13,
+		targetMap = "dt202",
+		y = 20,
+	},
+	[20026] = { 
+		xls_id = 20026,
+		x = 17,
+		targetMap = "dt126",
+		y = 115,
+	},
+	[20027] = { 
+		xls_id = 20027,
+		x = 42,
+		targetMap = "dt132",
+		y = 40,
+	},
+	[20028] = { 
+		xls_id = 20028,
+		x = 15,
+		targetMap = "dt126",
+		y = 17,
+	},
+	[20029] = { 
+		xls_id = 20029,
+		x = 447,
+		targetMap = "dt075",
+		y = 190,
+	},
+	[20030] = { 
+		xls_id = 20030,
+		x = 60,
+		targetMap = "dt126",
+		y = 59,
+	},
+	[20031] = { 
+		xls_id = 20031,
+		x = 99,
+		targetMap = "dt017",
+		y = 146,
+	},
+	[20032] = { 
+		xls_id = 20032,
+		x = 57,
+		targetMap = "dt075",
+		y = 68,
+	},
+	[20033] = { 
+		xls_id = 20033,
+		x = 111,
+		targetMap = "dt125",
+		y = 119,
+	},
+	[20034] = { 
+		xls_id = 20034,
+		x = 441,
+		targetMap = "dt075",
+		y = 65,
+	},
+	[20035] = { 
+		xls_id = 20035,
+		x = 107,
+		targetMap = "dt091",
+		y = 109,
+	},
+	[20036] = { 
+		xls_id = 20036,
+		x = 380,
+		targetMap = "dt075",
+		y = 420,
+	},
+	[20037] = { 
+		xls_id = 20037,
+		x = 94,
+		targetMap = "dt056",
+		y = 148,
+	},
+	[20038] = { 
+		xls_id = 20038,
+		x = 73,
+		targetMap = "dt075",
+		y = 445,
+	},
+	[20039] = { 
+		xls_id = 20039,
+		x = 109,
+		targetMap = "dt116",
+		y = 105,
+	},
+	[20040] = { 
+		xls_id = 20040,
+		x = 219,
+		targetMap = "dt075",
+		y = 198,
+	},
+	[20041] = { 
+		xls_id = 20041,
+		x = 23,
+		targetMap = "dt129",
+		y = 176,
+	},
+	[20042] = { 
+		xls_id = 20042,
+		x = 68,
+		targetMap = "dt047",
+		y = 20,
+	},
+	[20043] = { 
+		xls_id = 20043,
+		x = 19,
+		targetMap = "dt117",
+		y = 158,
+	},
+	[20044] = { 
+		xls_id = 20044,
+		x = 137,
+		targetMap = "dt129",
+		y = 36,
+	},
+	[20045] = { 
+		xls_id = 20045,
+		x = 86,
+		targetMap = "dt118",
+		y = 172,
+	},
+	[20046] = { 
+		xls_id = 20046,
+		x = 184,
+		targetMap = "dt117",
+		y = 18,
+	},
+	[20047] = { 
+		xls_id = 20047,
+		x = 171,
+		targetMap = "dt044",
+		y = 187,
+	},
+	[20048] = { 
+		xls_id = 20048,
+		x = 120,
+		targetMap = "dt118",
+		y = 134,
+	},
+	[20049] = { 
+		xls_id = 20049,
+		x = 38,
+		targetMap = "dt003",
+		y = 45,
+	},
+	[20050] = { 
+		xls_id = 20050,
+		x = 119,
+		targetMap = "dt044",
+		y = 27,
+	},
+	[20051] = { 
+		xls_id = 20051,
+		x = 37,
+		targetMap = "dt001",
+		y = 60,
+	},
+	[20052] = { 
+		xls_id = 20052,
+		x = 102,
+		targetMap = "dt044",
+		y = 36,
+	},
+	[20053] = { 
+		xls_id = 20053,
+		x = 25,
+		targetMap = "dt120",
+		y = 33,
+	},
+	[20054] = { 
+		xls_id = 20054,
+		x = 165,
+		targetMap = "dt129",
+		y = 63,
+	},
+	[20055] = { 
+		xls_id = 20055,
+		x = 25,
+		targetMap = "dt120",
+		y = 33,
+	},
+	[20056] = { 
+		xls_id = 20056,
+		x = 38,
+		targetMap = "dt120",
+		y = 21,
+	},
+	[20057] = { 
+		xls_id = 20057,
+		x = 25,
+		targetMap = "dt120",
+		y = 33,
+	},
+	[20058] = { 
+		xls_id = 20058,
+		x = 38,
+		targetMap = "dt120",
+		y = 47,
+	},
+	[20059] = { 
+		xls_id = 20059,
+		x = 25,
+		targetMap = "dt120",
+		y = 33,
+	},
+	[20060] = { 
+		xls_id = 20060,
+		x = 38,
+		targetMap = "dt120",
+		y = 21,
+	},
+	[20061] = { 
+		xls_id = 20061,
+		x = 25,
+		targetMap = "dt120",
+		y = 33,
+	},
+	[20062] = { 
+		xls_id = 20062,
+		x = 13,
+		targetMap = "dt120",
+		y = 46,
+	},
+	[20063] = { 
+		xls_id = 20063,
+		x = 125,
+		targetMap = "dt046",
+		y = 64,
+	},
+	[20064] = { 
+		xls_id = 20064,
+		x = 12,
+		targetMap = "dt120",
+		y = 21,
+	},
+	[20065] = { 
+		xls_id = 20065,
+		x = 195,
+		targetMap = "dt049",
+		y = 382,
+	},
+	[20066] = { 
+		xls_id = 20066,
+		x = 30,
+		targetMap = "dt046",
+		y = 24,
+	},
+	[20067] = { 
+		xls_id = 20067,
+		x = 37,
+		targetMap = "dt069",
+		y = 99,
+	},
+	[20068] = { 
+		xls_id = 20068,
+		x = 160,
+		targetMap = "dt047",
+		y = 138,
+	},
+	[20069] = { 
+		xls_id = 20069,
+		x = 95,
+		targetMap = "dt071",
+		y = 98,
+	},
+	[20070] = { 
+		xls_id = 20070,
+		x = 213,
+		targetMap = "dt069",
+		y = 42,
+	},
+	[20071] = { 
+		xls_id = 20071,
+		x = 71,
+		targetMap = "dt033",
+		y = 19,
+	},
+	[20072] = { 
+		xls_id = 20072,
+		x = 50,
+		targetMap = "dt071",
+		y = 48,
+	},
+	[20073] = { 
+		xls_id = 20073,
+		x = 34,
+		targetMap = "dt077",
+		y = 28,
+	},
+	[20074] = { 
+		xls_id = 20074,
+		x = 127,
+		targetMap = "dt033",
+		y = 67,
+	},
+	[20075] = { 
+		xls_id = 20075,
+		x = 281,
+		targetMap = "dt114",
+		y = 238,
+	},
+	[20076] = { 
+		xls_id = 20076,
+		x = 127,
+		targetMap = "dt033",
+		y = 95,
+	},
+	[20077] = { 
+		xls_id = 20077,
+		x = 10,
+		targetMap = "dt070",
+		y = 124,
+	},
+	[20078] = { 
+		xls_id = 20078,
+		x = 136,
+		targetMap = "dt069",
+		y = 53,
+	},
+	[20079] = { 
+		xls_id = 20079,
+		x = 38,
+		targetMap = "dt115",
+		y = 24,
+	},
+	[20080] = { 
+		xls_id = 20080,
+		x = 172,
+		targetMap = "dt070",
+		y = 111,
+	},
+	[20081] = { 
+		xls_id = 20081,
+		x = 112,
+		targetMap = "dt068",
+		y = 79,
+	},
+	[20082] = { 
+		xls_id = 20082,
+		x = 172,
+		targetMap = "dt115",
+		y = 177,
+	},
+	[20083] = { 
+		xls_id = 20083,
+		x = 212,
+		targetMap = "dt063",
+		y = 232,
+	},
+	[20084] = { 
+		xls_id = 20084,
+		x = 150,
+		targetMap = "dt115",
+		y = 58,
+	},
+	[20085] = { 
+		xls_id = 20085,
+		x = 98,
+		targetMap = "dt007",
+		y = 203,
+	},
+	[20086] = { 
+		xls_id = 20086,
+		x = 160,
+		targetMap = "dt047",
+		y = 20,
+	},
+	[20087] = { 
+		xls_id = 20087,
+		x = 187,
+		targetMap = "dt006",
+		y = 170,
+	},
+	[20088] = { 
+		xls_id = 20088,
+		x = 176,
+		targetMap = "dt007",
+		y = 24,
+	},
+	[20089] = { 
+		xls_id = 20089,
+		x = 13,
+		targetMap = "dt008",
+		y = 31,
+	},
+	[20090] = { 
+		xls_id = 20090,
+		x = 154,
+		targetMap = "dt006",
+		y = 41,
+	},
+	[20091] = { 
+		xls_id = 20091,
+		x = 33,
+		targetMap = "dt109",
+		y = 80,
+	},
+	[20092] = { 
+		xls_id = 20092,
+		x = 91,
+		targetMap = "dt008",
+		y = 10,
+	},
+	[20093] = { 
+		xls_id = 20093,
+		x = 84,
+		targetMap = "dt076",
+		y = 37,
+	},
+	[20094] = { 
+		xls_id = 20094,
+		x = 29,
+		targetMap = "dt007",
+		y = 21,
+	},
+	[20095] = { 
+		xls_id = 20095,
+		x = 21,
+		targetMap = "dt018",
+		y = 29,
+	},
+	[20096] = { 
+		xls_id = 20096,
+		x = 33,
+		targetMap = "dt076",
+		y = 28,
+	},
+	[20097] = { 
+		xls_id = 20097,
+		x = 20,
+		targetMap = "dt092",
+		y = 18,
+	},
+	[20098] = { 
+		xls_id = 20098,
+		x = 101,
+		targetMap = "dt018",
+		y = 106,
+	},
+	[20099] = { 
+		xls_id = 20099,
+		x = 11,
+		targetMap = "dt062",
+		y = 49,
+	},
+	[20100] = { 
+		xls_id = 20100,
+		x = 27,
+		targetMap = "dt047",
+		y = 134,
+	},
+	[20101] = { 
+		xls_id = 20101,
+		x = 29,
+		targetMap = "dt078",
+		y = 24,
+	},
+	[20102] = { 
+		xls_id = 20102,
+		x = 53,
+		targetMap = "dt062",
+		y = 9,
+	},
+	[20103] = { 
+		xls_id = 20103,
+		x = 27,
+		targetMap = "dt002",
+		y = 54,
+	},
+	[20104] = { 
+		xls_id = 20104,
+		x = 29,
+		targetMap = "dt078",
+		y = 39,
+	},
+	[20105] = { 
+		xls_id = 20105,
+		x = 39,
+		targetMap = "dt060",
+		y = 32,
+	},
+	[20106] = { 
+		xls_id = 20106,
+		x = 127,
+		targetMap = "dt002",
+		y = 98,
+	},
+	[20107] = { 
+		xls_id = 20107,
+		x = 59,
+		targetMap = "dt015",
+		y = 73,
+	},
+	[20108] = { 
+		xls_id = 20108,
+		x = 54,
+		targetMap = "dt060",
+		y = 57,
+	},
+	[20109] = { 
+		xls_id = 20109,
+		x = 32,
+		targetMap = "dt045",
+		y = 238,
+	},
+	[20110] = { 
+		xls_id = 20110,
+		x = 78,
+		targetMap = "dt048",
+		y = 425,
+	},
+	[20111] = { 
+		xls_id = 20111,
+		x = 59,
+		targetMap = "dt087",
+		y = 66,
+	},
+	[20112] = { 
+		xls_id = 20112,
+		x = 46,
+		targetMap = "dt045",
+		y = 72,
+	},
+	[20113] = { 
+		xls_id = 20113,
+		x = 100,
+		targetMap = "dt130",
+		y = 113,
+	},
+	[20114] = { 
+		xls_id = 20114,
+		x = 46,
+		targetMap = "dt087",
+		y = 72,
+	},
+	[20115] = { 
+		xls_id = 20115,
+		x = 25,
+		targetMap = "dt057",
+		y = 32,
+	},
+	[20116] = { 
+		xls_id = 20116,
+		x = 34,
+		targetMap = "dt130",
+		y = 37,
+	},
+	[20117] = { 
+		xls_id = 20117,
+		x = 22,
+		targetMap = "dt135",
+		y = 293,
+	},
+	[20118] = { 
+		xls_id = 20118,
+		x = 188,
+		targetMap = "dt045",
+		y = 50,
+	},
+	[20119] = { 
+		xls_id = 20119,
+		x = 16,
+		targetMap = "dt099",
+		y = 22,
+	},
+	[20120] = { 
+		xls_id = 20120,
+		x = 235,
+		targetMap = "dt0135",
+		y = 57,
+	},
+	[20121] = { 
+		xls_id = 20121,
+		x = 92,
+		targetMap = "dt131",
+		y = 311,
+	},
+	[20122] = { 
+		xls_id = 20122,
+		x = 187,
+		targetMap = "dt045",
+		y = 205,
+	},
+	[20123] = { 
+		xls_id = 20123,
+		x = 58,
+		targetMap = "dt134",
+		y = 52,
+	},
+	[20124] = { 
+		xls_id = 20124,
+		x = 135,
+		targetMap = "dt131",
+		y = 17,
+	},
+	[20125] = { 
+		xls_id = 20125,
+		x = 14,
+		targetMap = "dt089",
+		y = 81,
+	},
+	[20126] = { 
+		xls_id = 20126,
+		x = 455,
+		targetMap = "dt048",
+		y = 418,
+	},
+	[20127] = { 
+		xls_id = 20127,
+		x = 68,
+		targetMap = "dt119",
+		y = 29,
+	},
+	[20128] = { 
+		xls_id = 20128,
+		x = 67,
+		targetMap = "dt089",
+		y = 39,
+	},
+	[20129] = { 
+		xls_id = 20129,
+		x = 73,
+		targetMap = "dt019",
+		y = 67,
+	},
+	[20130] = { 
+		xls_id = 20130,
+		x = 53,
+		targetMap = "dt119",
+		y = 47,
+	},
+	[20131] = { 
+		xls_id = 20131,
+		x = 26,
+		targetMap = "dt010",
+		y = 79,
+	},
+	[20132] = { 
+		xls_id = 20132,
+		x = 22,
+		targetMap = "dt089",
+		y = 35,
+	},
+	[20133] = { 
+		xls_id = 20133,
+		x = 58,
+		targetMap = "dt009",
+		y = 21,
+	},
+	[20134] = { 
+		xls_id = 20134,
+		x = 67,
+		targetMap = "dt010",
+		y = 72,
+	},
+	[20135] = { 
+		xls_id = 20135,
+		x = 73,
+		targetMap = "dt019",
+		y = 67,
+	},
+	[20136] = { 
+		xls_id = 20136,
+		x = 58,
+		targetMap = "dt009",
+		y = 53,
+	},
+	[20137] = { 
+		xls_id = 20137,
+		x = 190,
+		targetMap = "dt104",
+		y = 184,
+	},
+	[20138] = { 
+		xls_id = 20138,
+		x = 405,
+		targetMap = "dt048",
+		y = 150,
+	},
+	[20139] = { 
+		xls_id = 20139,
+		x = 47,
+		targetMap = "dt108",
+		y = 50,
+	},
+	[20140] = { 
+		xls_id = 20140,
+		x = 118,
+		targetMap = "dt104",
+		y = 87,
+	},
+	[20141] = { 
+		xls_id = 20141,
+		x = 158,
+		targetMap = "dt036",
+		y = 152,
+	},
+	[20142] = { 
+		xls_id = 20142,
+		x = 421,
+		targetMap = "dt048",
+		y = 39,
+	},
+	[20143] = { 
+		xls_id = 20143,
+		x = 24,
+		targetMap = "dt103",
+		y = 41,
+	},
+	[20144] = { 
+		xls_id = 20144,
+		x = 39,
+		targetMap = "dt036",
+		y = 60,
+	},
+	[20145] = { 
+		xls_id = 20145,
+		x = 41,
+		targetMap = "dt090",
+		y = 69,
+	},
+	[20146] = { 
+		xls_id = 20146,
+		x = 87,
+		targetMap = "dt036",
+		y = 35,
+	},
+	[20147] = { 
+		xls_id = 20147,
+		x = 24,
+		targetMap = "dt301",
+		y = 57,
+	},
+	[20148] = { 
+		xls_id = 20148,
+		x = 226,
+		targetMap = "dt036",
+		y = 39,
+	},
+	[20149] = { 
+		xls_id = 20149,
+		x = 32,
+		targetMap = "dt052",
+		y = 39,
+	},
+	[20150] = { 
+		xls_id = 20150,
+		x = 259,
+		targetMap = "dt036",
+		y = 68,
+	},
+	[20151] = { 
+		xls_id = 20151,
+		x = 15,
+		targetMap = "dt054",
+		y = 55,
+	},
+	[20152] = { 
+		xls_id = 20152,
+		x = 51,
+		targetMap = "dt036",
+		y = 244,
+	},
+	[20153] = { 
+		xls_id = 20153,
+		x = 58,
+		targetMap = "dt127",
+		y = 45,
+	},
+	[20154] = { 
+		xls_id = 20154,
+		x = 162,
+		targetMap = "dt036",
+		y = 275,
+	},
+	[20155] = { 
+		xls_id = 20155,
+		x = 153,
+		targetMap = "dt713",
+		y = 33,
+	},
+	[20156] = { 
+		xls_id = 20156,
+		x = 20,
+		targetMap = "dt138",
+		y = 208,
+	},
+	[20157] = { 
+		xls_id = 20157,
+		x = 29,
+		targetMap = "dt714",
+		y = 24,
+	},
+	[20158] = { 
+		xls_id = 20158,
+		x = 213,
+		targetMap = "dt138",
+		y = 198,
+	},
+	[20159] = { 
+		xls_id = 20159,
+		x = 78,
+		targetMap = "dt096",
+		y = 107,
+	},
+	[20160] = { 
+		xls_id = 20160,
+		x = 26,
+		targetMap = "dt138",
+		y = 46,
+	},
+	[20161] = { 
+		xls_id = 20161,
+		x = 7,
+		targetMap = "dt041",
+		y = 94,
+	},
+	[20162] = { 
+		xls_id = 20162,
+		x = 73,
+		targetMap = "dt096",
+		y = 25,
+	},
+	[20163] = { 
+		xls_id = 20163,
+		x = 77,
+		targetMap = "dt067",
+		y = 81,
+	},
+	[20164] = { 
+		xls_id = 20164,
+		x = 82,
+		targetMap = "dt041",
+		y = 15,
+	},
+	[20165] = { 
+		xls_id = 20165,
+		x = 42,
+		targetMap = "dt128",
+		y = 48,
+	},
+	[20166] = { 
+		xls_id = 20166,
+		x = 22,
+		targetMap = "dt067",
+		y = 27,
+	},
+	[20167] = { 
+		xls_id = 20167,
+		x = 113,
+		targetMap = "dt095",
+		y = 185,
+	},
+	[20168] = { 
+		xls_id = 20168,
+		x = 23,
+		targetMap = "dt096",
+		y = 18,
+	},
+	[20169] = { 
+		xls_id = 20169,
+		x = 98,
+		targetMap = "dt051",
+		y = 205,
+	},
+	[20170] = { 
+		xls_id = 20170,
+		x = 22,
+		targetMap = "dt095",
+		y = 16,
+	},
+	[20171] = { 
+		xls_id = 20171,
+		x = 30,
+		targetMap = "dt040",
+		y = 36,
+	},
+	[20172] = { 
+		xls_id = 20172,
+		x = 94,
+		targetMap = "dt051",
+		y = 89,
+	},
+	[20173] = { 
+		xls_id = 20173,
+		x = 88,
+		targetMap = "dt101",
+		y = 91,
+	},
+	[20174] = { 
+		xls_id = 20174,
+		x = 190,
+		targetMap = "dt138",
+		y = 56,
+	},
+	[20175] = { 
+		xls_id = 20175,
+		x = 24,
+		targetMap = "dt137",
+		y = 260,
+	},
+	[20176] = { 
+		xls_id = 20176,
+		x = 51,
+		targetMap = "dt101",
+		y = 45,
+	},
+	[20177] = { 
+		xls_id = 20177,
+		x = 111,
+		targetMap = "dt012",
+		y = 178,
+	},
+	[20178] = { 
+		xls_id = 20178,
+		x = 150,
+		targetMap = "dt137",
+		y = 16,
+	},
+	[20179] = { 
+		xls_id = 20179,
+		x = 92,
+		targetMap = "dt136",
+		y = 76,
+	},
+	[20180] = { 
+		xls_id = 20180,
+		x = 269,
+		targetMap = "dt137",
+		y = 165,
+	},
+	[20181] = { 
+		xls_id = 20181,
+		x = 59,
+		targetMap = "dt013",
+		y = 73,
+	},
+	[20182] = { 
+		xls_id = 20182,
+		x = 213,
+		targetMap = "dt137",
+		y = 265,
+	},
+	[20183] = { 
+		xls_id = 20183,
+		x = 180,
+		targetMap = "dt139",
+		y = 192,
+	},
+	[20184] = { 
+		xls_id = 20184,
+		x = 128,
+		targetMap = "dt101",
+		y = 122,
+	},
+	[20185] = { 
+		xls_id = 20185,
+		x = 32,
+		targetMap = "dt100",
+		y = 35,
+	},
+	[20186] = { 
+		xls_id = 20186,
+		x = 186,
+		targetMap = "dt139",
+		y = 35,
+	},
+	[20187] = { 
+		xls_id = 20187,
+		x = 22,
+		targetMap = "dt102",
+		y = 118,
+	},
+	[20188] = { 
+		xls_id = 20188,
+		x = 27,
+		targetMap = "dt139",
+		y = 25,
+	},
+	[20189] = { 
+		xls_id = 20189,
+		x = 150,
+		targetMap = "dt011",
+		y = 40,
+	},
+	[20190] = { 
+		xls_id = 20190,
+		x = 14,
+		targetMap = "dt139",
+		y = 198,
+	},
+	[20191] = { 
+		xls_id = 20191,
+		x = 69,
+		targetMap = "dt106",
+		y = 58,
+	},
+	[20192] = { 
+		xls_id = 20192,
+		x = 26,
+		targetMap = "dt085",
+		y = 20,
+	},
+	[20193] = { 
+		xls_id = 20193,
+		x = 16,
+		targetMap = "dt093",
+		y = 133,
+	},
+	[20194] = { 
+		xls_id = 20194,
+		x = 23,
+		targetMap = "dt106",
+		y = 20,
+	},
+	[20195] = { 
+		xls_id = 20195,
+		x = 39,
+		targetMap = "dt105",
+		y = 173,
+	},
+	[20196] = { 
+		xls_id = 20196,
+		x = 100,
+		targetMap = "dt093",
+		y = 22,
+	},
+	[20197] = { 
+		xls_id = 20197,
+		x = 64,
+		targetMap = "dt107",
+		y = 74,
+	},
+	[20198] = { 
+		xls_id = 20198,
+		x = 54,
+		targetMap = "dt105",
+		y = 20,
+	},
+	[20199] = { 
+		xls_id = 20199,
+		x = 15,
+		targetMap = "dt121",
+		y = 56,
+	},
+	[20200] = { 
+		xls_id = 20200,
+		x = 42,
+		targetMap = "dt0107",
+		y = 21,
+	},
+	[20201] = { 
+		xls_id = 20201,
+		x = 58,
+		targetMap = "dt035",
+		y = 11,
+	},
+	[20202] = { 
+		xls_id = 20202,
+		x = 111,
+		targetMap = "dt106",
+		y = 25,
+	},
+	[20203] = { 
+		xls_id = 20203,
+		x = 17,
+		targetMap = "dt079",
+		y = 16,
+	},
+	[20204] = { 
+		xls_id = 20204,
+		x = 93,
+		targetMap = "dt035",
+		y = 79,
+	},
+	[20205] = { 
+		xls_id = 20205,
+		x = 105,
+		targetMap = "dt043",
+		y = 76,
+	},
+	[20206] = { 
+		xls_id = 20206,
+		x = 90,
+		targetMap = "dt079",
+		y = 94,
+	},
+	[20207] = { 
+		xls_id = 20207,
+		x = 13,
+		targetMap = "dt711",
+		y = 27,
+	},
+	[20208] = { 
+		xls_id = 20208,
+		x = 99,
+		targetMap = "dt106",
+		y = 94,
+	},
+	[20209] = { 
+		xls_id = 20209,
+		x = 34,
+		targetMap = "dt124",
+		y = 30,
+	},
+	[20210] = { 
+		xls_id = 20210,
+		x = 140,
+		targetMap = "dt711",
+		y = 64,
+	},
+	[20211] = { 
+		xls_id = 20211,
+		x = 35,
+		targetMap = "dt058",
+		y = 32,
+	},
+	[20212] = { 
+		xls_id = 20212,
+		x = 29,
+		targetMap = "dt106",
+		y = 110,
+	},
+	[20213] = { 
+		xls_id = 20213,
+		x = 59,
+		targetMap = "dt086",
+		y = 93,
+	},
+	[20214] = { 
+		xls_id = 20214,
+		x = 36,
+		targetMap = "dt085",
+		y = 140,
+	},
+	[20215] = { 
+		xls_id = 20215,
+		x = 26,
+		targetMap = "dt065",
+		y = 33,
+	},
+	[20216] = { 
+		xls_id = 20216,
+		x = 135,
+		targetMap = "dt086",
+		y = 123,
+	},
+	[20217] = { 
+		xls_id = 20217,
+		x = 50,
+		targetMap = "dt061",
+		y = 194,
+	},
+	[20218] = { 
+		xls_id = 20218,
+		x = 38,
+		targetMap = "dt086",
+		y = 39,
+	},
+	[20219] = { 
+		xls_id = 20219,
+		x = 40,
+		targetMap = "dt098",
+		y = 43,
+	},
+	[20220] = { 
+		xls_id = 20220,
+		x = 113,
+		targetMap = "dt061",
+		y = 46,
+	},
+	[20221] = { 
+		xls_id = 20221,
+		x = 20,
+		targetMap = "dt042",
+		y = 40,
+	},
+	[20222] = { 
+		xls_id = 20222,
+		x = 115,
+		targetMap = "dt098",
+		y = 99,
+	},
+	[20223] = { 
+		xls_id = 20223,
+		x = 17,
+		targetMap = "dt024",
+		y = 74,
+	},
+	[20224] = { 
+		xls_id = 20224,
+		x = 46,
+		targetMap = "dt042",
+		y = 33,
+	},
+	[20225] = { 
+		xls_id = 20225,
+		x = 77,
+		targetMap = "dt034",
+		y = 129,
+	},
+	[20226] = { 
+		xls_id = 20226,
+		x = 39,
+		targetMap = "dt086",
+		y = 118,
+	},
+	[20227] = { 
+		xls_id = 20227,
+		x = 70,
+		targetMap = "dt133",
+		y = 72,
+	},
+	[20228] = { 
+		xls_id = 20228,
+		x = 133,
+		targetMap = "dt086",
+		y = 22,
+	},
+	[20229] = { 
+		xls_id = 20229,
+		x = 33,
+		targetMap = "dt005",
+		y = 128,
+	},
+	[20230] = { 
+		xls_id = 20230,
+		x = 78,
+		targetMap = "dt086",
+		y = 51,
+	},
+	[20231] = { 
+		xls_id = 20231,
+		x = 53,
+		targetMap = "dt025",
+		y = 32,
+	},
+	[20232] = { 
+		xls_id = 20232,
+		x = 126,
+		targetMap = "dt005",
+		y = 128,
+	},
+	[20233] = { 
+		xls_id = 20233,
+		x = 51,
+		targetMap = "dt014",
+		y = 147,
+	},
+	[20234] = { 
+		xls_id = 20234,
+		x = 158,
+		targetMap = "dt085",
+		y = 82,
+	},
+	[20235] = { 
+		xls_id = 20235,
+		x = 12,
+		targetMap = "dt039",
+		y = 18,
+	},
+	[20236] = { 
+		xls_id = 20236,
+		x = 130,
+		targetMap = "dt014",
+		y = 63,
+	},
+	[20237] = { 
+		xls_id = 20237,
+		x = 41,
+		targetMap = "dt037",
+		y = 48,
+	},
+	[20238] = { 
+		xls_id = 20238,
+		x = 172,
+		targetMap = "dt014",
+		y = 93,
+	},
+	[20239] = { 
+		xls_id = 20239,
+		x = 60,
+		targetMap = "dt038",
+		y = 29,
+	},
+	[20240] = { 
+		xls_id = 20240,
+		x = 85,
+		targetMap = "dt014",
+		y = 72,
+	},
+	[20241] = { 
+		xls_id = 20241,
+		x = 124,
+		targetMap = "user001",
+		y = 186,
+	},
+	[20242] = { 
+		xls_id = 20242,
+		x = 4,
+		targetMap = "xbxj",
+		y = 45,
+	},
+	[20243] = { 
+		xls_id = 20243,
+		x = 6,
+		targetMap = "dxcj",
+		y = 127,
+	},
+	[20244] = { 
+		xls_id = 20244,
+		x = 50,
+		targetMap = "zlmg",
+		y = 72,
+	},
+	[20245] = { 
+		xls_id = 20245,
+		x = 46,
+		targetMap = "dxcj",
+		y = 60,
+	},
+	[20246] = { 
+		xls_id = 20246,
+		x = 4,
+		targetMap = "wlg",
+		y = 25,
+	},
+	[20247] = { 
+		xls_id = 20247,
+		x = 10,
+		targetMap = "xbxj",
+		y = 14,
+	},
+	[20248] = { 
+		xls_id = 20248,
+		x = 6,
+		targetMap = "zlsc",
+		y = 90,
+	},
+	[20249] = { 
+		xls_id = 20249,
+		x = 46,
+		targetMap = "dxcj",
+		y = 60,
+	},
+	[20250] = { 
+		xls_id = 20250,
+		x = 11,
+		targetMap = "zlmg",
+		y = 9,
+	},
+	[20251] = { 
+		xls_id = 20251,
+		x = 454,
+		targetMap = "user001",
+		y = 204,
+	},
+	[20252] = { 
+		xls_id = 20252,
+		x = 24,
+		targetMap = "hngx",
+		y = 104,
+	},
+	[20253] = { 
+		xls_id = 20253,
+		x = 68,
+		targetMap = "smzz",
+		y = 104,
+	},
+	[20254] = { 
+		xls_id = 20254,
+		x = 125,
+		targetMap = "ylkg",
+		y = 62,
+	},
+	[20255] = { 
+		xls_id = 20255,
+		x = 88,
+		targetMap = "hng",
+		y = 17,
+	},
+	[20256] = { 
+		xls_id = 20256,
+		x = 56,
+		targetMap = "hngx",
+		y = 27,
+	},
+	[20257] = { 
+		xls_id = 20257,
+		x = 13,
+		targetMap = "hngd",
+		y = 33,
+	},
+	[20258] = { 
+		xls_id = 20258,
+		x = 73,
+		targetMap = "ylkg",
+		y = 76,
+	},
+	[20259] = { 
+		xls_id = 20259,
+		x = 21,
+		targetMap = "dy",
+		y = 22,
+	},
+	[20260] = { 
+		xls_id = 20260,
+		x = 48,
+		targetMap = "hngd",
+		y = 103,
+	},
+	[20261] = { 
+		xls_id = 20261,
+		x = 44,
+		targetMap = "hnzd",
+		y = 73,
+	},
+	[20262] = { 
+		xls_id = 20262,
+		x = 23,
+		targetMap = "dy",
+		y = 163,
+	},
+	[20263] = { 
+		xls_id = 20263,
+		x = 78,
+		targetMap = "hng",
+		y = 79,
+	},
+	[20264] = { 
+		xls_id = 20264,
+		x = 61,
+		targetMap = "mscx",
+		y = 30,
+	},
+	[20265] = { 
+		xls_id = 20265,
+		x = 4,
+		targetMap = "smzz",
+		y = 17,
+	},
+	[20266] = { 
+		xls_id = 20266,
+		x = 190,
+		targetMap = "user001",
+		y = 55,
+	},
+	[20267] = { 
+		xls_id = 20267,
+		x = 19,
+		targetMap = "zwck",
+		y = 83,
+	},
+	[20268] = { 
+		xls_id = 20268,
+		x = 16,
+		targetMap = "cjml",
+		y = 84,
+	},
+	[20269] = { 
+		xls_id = 20269,
+		x = 73,
+		targetMap = "cjz",
+		y = 28,
+	},
+	[20270] = { 
+		xls_id = 20270,
+		x = 186,
+		targetMap = "cjzxz",
+		y = 102,
+	},
+	[20271] = { 
+		xls_id = 20271,
+		x = 64,
+		targetMap = "cjzxs",
+		y = 57,
+	},
+	[20272] = { 
+		xls_id = 20272,
+		x = 137,
+		targetMap = "cjdg",
+		y = 109,
+	},
+	[20273] = { 
+		xls_id = 20273,
+		x = 74,
+		targetMap = "zwck",
+		y = 69,
+	},
+	[20274] = { 
+		xls_id = 20274,
+		x = 51,
+		targetMap = "cjzlz",
+		y = 229,
+	},
+	[20275] = { 
+		xls_id = 20275,
+		x = 189,
+		targetMap = "cjzxz",
+		y = 173,
+	},
+	[20276] = { 
+		xls_id = 20276,
+		x = 11,
+		targetMap = "cjzxs",
+		y = 24,
+	},
+	[20277] = { 
+		xls_id = 20277,
+		x = 119,
+		targetMap = "cjzxz",
+		y = 111,
+	},
+	[20278] = { 
+		xls_id = 20278,
+		x = 91,
+		targetMap = "cjgd",
+		y = 98,
+	},
+	[20279] = { 
+		xls_id = 20279,
+		x = 129,
+		targetMap = "cjz",
+		y = 78,
+	},
+	[20280] = { 
+		xls_id = 20280,
+		x = 90,
+		targetMap = "cjml",
+		y = 17,
+	},
+	[20281] = { 
+		xls_id = 20281,
+		x = 12,
+		targetMap = "gsl",
+		y = 76,
+	},
+	[20282] = { 
+		xls_id = 20282,
+		x = 140,
+		targetMap = "shszm",
+		y = 93,
+	},
+	[20283] = { 
+		xls_id = 20283,
+		x = 448,
+		targetMap = "user001",
+		y = 340,
+	},
+	[20284] = { 
+		xls_id = 20284,
+		x = 44,
+		targetMap = "txql",
+		y = 21,
+	},
+	[20285] = { 
+		xls_id = 20285,
+		x = 23,
+		targetMap = "shs",
+		y = 27,
+	},
+	[20286] = { 
+		xls_id = 20286,
+		x = 39,
+		targetMap = "yhpt",
+		y = 27,
+	},
+	[20287] = { 
+		xls_id = 20287,
+		x = 53,
+		targetMap = "gsl",
+		y = 7,
+	},
+	[20288] = { 
+		xls_id = 20288,
+		x = 40,
+		targetMap = "mysk",
+		y = 58,
+	},
+	[20289] = { 
+		xls_id = 20289,
+		x = 15,
+		targetMap = "txql",
+		y = 86,
+	},
+	[20290] = { 
+		xls_id = 20290,
+		x = 129,
+		targetMap = "yhpt",
+		y = 13,
+	},
+	[20291] = { 
+		xls_id = 20291,
+		x = 13,
+		targetMap = "shsz",
+		y = 11,
+	},
+	[20292] = { 
+		xls_id = 20292,
+		x = 11,
+		targetMap = "shs",
+		y = 123,
+	},
+	[20293] = { 
+		xls_id = 20293,
+		x = 10,
+		targetMap = "shszm",
+		y = 13,
+	},
+	[20294] = { 
+		xls_id = 20294,
+		x = 41,
+		targetMap = "myyj",
+		y = 45,
+	},
+	[20295] = { 
+		xls_id = 20295,
+		x = 167,
+		targetMap = "mymj",
+		y = 47,
+	},
+	[20296] = { 
+		xls_id = 20296,
+		x = 388,
+		targetMap = "user001",
+		y = 372,
+	},
+	[20297] = { 
+		xls_id = 20297,
+		x = 137,
+		targetMap = "mysc",
+		y = 130,
+	},
+	[20298] = { 
+		xls_id = 20298,
+		x = 44,
+		targetMap = "myf",
+		y = 29,
+	},
+	[20299] = { 
+		xls_id = 20299,
+		x = 44,
+		targetMap = "my1j",
+		y = 109,
+	},
+	[20300] = { 
+		xls_id = 20300,
+		x = 127,
+		targetMap = "myyj",
+		y = 173,
+	},
+	[20301] = { 
+		xls_id = 20301,
+		x = 7,
+		targetMap = "ydkj",
+		y = 134,
+	},
+	[20302] = { 
+		xls_id = 20302,
+		x = 21,
+		targetMap = "mysc",
+		y = 87,
+	},
+	[20303] = { 
+		xls_id = 20303,
+		x = 167,
+		targetMap = "wjzl",
+		y = 47,
+	},
+	[20304] = { 
+		xls_id = 20304,
+		x = 96,
+		targetMap = "my1j",
+		y = 44,
+	},
+	[20305] = { 
+		xls_id = 20305,
+		x = 92,
+		targetMap = "ydkj",
+		y = 15,
+	},
+	[20306] = { 
+		xls_id = 20306,
+		x = 180,
+		targetMap = "mycs",
+		y = 182,
+	},
+	[20307] = { 
+		xls_id = 20307,
+		x = 18,
+		targetMap = "myf",
+		y = 35,
+	},
+	[20308] = { 
+		xls_id = 20308,
+		x = 32,
+		targetMap = "mymj",
+		y = 82,
+	},
+	[20309] = { 
+		xls_id = 20309,
+		x = 103,
+		targetMap = "hwzm",
+		y = 149,
+	},
+	[20310] = { 
+		xls_id = 20310,
+		x = 10,
+		targetMap = "fxmg",
+		y = 45,
+	},
+	[20311] = { 
+		xls_id = 20311,
+		x = 100,
+		targetMap = "user001",
+		y = 383,
+	},
+	[20312] = { 
+		xls_id = 20312,
+		x = 111,
+		targetMap = "ywsy",
+		y = 15,
+	},
+	[20313] = { 
+		xls_id = 20313,
+		x = 21,
+		targetMap = "smyj",
+		y = 17,
+	},
+	[20314] = { 
+		xls_id = 20314,
+		x = 32,
+		targetMap = "ywzd",
+		y = 19,
+	},
+	[20315] = { 
+		xls_id = 20315,
+		x = 12,
+		targetMap = "hwzm",
+		y = 29,
+	},
+	[20316] = { 
+		xls_id = 20316,
+		x = 15,
+		targetMap = "ywsy",
+		y = 168,
+	},
+	[20317] = { 
+		xls_id = 20317,
+		x = 104,
+		targetMap = "aymd",
+		y = 25,
+	},
+	[20318] = { 
+		xls_id = 20318,
+		x = 74,
+		targetMap = "smyj",
+		y = 10,
+	},
+	[20319] = { 
+		xls_id = 20319,
+		x = 49,
+		targetMap = "aydd",
+		y = 131,
+	},
+	[20320] = { 
+		xls_id = 20320,
+		x = 105,
+		targetMap = "xsd",
+		y = 24,
+	},
+	[20321] = { 
+		xls_id = 20321,
+		x = 92,
+		targetMap = "fxmg",
+		y = 15,
+	},
+	[20322] = { 
+		xls_id = 20322,
+		x = 72,
+		targetMap = "shzj",
+		y = 22,
+	},
+	[20323] = { 
+		xls_id = 20323,
+		x = 40,
+		targetMap = "aymd",
+		y = 133,
+	},
+	[20324] = { 
+		xls_id = 20324,
+		x = 22,
+		targetMap = "aydd",
+		y = 19,
+	},
+	[20325] = { 
+		xls_id = 20325,
+		x = 11,
+		targetMap = "qngm",
+		y = 148,
+	},
+	[20326] = { 
+		xls_id = 20326,
+		x = 16,
+		targetMap = "aymd",
+		y = 104,
+	},
+	[20327] = { 
+		xls_id = 20327,
+		x = 27,
+		targetMap = "gmsc",
+		y = 55,
+	},
+	[20328] = { 
+		xls_id = 20328,
+		x = 13,
+		targetMap = "xsd",
+		y = 147,
+	},
+	[20329] = { 
+		xls_id = 20329,
+		x = 15,
+		targetMap = "qngm",
+		y = 18,
+	},
+	[20330] = { 
+		xls_id = 20330,
+		x = 137,
+		targetMap = "sjrk",
+		y = 28,
+	},
+	[20331] = { 
+		xls_id = 20331,
+		x = 14,
+		targetMap = "bdpb",
+		y = 63,
+	},
+	[20332] = { 
+		xls_id = 20332,
+		x = 118,
+		targetMap = "user001",
+		y = 24,
+	},
+	[20333] = { 
+		xls_id = 20333,
+		x = 14,
+		targetMap = "bfzl",
+		y = 123,
+	},
+	[20334] = { 
+		xls_id = 20334,
+		x = 130,
+		targetMap = "ssm",
+		y = 97,
+	},
+	[20335] = { 
+		xls_id = 20335,
+		x = 63,
+		targetMap = "sszy",
+		y = 71,
+	},
+	[20336] = { 
+		xls_id = 20336,
+		x = 76,
+		targetMap = "sjrk",
+		y = 56,
+	},
+	[20337] = { 
+		xls_id = 20337,
+		x = 63,
+		targetMap = "ywbz",
+		y = 18,
+	},
+	[20338] = { 
+		xls_id = 20338,
+		x = 19,
+		targetMap = "bfzl",
+		y = 17,
+	},
+	[20339] = { 
+		xls_id = 20339,
+		x = 34,
+		targetMap = "sszy",
+		y = 34,
+	},
+	[20340] = { 
+		xls_id = 20340,
+		x = 88,
+		targetMap = "sjzm",
+		y = 23,
+	},
+	[20341] = { 
+		xls_id = 20341,
+		x = 97,
+		targetMap = "ssm",
+		y = 27,
+	},
+	[20342] = { 
+		xls_id = 20342,
+		x = 44,
+		targetMap = "fbzd",
+		y = 66,
+	},
+	[20343] = { 
+		xls_id = 20343,
+		x = 93,
+		targetMap = "bdpb",
+		y = 8,
+	},
+	[20344] = { 
+		xls_id = 20344,
+		x = 8,
+		targetMap = "sjzm",
+		y = 105,
+	},
+	[20345] = { 
+		xls_id = 20345,
+		x = 68,
+		targetMap = "yzsl",
+		y = 101,
+	},
+	[20346] = { 
+		xls_id = 20346,
+		x = 28,
+		targetMap = "2dl",
+		y = 162,
+	},
+	[20347] = { 
+		xls_id = 20347,
+		x = 203,
+		targetMap = "yzzz",
+		y = 188,
+	},
+	[20348] = { 
+		xls_id = 20348,
+		x = 6,
+		targetMap = "yzhy",
+		y = 6,
+	},
+	[20349] = { 
+		xls_id = 20349,
+		x = 25,
+		targetMap = "yzl",
+		y = 14,
+	},
+	[20350] = { 
+		xls_id = 20350,
+		x = 97,
+		targetMap = "dwzz",
+		y = 23,
+	},
+	[20351] = { 
+		xls_id = 20351,
+		x = 7,
+		targetMap = "yzsl",
+		y = 10,
+	},
+	[20352] = { 
+		xls_id = 20352,
+		x = 60,
+		targetMap = "gdzc",
+		y = 54,
+	},
+	[20353] = { 
+		xls_id = 20353,
+		x = 119,
+		targetMap = "yzzz",
+		y = 145,
+	},
+	[20354] = { 
+		xls_id = 20354,
+		x = 13,
+		targetMap = "dwzz",
+		y = 145,
+	},
+	[20355] = { 
+		xls_id = 20355,
+		x = 18,
+		targetMap = "mjzd",
+		y = 118,
+	},
+	[20356] = { 
+		xls_id = 20356,
+		x = 64,
+		targetMap = "yzsl",
+		y = 16,
+	},
+	[20357] = { 
+		xls_id = 20357,
+		x = 69,
+		targetMap = "yzhy",
+		y = 86,
+	},
+	[20358] = { 
+		xls_id = 20358,
+		x = 72,
+		targetMap = "wgsqy",
+		y = 179,
+	},
+	[20359] = { 
+		xls_id = 20359,
+		x = 44,
+		targetMap = "sjmg",
+		y = 262,
+	},
+	[20360] = { 
+		xls_id = 20360,
+		x = 107,
+		targetMap = "2dl",
+		y = 112,
+	},
+	[20361] = { 
+		xls_id = 20361,
+		x = 44,
+		targetMap = "wgscjg",
+		y = 14,
+	},
+	[20362] = { 
+		xls_id = 20362,
+		x = 21,
+		targetMap = "wgs",
+		y = 29,
+	},
+	[20363] = { 
+		xls_id = 20363,
+		x = 60,
+		targetMap = "dxbd",
+		y = 93,
+	},
+	[20364] = { 
+		xls_id = 20364,
+		x = 44,
+		targetMap = "wgsqy",
+		y = 70,
+	},
+	[20365] = { 
+		xls_id = 20365,
+		x = 69,
+		targetMap = "slt",
+		y = 74,
+	},
+	[20366] = { 
+		xls_id = 20366,
+		x = 4,
+		targetMap = "wgscjg",
+		y = 27,
+	},
+	[20367] = { 
+		xls_id = 20367,
+		x = 7,
+		targetMap = "pty",
+		y = 47,
+	},
+	[20368] = { 
+		xls_id = 20368,
+		x = 60,
+		targetMap = "dxbd",
+		y = 3,
+	},
+	[20369] = { 
+		xls_id = 20369,
+		x = 20,
+		targetMap = "slt",
+		y = 30,
+	},
+	[20370] = { 
+		xls_id = 20370,
+		x = 4,
+		targetMap = "dxmx",
+		y = 61,
+	},
+	[20371] = { 
+		xls_id = 20371,
+		x = 56,
+		targetMap = "wgs",
+		y = 25,
+	},
+	[20372] = { 
+		xls_id = 20372,
+		x = 115,
+		targetMap = "smmx",
+		y = 232,
+	},
+	[20373] = { 
+		xls_id = 20373,
+		x = 148,
+		targetMap = "sjmg",
+		y = 91,
+	},
+	[20374] = { 
+		xls_id = 20374,
+		x = 18,
+		targetMap = "wgshj",
+		y = 81,
+	},
+	[20375] = { 
+		xls_id = 20375,
+		x = 50,
+		targetMap = "dxmx",
+		y = 5,
+	},
+	[20376] = { 
+		xls_id = 20376,
+		x = 156,
+		targetMap = "smmx",
+		y = 40,
+	},
+	[20377] = { 
+		xls_id = 20377,
+		x = 5,
+		targetMap = "sptx",
+		y = 78,
+	},
+	[20378] = { 
+		xls_id = 20378,
+		x = 23,
+		targetMap = "hpyg",
+		y = 27,
+	},
+	[20379] = { 
+		xls_id = 20379,
+		x = 110,
+		targetMap = "2dl",
+		y = 189,
+	},
+	[20380] = { 
+		xls_id = 20380,
+		x = 48,
+		targetMap = "hxd",
+		y = 47,
+	},
+	[20381] = { 
+		xls_id = 20381,
+		x = 55,
+		targetMap = "sp",
+		y = 42,
+	},
+	[20382] = { 
+		xls_id = 20382,
+		x = 4,
+		targetMap = "spzy",
+		y = 18,
+	},
+	[20383] = { 
+		xls_id = 20383,
+		x = 4,
+		targetMap = "sptx",
+		y = 6,
+	},
+	[20384] = { 
+		xls_id = 20384,
+		x = 26,
+		targetMap = "spgzc",
+		y = 126,
+	},
+	[20385] = { 
+		xls_id = 20385,
+		x = 20,
+		targetMap = "hxd",
+		y = 20,
+	},
+	[20386] = { 
+		xls_id = 20386,
+		x = 26,
+		targetMap = "spzy",
+		y = 11,
+	},
+	[20387] = { 
+		xls_id = 20387,
+		x = 149,
+		targetMap = "hpyj",
+		y = 45,
+	},
+	[20388] = { 
+		xls_id = 20388,
+		x = 95,
+		targetMap = "sp",
+		y = 6,
+	},
+	[20389] = { 
+		xls_id = 20389,
+		x = 111,
+		targetMap = "hpyg",
+		y = 14,
+	},
+	[20390] = { 
+		xls_id = 20390,
+		x = 17,
+		targetMap = "slmj",
+		y = 72,
+	},
+	[20391] = { 
+		xls_id = 20391,
+		x = 100,
+		targetMap = "tmls",
+		y = 65,
+	},
+	[20392] = { 
+		xls_id = 20392,
+		x = 59,
+		targetMap = "2dl",
+		y = 190,
+	},
+	[20393] = { 
+		xls_id = 20393,
+		x = 99,
+		targetMap = "mjsc",
+		y = 18,
+	},
+	[20394] = { 
+		xls_id = 20394,
+		x = 5,
+		targetMap = "ls",
+		y = 203,
+	},
+	[20395] = { 
+		xls_id = 20395,
+		x = 5,
+		targetMap = "lsjd",
+		y = 136,
+	},
+	[20396] = { 
+		xls_id = 20396,
+		x = 34,
+		targetMap = "slmj",
+		y = 39,
+	},
+	[20397] = { 
+		xls_id = 20397,
+		x = 5,
+		targetMap = "jdgt",
+		y = 80,
+	},
+	[20398] = { 
+		xls_id = 20398,
+		x = 17,
+		targetMap = "mjsc",
+		y = 21,
+	},
+	[20399] = { 
+		xls_id = 20399,
+		x = 7,
+		targetMap = "sykm",
+		y = 94,
+	},
+	[20400] = { 
+		xls_id = 20400,
+		x = 9,
+		targetMap = "lsjd",
+		y = 38,
+	},
+	[20401] = { 
+		xls_id = 20401,
+		x = 59,
+		targetMap = "jdgt",
+		y = 32,
+	},
+	[20402] = { 
+		xls_id = 20402,
+		x = 66,
+		targetMap = "lsgd",
+		y = 101,
+	},
+	[20403] = { 
+		xls_id = 20403,
+		x = 166,
+		targetMap = "ls",
+		y = 196,
+	},
+	[20404] = { 
+		xls_id = 20404,
+		x = 25,
+		targetMap = "szfc",
+		y = 206,
+	},
+	[20405] = { 
+		xls_id = 20405,
+		x = 152,
+		targetMap = "ymdx",
+		y = 153,
+	},
+	[20406] = { 
+		xls_id = 20406,
+		x = 6,
+		targetMap = "tmls",
+		y = 6,
+	},
+	[20407] = { 
+		xls_id = 20407,
+		x = 9,
+		targetMap = "lszd",
+		y = 28,
+	},
+	[20408] = { 
+		xls_id = 20408,
+		x = 13,
+		targetMap = "lsgd",
+		y = 100,
+	},
+	[20409] = { 
+		xls_id = 20409,
+		x = 179,
+		targetMap = "szfc",
+		y = 36,
+	},
+	[20410] = { 
+		xls_id = 20410,
+		x = 6,
+		targetMap = "lsgd",
+		y = 9,
+	},
+	[20411] = { 
+		xls_id = 20411,
+		x = 5,
+		targetMap = "fxmw",
+		y = 103,
+	},
+	[20412] = { 
+		xls_id = 20412,
+		x = 35,
+		targetMap = "2dl",
+		y = 88,
+	},
+	[20413] = { 
+		xls_id = 20413,
+		x = 73,
+		targetMap = "lmz",
+		y = 135,
+	},
+	[20414] = { 
+		xls_id = 20414,
+		x = 92,
+		targetMap = "bgzf",
+		y = 100,
+	},
+	[20415] = { 
+		xls_id = 20415,
+		x = 148,
+		targetMap = "fxm",
+		y = 25,
+	},
+	[20416] = { 
+		xls_id = 20416,
+		x = 97,
+		targetMap = "lmd",
+		y = 80,
+	},
+	[20417] = { 
+		xls_id = 20417,
+		x = 84,
+		targetMap = "fxmw",
+		y = 208,
+	},
+	[20418] = { 
+		xls_id = 20418,
+		x = 46,
+		targetMap = "fxzy",
+		y = 109,
+	},
+	[20419] = { 
+		xls_id = 20419,
+		x = 16,
+		targetMap = "lmz",
+		y = 90,
+	},
+	[20420] = { 
+		xls_id = 20420,
+		x = 41,
+		targetMap = "fxcc",
+		y = 12,
+	},
+	[20421] = { 
+		xls_id = 20421,
+		x = 22,
+		targetMap = "lmd",
+		y = 70,
+	},
+	[20422] = { 
+		xls_id = 20422,
+		x = 21,
+		targetMap = "fxzy",
+		y = 77,
+	},
+	[20423] = { 
+		xls_id = 20423,
+		x = 16,
+		targetMap = "yyj",
+		y = 85,
+	},
+	[20424] = { 
+		xls_id = 20424,
+		x = 68,
+		targetMap = "fxmw",
+		y = 101,
+	},
+	[20425] = { 
+		xls_id = 20425,
+		x = 34,
+		targetMap = "jtxng",
+		y = 49,
+	},
+	[20426] = { 
+		xls_id = 20426,
+		x = 20,
+		targetMap = "bgzf",
+		y = 22,
+	},
+	[20427] = { 
+		xls_id = 20427,
+		x = 90,
+		targetMap = "yyj",
+		y = 17,
+	},
+	[20428] = { 
+		xls_id = 20428,
+		x = 53,
+		targetMap = "3dl",
+		y = 82,
+	},
+	[20429] = { 
+		xls_id = 20429,
+		x = 67,
+		targetMap = "mwsg",
+		y = 104,
+	},
+	[20430] = { 
+		xls_id = 20430,
+		x = 58,
+		targetMap = "ths",
+		y = 95,
+	},
+	[20431] = { 
+		xls_id = 20431,
+		x = 10,
+		targetMap = "yxzl",
+		y = 147,
+	},
+	[20432] = { 
+		xls_id = 20432,
+		x = 3,
+		targetMap = "mwsg",
+		y = 18,
+	},
+	[20433] = { 
+		xls_id = 20433,
+		x = 205,
+		targetMap = "tszy",
+		y = 188,
+	},
+	[20434] = { 
+		xls_id = 20434,
+		x = 105,
+		targetMap = "yxzl",
+		y = 108,
+	},
+	[20435] = { 
+		xls_id = 20435,
+		x = 118,
+		targetMap = "thxj",
+		y = 124,
+	},
+	[20436] = { 
+		xls_id = 20436,
+		x = 183,
+		targetMap = "yxzl",
+		y = 198,
+	},
+	[20437] = { 
+		xls_id = 20437,
+		x = 3,
+		targetMap = "sjgd",
+		y = 5,
+	},
+	[20438] = { 
+		xls_id = 20438,
+		x = 9,
+		targetMap = "ths",
+		y = 90,
+	},
+	[20439] = { 
+		xls_id = 20439,
+		x = 4,
+		targetMap = "mlyj",
+		y = 29,
+	},
+	[20440] = { 
+		xls_id = 20440,
+		x = 100,
+		targetMap = "sjgd",
+		y = 99,
+	},
+	[20441] = { 
+		xls_id = 20441,
+		x = 53,
+		targetMap = "sqxl",
+		y = 69,
+	},
+	[20442] = { 
+		xls_id = 20442,
+		x = 11,
+		targetMap = "mlyj",
+		y = 10,
+	},
+	[20443] = { 
+		xls_id = 20443,
+		x = 67,
+		targetMap = "thsl",
+		y = 68,
+	},
+	[20444] = { 
+		xls_id = 20444,
+		x = 26,
+		targetMap = "sqxl",
+		y = 5,
+	},
+	[20445] = { 
+		xls_id = 20445,
+		x = 7,
+		targetMap = "thsz",
+		y = 139,
+	},
+	[20446] = { 
+		xls_id = 20446,
+		x = 42,
+		targetMap = "thsl",
+		y = 9,
+	},
+	[20447] = { 
+		xls_id = 20447,
+		x = 189,
+		targetMap = "3dl",
+		y = 214,
+	},
+	[20448] = { 
+		xls_id = 20448,
+		x = 30,
+		targetMap = "elsjx",
+		y = 252,
+	},
+	[20449] = { 
+		xls_id = 20449,
+		x = 64,
+		targetMap = "els",
+		y = 19,
+	},
+	[20450] = { 
+		xls_id = 20450,
+		x = 45,
+		targetMap = "elsgd",
+		y = 11,
+	},
+	[20451] = { 
+		xls_id = 20451,
+		x = 89,
+		targetMap = "elsjx",
+		y = 26,
+	},
+	[20452] = { 
+		xls_id = 20452,
+		x = 8,
+		targetMap = "elssc",
+		y = 73,
+	},
+	[20453] = { 
+		xls_id = 20453,
+		x = 16,
+		targetMap = "elsgd",
+		y = 85,
+	},
+	[20454] = { 
+		xls_id = 20454,
+		x = 170,
+		targetMap = "elsz",
+		y = 38,
+	},
+	[20455] = { 
+		xls_id = 20455,
+		x = 53,
+		targetMap = "elssc",
+		y = 7,
+	},
+	[20456] = { 
+		xls_id = 20456,
+		x = 41,
+		targetMap = "elsww",
+		y = 113,
+	},
+	[20457] = { 
+		xls_id = 20457,
+		x = 6,
+		targetMap = "els",
+		y = 11,
+	},
+	[20458] = { 
+		xls_id = 20458,
+		x = 82,
+		targetMap = "smdx",
+		y = 29,
+	},
+	[20459] = { 
+		xls_id = 20459,
+		x = 73,
+		targetMap = "elsww",
+		y = 135,
 	},
 }
 return config

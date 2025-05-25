@@ -1,80 +1,93 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		id = 101,
+		check = 0,
 		ico = "001.png",
 		otherType = 1,
-		check = 0,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
 		id = 102,
+		check = 0,
 		ico = "002.png",
 		otherType = 1,
-		check = 0,
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
 		id = 103,
+		check = 0,
 		ico = "003.png",
 		otherType = 1,
-		check = 0,
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
 		id = 104,
+		check = 0,
 		ico = "004.png",
 		otherType = 1,
-		check = 0,
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
 		id = 105,
+		check = 0,
 		ico = "005.png",
 		otherType = 1,
-		check = 0,
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
 		id = 106,
+		check = 0,
 		ico = "007.png",
 		otherType = 1,
-		check = 0,
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
 		id = 107,
+		check = 0,
 		ico = "008.png",
 		otherType = 1,
-		check = 0,
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
 		id = 108,
+		check = 0,
 		ico = "009.png",
 		otherType = 1,
-		check = 0,
 	},
-	[9] = {
+	[9] = { 
+		xls_id = 9,
 		id = 109,
+		check = 0,
 		ico = "015.png",
 		otherType = 1,
-		check = 0,
 	},
-	[10] = {
+	[10] = { 
+		xls_id = 10,
 		id = 110,
 		ico = "016.png",
 		otherType = 1,
 	},
-	[11] = {
+	[11] = { 
+		xls_id = 11,
 		id = 111,
+		check = "ÖÁ×ðÔÞÖú",
 		ico = "010.png",
 		otherType = 2,
-		check = "ÖÁ×ðÔÞÖú",
 	},
-	[12] = {
+	[12] = { 
+		xls_id = 12,
 		id = 112,
+		check = 799,
 		ico = "011.png",
 		otherType = 3,
-		check = 799,
 	},
-	[13] = {
+	[13] = { 
+		xls_id = 13,
 		id = 113,
+		check = 11,
 		ico = "006.png",
 		otherType = 3,
-		check = 11,
 		effect = {
 			[1] = 63070,
 			[2] = "-2",
@@ -82,11 +95,12 @@ local config = {
 			[4] = 1,
 		},
 	},
-	[14] = {
+	[14] = { 
+		xls_id = 14,
 		id = 114,
+		check = 0,
 		ico = "017.png",
 		otherType = 4,
-		check = 0,
 	},
 }
 return config

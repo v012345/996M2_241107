@@ -1,5 +1,8 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		max = 10,
+		attrColor = 251,
 		randomNum = 50,
 		ransjstr = {
 			[1] = "攻击上限#16",
@@ -10,10 +13,11 @@ local config = {
 			[6] = "物防上限#14",
 			[7] = "魔防上限#14",
 		},
-		attrColor = 251,
-		max = 10,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		max = 10,
+		attrColor = 251,
 		randomNum = 40,
 		ransjstr = {
 			[1] = "攻击上限#16",
@@ -24,10 +28,11 @@ local config = {
 			[6] = "物防上限#14",
 			[7] = "魔防上限#14",
 		},
-		attrColor = 251,
-		max = 10,
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
+		max = 10,
+		attrColor = 251,
 		randomNum = 30,
 		ransjstr = {
 			[1] = "攻击上限#14",
@@ -38,10 +43,11 @@ local config = {
 			[6] = "物防上限#15",
 			[7] = "魔防上限#15",
 		},
-		attrColor = 251,
-		max = 10,
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
+		max = 10,
+		attrColor = 251,
 		randomNum = 20,
 		ransjstr = {
 			[1] = "攻击上限#14",
@@ -52,10 +58,11 @@ local config = {
 			[6] = "物防上限#15",
 			[7] = "魔防上限#15",
 		},
-		attrColor = 251,
-		max = 10,
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
+		max = 10,
+		attrColor = 251,
 		randomNum = 10,
 		ransjstr = {
 			[1] = "攻速增加#8",
@@ -67,98 +74,111 @@ local config = {
 			[7] = "血量加成#17",
 			[8] = "蓝量加成#17",
 		},
-		attrColor = 251,
-		max = 10,
 	},
-	["攻击上限"] = {
-		realAttrId = 4,
-		attrId = 63,
-		isAttrPercent = 0,
-		max = 300,
-	},
-	["魔法上限"] = {
-		realAttrId = 6,
-		attrId = 64,
-		isAttrPercent = 0,
-		max = 300,
-	},
-	["道术上限"] = {
-		realAttrId = 8,
-		attrId = 65,
-		isAttrPercent = 0,
-		max = 300,
-	},
-	["血量上限"] = {
-		realAttrId = 1,
-		attrId = 66,
-		isAttrPercent = 0,
-		max = 3000,
-	},
-	["蓝量上限"] = {
-		realAttrId = 2,
-		attrId = 67,
-		isAttrPercent = 0,
-		max = 3000,
-	},
-	["物防上限"] = {
-		realAttrId = 10,
-		attrId = 68,
-		isAttrPercent = 0,
+	["魔防上限"] = { 
+		xls_id = "魔防上限",
 		max = 500,
-	},
-	["魔防上限"] = {
-		realAttrId = 12,
 		attrId = 69,
+		realAttrId = 12,
 		isAttrPercent = 0,
-		max = 500,
 	},
-	["攻速增加"] = {
-		realAttrId = 232,
-		attrId = 70,
-		isAttrPercent = 1,
+	["道术加成"] = { 
+		xls_id = "道术加成",
 		max = 5,
-	},
-	["鞭尸概率"] = {
-		realAttrId = 201,
-		attrId = 71,
-		isAttrPercent = 0,
-		max = 2,
-	},
-	["奇遇概率"] = {
-		realAttrId = 175,
-		attrId = 72,
-		isAttrPercent = 0,
-		max = 2,
-	},
-	["攻击加成"] = {
-		realAttrId = 4,
-		attrId = 73,
-		isAttrPercent = 1,
-		max = 5,
-	},
-	["魔法加成"] = {
-		realAttrId = 6,
-		attrId = 74,
-		isAttrPercent = 1,
-		max = 5,
-	},
-	["道术加成"] = {
-		realAttrId = 8,
 		attrId = 75,
+		realAttrId = 8,
 		isAttrPercent = 1,
-		max = 5,
 	},
-	["血量加成"] = {
+	["道术上限"] = { 
+		xls_id = "道术上限",
+		max = 300,
+		attrId = 65,
+		realAttrId = 8,
+		isAttrPercent = 0,
+	},
+	["血量上限"] = { 
+		xls_id = "血量上限",
+		max = 3000,
+		attrId = 66,
 		realAttrId = 1,
-		attrId = 76,
-		isAttrPercent = 1,
-		max = 5,
+		isAttrPercent = 0,
 	},
-	["蓝量加成"] = {
-		realAttrId = 2,
-		attrId = 77,
-		isAttrPercent = 1,
+	["奇遇概率"] = { 
+		xls_id = "奇遇概率",
+		max = 2,
+		attrId = 72,
+		realAttrId = 175,
+		isAttrPercent = 0,
+	},
+	["物防上限"] = { 
+		xls_id = "物防上限",
+		max = 500,
+		attrId = 68,
+		realAttrId = 10,
+		isAttrPercent = 0,
+	},
+	["魔法加成"] = { 
+		xls_id = "魔法加成",
 		max = 5,
+		attrId = 74,
+		realAttrId = 6,
+		isAttrPercent = 1,
+	},
+	["蓝量加成"] = { 
+		xls_id = "蓝量加成",
+		max = 5,
+		attrId = 77,
+		realAttrId = 2,
+		isAttrPercent = 1,
+	},
+	["攻速增加"] = { 
+		xls_id = "攻速增加",
+		max = 5,
+		attrId = 70,
+		realAttrId = 232,
+		isAttrPercent = 1,
+	},
+	["血量加成"] = { 
+		xls_id = "血量加成",
+		max = 5,
+		attrId = 76,
+		realAttrId = 1,
+		isAttrPercent = 1,
+	},
+	["鞭尸概率"] = { 
+		xls_id = "鞭尸概率",
+		max = 2,
+		attrId = 71,
+		realAttrId = 201,
+		isAttrPercent = 0,
+	},
+	["攻击加成"] = { 
+		xls_id = "攻击加成",
+		max = 5,
+		attrId = 73,
+		realAttrId = 4,
+		isAttrPercent = 1,
+	},
+	["攻击上限"] = { 
+		xls_id = "攻击上限",
+		max = 300,
+		attrId = 63,
+		realAttrId = 4,
+		isAttrPercent = 0,
+	},
+	["蓝量上限"] = { 
+		xls_id = "蓝量上限",
+		max = 3000,
+		attrId = 67,
+		realAttrId = 2,
+		isAttrPercent = 0,
+	},
+	["魔法上限"] = { 
+		xls_id = "魔法上限",
+		max = 300,
+		attrId = 64,
+		realAttrId = 6,
+		isAttrPercent = 0,
 	},
 }
 return config

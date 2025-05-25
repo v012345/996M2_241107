@@ -1,6 +1,7 @@
-local config = {
-	[1] = {
-		title = "≤英灵初现≥[觉醒]",
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		totalRecharge = 10,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -15,13 +16,14 @@ local config = {
 				[2] = 500000,
 			},
 		},
-		totalRecharge = 10,
 		gongsu = 6,
 		beigong = 2,
+		title = "≤英灵初现≥[觉醒]",
 		tuihuan = 80,
 	},
-	[2] = {
-		title = "≤英灵之路≥[行者]",
+	[2] = { 
+		xls_id = 2,
+		totalRecharge = 50,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -36,13 +38,14 @@ local config = {
 				[2] = 1000000,
 			},
 		},
-		totalRecharge = 50,
 		gongsu = 10,
 		beigong = 4,
+		title = "≤英灵之路≥[行者]",
 		tuihuan = 81,
 	},
-	[3] = {
-		title = "≤英灵之力≥[逐鹿]",
+	[3] = { 
+		xls_id = 3,
+		totalRecharge = 100,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -57,13 +60,14 @@ local config = {
 				[2] = 2000000,
 			},
 		},
-		totalRecharge = 100,
 		gongsu = 14,
 		beigong = 6,
+		title = "≤英灵之力≥[逐鹿]",
 		tuihuan = 82,
 	},
-	[4] = {
-		title = "≤英灵显赫≥[霸主]",
+	[4] = { 
+		xls_id = 4,
+		totalRecharge = 200,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -78,13 +82,14 @@ local config = {
 				[2] = 3000000,
 			},
 		},
-		totalRecharge = 200,
 		gongsu = 18,
 		beigong = 8,
+		title = "≤英灵显赫≥[霸主]",
 		tuihuan = 83,
 	},
-	[5] = {
-		title = "≤英灵统御≥[君主]",
+	[5] = { 
+		xls_id = 5,
+		totalRecharge = 300,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -99,13 +104,14 @@ local config = {
 				[2] = 5000000,
 			},
 		},
-		totalRecharge = 300,
 		gongsu = 22,
 		beigong = 10,
+		title = "≤英灵统御≥[君主]",
 		tuihuan = 84,
 	},
-	[6] = {
-		title = "≤英灵之巅≥[尊者]",
+	[6] = { 
+		xls_id = 6,
+		totalRecharge = 600,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -120,13 +126,15 @@ local config = {
 				[2] = 8000000,
 			},
 		},
-		totalRecharge = 600,
 		gongsu = 26,
 		beigong = 12,
+		title = "≤英灵之巅≥[尊者]",
 		tuihuan = 85,
 	},
-	[7] = {
-		title = "≤诛神之门≥[神谕]",
+	[7] = { 
+		xls_id = 7,
+		zhansha = 10,
+		totalRecharge = 1000,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -141,14 +149,15 @@ local config = {
 				[2] = 15000000,
 			},
 		},
-		totalRecharge = 1000,
 		gongsu = 30,
 		beigong = 14,
-		zhansha = 10,
+		title = "≤诛神之门≥[神谕]",
 		tuihuan = 86,
 	},
-	[8] = {
-		title = "≤诛神之阶≥[裁决]",
+	[8] = { 
+		xls_id = 8,
+		zhansha = 15,
+		totalRecharge = 2000,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -163,14 +172,15 @@ local config = {
 				[2] = 30000000,
 			},
 		},
-		totalRecharge = 2000,
 		gongsu = 35,
 		beigong = 16,
-		zhansha = 15,
+		title = "≤诛神之阶≥[裁决]",
 		tuihuan = 87,
 	},
-	[9] = {
-		title = "≤诛神の黄昏≥[神殇]",
+	[9] = { 
+		xls_id = 9,
+		zhansha = 20,
+		totalRecharge = 3000,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -185,14 +195,15 @@ local config = {
 				[2] = 50000000,
 			},
 		},
-		totalRecharge = 3000,
 		gongsu = 40,
 		beigong = 18,
-		zhansha = 20,
+		title = "≤诛神の黄昏≥[神殇]",
 		tuihuan = 88,
 	},
-	[10] = {
-		title = "≤诛神の黄昏≥[神灭]",
+	[10] = { 
+		xls_id = 10,
+		zhansha = 30,
+		totalRecharge = 5000,
 		cost = {
 			[1] = {
 				[1] = "神之头颅",
@@ -207,10 +218,9 @@ local config = {
 				[2] = 80000000,
 			},
 		},
-		totalRecharge = 5000,
 		gongsu = 50,
 		beigong = 20,
-		zhansha = 30,
+		title = "≤诛神の黄昏≥[神灭]",
 		tuihuan = 89,
 	},
 }

@@ -1,6 +1,8 @@
-local config = {
-	[1] = {
-		name = "暴戾一击",
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		maxLevel = 10,
+		attrID = 21,
 		cost = {
 			[1] = {
 				[1] = "焚天石",
@@ -16,11 +18,12 @@ local config = {
 			},
 		},
 		bindVar = "U101",
-		maxLevel = 10,
-		attrID = 21,
+		name = "暴戾一击",
 	},
-	[2] = {
-		name = "伤害增幅",
+	[2] = { 
+		xls_id = 2,
+		maxLevel = 10,
+		attrID = 25,
 		cost = {
 			[1] = {
 				[1] = "焚天石",
@@ -36,11 +39,12 @@ local config = {
 			},
 		},
 		bindVar = "U102",
-		maxLevel = 10,
-		attrID = 25,
+		name = "伤害增幅",
 	},
-	[3] = {
-		name = "钢铁之躯",
+	[3] = { 
+		xls_id = 3,
+		maxLevel = 10,
+		attrID = 26,
 		cost = {
 			[1] = {
 				[1] = "焚天石",
@@ -56,11 +60,12 @@ local config = {
 			},
 		},
 		bindVar = "U103",
-		maxLevel = 10,
-		attrID = 26,
+		name = "钢铁之躯",
 	},
-	[4] = {
-		name = "削铁如泥",
+	[4] = { 
+		xls_id = 4,
+		maxLevel = 10,
+		attrID = 28,
 		cost = {
 			[1] = {
 				[1] = "焚天石",
@@ -76,11 +81,12 @@ local config = {
 			},
 		},
 		bindVar = "U104",
-		maxLevel = 10,
-		attrID = 28,
+		name = "削铁如泥",
 	},
-	[5] = {
-		name = "血牛达人",
+	[5] = { 
+		xls_id = 5,
+		maxLevel = 10,
+		attrID = 30,
 		cost = {
 			[1] = {
 				[1] = "焚天石",
@@ -96,8 +102,7 @@ local config = {
 			},
 		},
 		bindVar = "U105",
-		maxLevel = 10,
-		attrID = 30,
+		name = "血牛达人",
 	},
 }
 return config

@@ -1,5 +1,7 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -7,7 +9,9 @@ local config = {
 			},
 		},
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -15,7 +19,9 @@ local config = {
 			},
 		},
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -23,7 +29,9 @@ local config = {
 			},
 		},
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -31,7 +39,9 @@ local config = {
 			},
 		},
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -39,7 +49,9 @@ local config = {
 			},
 		},
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -47,7 +59,9 @@ local config = {
 			},
 		},
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -55,7 +69,9 @@ local config = {
 			},
 		},
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -63,7 +79,9 @@ local config = {
 			},
 		},
 	},
-	[9] = {
+	[9] = { 
+		xls_id = 9,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
@@ -71,7 +89,9 @@ local config = {
 			},
 		},
 	},
-	[10] = {
+	[10] = { 
+		xls_id = 10,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",

@@ -1,41 +1,79 @@
-local config = {
-	["@qipao_teshuhecheng,1"] = {
+local config = { 
+	["@qipao_jifengkeyin"] = { 
+		xls_id = "@qipao_jifengkeyin",
+		uiLink = "BaoFengZhiLi",
 	},
-	["@qipao_teshuhecheng,2"] = {
+	["@qipao_tizhixiulian"] = { 
+		xls_id = "@qipao_tizhixiulian",
+		uiLink = "TiZhiXiuLian",
 	},
-	["@qipao_teshuhecheng,3"] = {
+	["@qipao_hunyuangongfa"] = { 
+		xls_id = "@qipao_hunyuangongfa",
+		uiLink = "HunYuanGongFa",
 	},
-	["@qipao_teshuhecheng,4"] = {
+	["@qipao_shizhuanghecheng"] = { 
+		xls_id = "@qipao_shizhuanghecheng",
+		uiLink = "ShiZhuangHeCheng",
 	},
-	["@qipao_teshuhecheng,5"] = {
+	["@qipao_teshuhecheng,2"] = { 
+		xls_id = "@qipao_teshuhecheng,2",
+		uiLink = "TeShuHeCheng",
 	},
-	["@qipao_tizhixiulian"] = {
+	["@qipao_teshuhecheng,1"] = { 
+		xls_id = "@qipao_teshuhecheng,1",
+		uiLink = "TeShuHeCheng",
 	},
-	["@qipao_shizhuanghecheng"] = {
+	["@qipao_shenmozhiti"] = { 
+		xls_id = "@qipao_shenmozhiti",
+		uiLink = "ShenMoZhiTi",
 	},
-	["@qipao_jifengkeyin"] = {
+	["@qipao_zhuangbeiqianghua"] = { 
+		xls_id = "@qipao_zhuangbeiqianghua",
+		uiLink = "ZhuangBeiQiangHua",
 	},
-	["@qipao_shalukeyin"] = {
+	["@qipao_teshuhecheng,4"] = { 
+		xls_id = "@qipao_teshuhecheng,4",
+		uiLink = "TeShuHeCheng",
 	},
-	["@qipao_xiaojiuguan"] = {
+	["@qipao_shalukeyin"] = { 
+		xls_id = "@qipao_shalukeyin",
+		uiLink = "ShaLuYinJi",
 	},
-	["@qipao_jianjiacuilian"] = {
+	["@qipao_kongjianfashi"] = { 
+		xls_id = "@qipao_kongjianfashi",
+		uiLink = "KongJianFaShi",
 	},
-	["@qipao_jinengqianghua"] = {
+	["@qipao_jianghuchenghao"] = { 
+		xls_id = "@qipao_jianghuchenghao",
+		uiLink = "JiangHuChengHao",
 	},
-	["@qipao_kongjianfashi"] = {
+	["@qipao_teshuhecheng,3"] = { 
+		xls_id = "@qipao_teshuhecheng,3",
+		uiLink = "TeShuHeCheng",
 	},
-	["@qipao_jianghuchenghao"] = {
+	["@qipao_teshuhecheng,5"] = { 
+		xls_id = "@qipao_teshuhecheng,5",
+		uiLink = "TeShuHeCheng",
 	},
-	["@qipao_xiuxian"] = {
+	["@qipao_xiaojiuguan"] = { 
+		xls_id = "@qipao_xiaojiuguan",
+		uiLink = "JiuXianLiBai",
 	},
-	["@qipao_bianguanchenghao"] = {
+	["@qipao_jinengqianghua"] = { 
+		xls_id = "@qipao_jinengqianghua",
+		uiLink = "JiNengQiangHua",
 	},
-	["@qipao_zhuangbeiqianghua"] = {
+	["@qipao_xiuxian"] = { 
+		xls_id = "@qipao_xiuxian",
+		uiLink = "XiuXian",
 	},
-	["@qipao_hunyuangongfa"] = {
+	["@qipao_bianguanchenghao"] = { 
+		xls_id = "@qipao_bianguanchenghao",
+		uiLink = "BianGuanTitle",
 	},
-	["@qipao_shenmozhiti"] = {
+	["@qipao_jianjiacuilian"] = { 
+		xls_id = "@qipao_jianjiacuilian",
+		uiLink = "ZhuangBeiDuanZao",
 	},
 }
 return config

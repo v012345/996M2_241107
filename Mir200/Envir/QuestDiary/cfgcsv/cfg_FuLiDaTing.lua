@@ -1,7 +1,7 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		type = 1,
-		number = 1,
 		name = "在线奖励",
 		award = {
 			[1] = {
@@ -10,10 +10,11 @@ local config = {
 			},
 		},
 		need = 10,
+		number = 1,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
 		type = 1,
-		number = 2,
 		name = "在线奖励",
 		award = {
 			[1] = {
@@ -22,10 +23,11 @@ local config = {
 			},
 		},
 		need = 30,
+		number = 2,
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
 		type = 1,
-		number = 3,
 		name = "在线奖励",
 		award = {
 			[1] = {
@@ -34,10 +36,11 @@ local config = {
 			},
 		},
 		need = 60,
+		number = 3,
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
 		type = 1,
-		number = 4,
 		name = "在线奖励",
 		award = {
 			[1] = {
@@ -46,10 +49,11 @@ local config = {
 			},
 		},
 		need = 120,
+		number = 4,
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
 		type = 1,
-		number = 5,
 		name = "在线奖励",
 		award = {
 			[1] = {
@@ -58,10 +62,11 @@ local config = {
 			},
 		},
 		need = 360,
+		number = 5,
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
 		type = 2,
-		number = 1,
 		name = "每日杀怪",
 		award = {
 			[1] = {
@@ -70,10 +75,11 @@ local config = {
 			},
 		},
 		need = 100,
+		number = 1,
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
 		type = 2,
-		number = 2,
 		name = "每日杀怪",
 		award = {
 			[1] = {
@@ -82,10 +88,11 @@ local config = {
 			},
 		},
 		need = 500,
+		number = 2,
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
 		type = 2,
-		number = 3,
 		name = "每日杀怪",
 		award = {
 			[1] = {
@@ -94,10 +101,11 @@ local config = {
 			},
 		},
 		need = 1000,
+		number = 3,
 	},
-	[9] = {
+	[9] = { 
+		xls_id = 9,
 		type = 2,
-		number = 4,
 		name = "每日杀怪",
 		award = {
 			[1] = {
@@ -106,10 +114,11 @@ local config = {
 			},
 		},
 		need = 3000,
+		number = 4,
 	},
-	[10] = {
+	[10] = { 
+		xls_id = 10,
 		type = 2,
-		number = 5,
 		name = "每日杀怪",
 		award = {
 			[1] = {
@@ -118,10 +127,11 @@ local config = {
 			},
 		},
 		need = 5000,
+		number = 5,
 	},
-	[11] = {
+	[11] = { 
+		xls_id = 11,
 		type = 3,
-		number = 1,
 		name = "冲击奖励",
 		award = {
 			[1] = {
@@ -129,12 +139,13 @@ local config = {
 				[2] = 1,
 			},
 		},
-		need = 80,
 		num = "无限",
+		need = 80,
+		number = 1,
 	},
-	[12] = {
+	[12] = { 
+		xls_id = 12,
 		type = 3,
-		number = 2,
 		name = "冲击奖励",
 		award = {
 			[1] = {
@@ -142,12 +153,13 @@ local config = {
 				[2] = 1,
 			},
 		},
-		need = 120,
 		num = 50,
+		need = 120,
+		number = 2,
 	},
-	[13] = {
+	[13] = { 
+		xls_id = 13,
 		type = 3,
-		number = 3,
 		name = "冲击奖励",
 		award = {
 			[1] = {
@@ -155,12 +167,13 @@ local config = {
 				[2] = 2,
 			},
 		},
-		need = 150,
 		num = 30,
+		need = 150,
+		number = 3,
 	},
-	[14] = {
+	[14] = { 
+		xls_id = 14,
 		type = 3,
-		number = 4,
 		name = "冲击奖励",
 		award = {
 			[1] = {
@@ -168,12 +181,13 @@ local config = {
 				[2] = 1,
 			},
 		},
-		need = 200,
 		num = 5,
+		need = 200,
+		number = 4,
 	},
-	[15] = {
+	[15] = { 
+		xls_id = 15,
 		type = 3,
-		number = 5,
 		name = "冲击奖励",
 		award = {
 			[1] = {
@@ -181,34 +195,30 @@ local config = {
 				[2] = 1,
 			},
 		},
-		need = 250,
 		num = 1,
+		need = 250,
+		number = 5,
 	},
-	[16] = {
+	[16] = { 
+		xls_id = 16,
 		type = 4,
-		number = 1,
 		name = "个人首曝",
+		number = 1,
 	},
-	[17] = {
+	[17] = { 
+		xls_id = 17,
 		type = 5,
-		number = 1,
 		name = "个人首杀",
+		number = 1,
 	},
-	[18] = {
+	[18] = { 
+		xls_id = 18,
 		type = 6,
-		number = 1,
 		name = "全区首曝",
-	},
-	[19] = {
-		type = 7,
 		number = 1,
-		name = "循环礼包",
-		award = {
-			[1] = {
-				[1] = "勇者好运礼包",
-				[2] = 1,
-			},
-		},
+	},
+	[19] = { 
+		xls_id = 19,
 		show = {
 			[1] = {
 				[1] = "1亿经验卷",
@@ -259,18 +269,19 @@ local config = {
 				[2] = 1,
 			},
 		},
-		need = 200,
-	},
-	[20] = {
 		type = 7,
-		number = 2,
 		name = "循环礼包",
 		award = {
 			[1] = {
-				[1] = "奋进好运礼包",
+				[1] = "勇者好运礼包",
 				[2] = 1,
 			},
 		},
+		need = 200,
+		number = 1,
+	},
+	[20] = { 
+		xls_id = 20,
 		show = {
 			[1] = {
 				[1] = "奋进时装盒",
@@ -321,7 +332,16 @@ local config = {
 				[2] = 1,
 			},
 		},
+		type = 7,
+		name = "循环礼包",
+		award = {
+			[1] = {
+				[1] = "奋进好运礼包",
+				[2] = 1,
+			},
+		},
 		need = 200,
+		number = 2,
 	},
 }
 return config

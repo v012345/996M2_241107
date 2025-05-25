@@ -1,19 +1,11 @@
-local config = {
-	[0] = {
-		cost1 = {
-			[1] = {
-				[1] = "混沌本源",
-				[2] = 10,
-			},
-			[2] = {
-				[1] = "元宝",
-				[2] = 150000,
-			},
-			[3] = {
-				[1] = "造化结晶",
-				[2] = 15,
-			},
-		},
+local config = { 
+	[0] = { 
+		xls_id = 0,
+		attr = 0,
+		minimum = 0,
+		percentage2 = 100,
+		percentage4 = 100,
+		percentage3 = 100,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -29,27 +21,28 @@ local config = {
 			},
 		},
 		percentage1 = 100,
-		percentage2 = 100,
-		percentage3 = 100,
-		percentage4 = 100,
-		attr = 0,
-		minimum = 0,
-	},
-	[1] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 20,
+				[2] = 10,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 300000,
+				[2] = 150000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 30,
+				[2] = 15,
 			},
 		},
+	},
+	[1] = { 
+		xls_id = 1,
+		attr = 1,
+		minimum = 0,
+		percentage2 = 80,
+		percentage4 = 85,
+		percentage3 = 50,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -65,27 +58,28 @@ local config = {
 			},
 		},
 		percentage1 = 35,
-		percentage2 = 80,
-		percentage3 = 50,
-		percentage4 = 85,
-		attr = 1,
-		minimum = 0,
-	},
-	[2] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 30,
+				[2] = 20,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 450000,
+				[2] = 300000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 45,
+				[2] = 30,
 			},
 		},
+	},
+	[2] = { 
+		xls_id = 2,
+		attr = 2,
+		minimum = 0,
+		percentage2 = 70,
+		percentage4 = 75,
+		percentage3 = 40,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -101,27 +95,28 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 70,
-		percentage3 = 40,
-		percentage4 = 75,
-		attr = 2,
-		minimum = 0,
-	},
-	[3] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 40,
+				[2] = 30,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 600000,
+				[2] = 450000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 60,
+				[2] = 45,
 			},
 		},
+	},
+	[3] = { 
+		xls_id = 3,
+		attr = 4,
+		minimum = 0,
+		percentage2 = 60,
+		percentage4 = 65,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -137,27 +132,28 @@ local config = {
 			},
 		},
 		percentage1 = 25,
-		percentage2 = 60,
-		percentage3 = 35,
-		percentage4 = 65,
-		attr = 4,
-		minimum = 0,
-	},
-	[4] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 50,
+				[2] = 40,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 750000,
+				[2] = 600000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 75,
+				[2] = 60,
 			},
 		},
+	},
+	[4] = { 
+		xls_id = 4,
+		attr = 6,
+		minimum = 0,
+		percentage2 = 50,
+		percentage4 = 55,
+		percentage3 = 30,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -173,27 +169,28 @@ local config = {
 			},
 		},
 		percentage1 = 20,
-		percentage2 = 50,
-		percentage3 = 30,
-		percentage4 = 55,
-		attr = 6,
-		minimum = 0,
-	},
-	[5] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 60,
+				[2] = 50,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 900000,
+				[2] = 750000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 90,
+				[2] = 75,
 			},
 		},
+	},
+	[5] = { 
+		xls_id = 5,
+		attr = 8,
+		minimum = 3,
+		percentage2 = 40,
+		percentage4 = 45,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -209,27 +206,28 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 40,
-		percentage3 = 35,
-		percentage4 = 45,
-		attr = 8,
-		minimum = 3,
-	},
-	[6] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 70,
+				[2] = 60,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 1050000,
+				[2] = 900000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 105,
+				[2] = 90,
 			},
 		},
+	},
+	[6] = { 
+		xls_id = 6,
+		attr = 10,
+		minimum = 4,
+		percentage2 = 30,
+		percentage4 = 35,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -245,27 +243,28 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 30,
-		percentage3 = 35,
-		percentage4 = 35,
-		attr = 10,
-		minimum = 4,
-	},
-	[7] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 80,
+				[2] = 70,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 1200000,
+				[2] = 1050000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 120,
+				[2] = 105,
 			},
 		},
+	},
+	[7] = { 
+		xls_id = 7,
+		attr = 13,
+		minimum = 5,
+		percentage2 = 20,
+		percentage4 = 25,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -281,27 +280,28 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 20,
-		percentage3 = 35,
-		percentage4 = 25,
-		attr = 13,
-		minimum = 5,
-	},
-	[8] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 100,
+				[2] = 80,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 1500000,
+				[2] = 1200000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 150,
+				[2] = 120,
 			},
 		},
+	},
+	[8] = { 
+		xls_id = 8,
+		attr = 16,
+		minimum = 6,
+		percentage2 = 15,
+		percentage4 = 15,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -317,63 +317,28 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 15,
-		percentage3 = 35,
-		percentage4 = 15,
-		attr = 16,
-		minimum = 6,
-	},
-	[9] = {
 		cost1 = {
 			[1] = {
 				[1] = "混沌本源",
-				[2] = 120,
+				[2] = 100,
 			},
 			[2] = {
 				[1] = "元宝",
-				[2] = 2000000,
+				[2] = 1500000,
 			},
 			[3] = {
 				[1] = "造化结晶",
-				[2] = 200,
+				[2] = 150,
 			},
 		},
-		cost2 = {
-			[1] = {
-				[1] = "混沌本源",
-				[2] = 96,
-			},
-			[2] = {
-				[1] = "灵符",
-				[2] = 600,
-			},
-			[3] = {
-				[1] = "造化结晶",
-				[2] = 140,
-			},
-		},
-		percentage1 = 30,
-		percentage2 = 10,
-		percentage3 = 35,
-		percentage4 = 10,
+	},
+	[9] = { 
+		xls_id = 9,
 		attr = 20,
 		minimum = 7,
-	},
-	[10] = {
-		cost1 = {
-			[1] = {
-				[1] = "混沌本源",
-				[2] = 120,
-			},
-			[2] = {
-				[1] = "元宝",
-				[2] = 2000000,
-			},
-			[3] = {
-				[1] = "造化结晶",
-				[2] = 200,
-			},
-		},
+		percentage2 = 10,
+		percentage4 = 10,
+		percentage3 = 35,
 		cost2 = {
 			[1] = {
 				[1] = "混沌本源",
@@ -389,11 +354,57 @@ local config = {
 			},
 		},
 		percentage1 = 30,
-		percentage2 = 10,
-		percentage3 = 35,
-		percentage4 = 10,
+		cost1 = {
+			[1] = {
+				[1] = "混沌本源",
+				[2] = 120,
+			},
+			[2] = {
+				[1] = "元宝",
+				[2] = 2000000,
+			},
+			[3] = {
+				[1] = "造化结晶",
+				[2] = 200,
+			},
+		},
+	},
+	[10] = { 
+		xls_id = 10,
 		attr = 24,
 		minimum = 7,
+		percentage2 = 10,
+		percentage4 = 10,
+		percentage3 = 35,
+		cost2 = {
+			[1] = {
+				[1] = "混沌本源",
+				[2] = 96,
+			},
+			[2] = {
+				[1] = "灵符",
+				[2] = 600,
+			},
+			[3] = {
+				[1] = "造化结晶",
+				[2] = 140,
+			},
+		},
+		percentage1 = 30,
+		cost1 = {
+			[1] = {
+				[1] = "混沌本源",
+				[2] = 120,
+			},
+			[2] = {
+				[1] = "元宝",
+				[2] = 2000000,
+			},
+			[3] = {
+				[1] = "造化结晶",
+				[2] = 200,
+			},
+		},
 	},
 }
 return config

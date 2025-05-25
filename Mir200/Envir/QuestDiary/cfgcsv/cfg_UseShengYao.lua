@@ -1,19 +1,10 @@
-local config = {
-	["生命金莲丹"] = {
-		buffId = 31045,
-		attrs = {
-			[1] = {
-				[1] = 207,
-				[2] = 10,
-			},
-		},
-		time = 10,
-		desc = "最大生命值",
-		addNum = 10,
-		var = "U138",
+local config = { 
+	["洗净伐髓丹"] = { 
+		xls_id = "洗净伐髓丹",
 		max = 10,
-	},
-	["洗净伐髓丹"] = {
+		var = "U139",
+		addNum = 10,
+		desc = "最大攻击力",
 		buffId = 31046,
 		attrs = {
 			[1] = {
@@ -26,12 +17,13 @@ local config = {
 			},
 		},
 		time = 10,
-		desc = "最大攻击力",
-		addNum = 10,
-		var = "U139",
-		max = 10,
 	},
-	["金刚不坏丹"] = {
+	["金刚不坏丹"] = { 
+		xls_id = "金刚不坏丹",
+		max = 10,
+		var = "U140",
+		addNum = 10,
+		desc = "最大防御",
 		buffId = 31047,
 		attrs = {
 			[1] = {
@@ -52,18 +44,30 @@ local config = {
 			},
 		},
 		time = 10,
-		desc = "最大防御",
-		addNum = 10,
-		var = "U140",
-		max = 10,
 	},
-	["疾风斩月丹"] = {
+	["生命金莲丹"] = { 
+		xls_id = "生命金莲丹",
+		max = 10,
+		var = "U138",
+		addNum = 10,
+		desc = "最大生命值",
+		buffId = 31045,
+		attrs = {
+			[1] = {
+				[1] = 207,
+				[2] = 10,
+			},
+		},
+		time = 10,
+	},
+	["疾风斩月丹"] = { 
+		xls_id = "疾风斩月丹",
+		max = 10,
+		var = "U141",
+		addNum = 10,
+		desc = "攻击速度",
 		buffId = 31048,
 		time = 10,
-		desc = "攻击速度",
-		addNum = 10,
-		var = "U141",
-		max = 10,
 	},
 }
 return config

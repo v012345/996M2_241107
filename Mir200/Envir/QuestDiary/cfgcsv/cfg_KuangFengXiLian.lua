@@ -1,10 +1,13 @@
-local config = {
-	[1] = {
-		attrType = 2,
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		attrColor = 255,
-		realAttrId = 206,
+		attrType = 2,
+		name = "最大攻击力",
+		max = 10,
 		attrId = 4,
 		isAttrPercent = 1,
+		realAttrId = 206,
 		ransjstr = {
 			[1] = "1#10",
 			[2] = "2#10",
@@ -17,14 +20,16 @@ local config = {
 			[9] = "9#5",
 			[10] = "10#2",
 		},
-		max = 10,
 	},
-	[2] = {
-		attrType = 2,
+	[2] = { 
+		xls_id = 2,
 		attrColor = 255,
-		realAttrId = 207,
+		attrType = 2,
+		name = "最大生命值",
+		max = 10,
 		attrId = 5,
 		isAttrPercent = 1,
+		realAttrId = 207,
 		ransjstr = {
 			[1] = "1#10",
 			[2] = "2#10",
@@ -37,14 +42,16 @@ local config = {
 			[9] = "9#5",
 			[10] = "10#2",
 		},
-		max = 10,
 	},
-	[3] = {
-		attrType = 2,
+	[3] = { 
+		xls_id = 3,
 		attrColor = 255,
-		realAttrId = 23,
+		attrType = 2,
+		name = "防止暴击",
+		max = 10,
 		attrId = 3,
 		isAttrPercent = 1,
+		realAttrId = 23,
 		ransjstr = {
 			[1] = "1#10",
 			[2] = "2#10",
@@ -57,14 +64,16 @@ local config = {
 			[9] = "9#5",
 			[10] = "10#2",
 		},
-		max = 10,
 	},
-	[4] = {
-		attrType = 2,
+	[4] = { 
+		xls_id = 4,
 		attrColor = 255,
-		realAttrId = 201,
+		attrType = 2,
+		name = "鞭尸概率",
+		max = 10,
 		attrId = 2,
 		isAttrPercent = 1,
+		realAttrId = 201,
 		ransjstr = {
 			[1] = "1#10",
 			[2] = "2#10",
@@ -77,16 +86,17 @@ local config = {
 			[9] = "9#5",
 			[10] = "10#2",
 		},
-		max = 10,
 	},
-	[5] = {
-		attrType = 2,
+	[5] = { 
+		xls_id = 5,
 		attrColor = 255,
-		realAttrId = 171,
+		attrType = 2,
+		name = "打怪爆率",
+		max = 188,
 		attrId = 1,
 		isAttrPercent = 1,
+		realAttrId = 171,
 		ransjstr = 188,
-		max = 188,
 	},
 }
 return config

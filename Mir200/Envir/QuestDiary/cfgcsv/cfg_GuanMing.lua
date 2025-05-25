@@ -1,6 +1,7 @@
-local config = {
-	[1] = {
-		need = 3000,
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		title = "冠名大哥",
 		give = {
 			[1] = {
 				[1] = "冠名大哥[称号]",
@@ -11,7 +12,7 @@ local config = {
 				[2] = 1,
 			},
 		},
-		title = "冠名大哥",
+		need = 3000,
 		effect = {
 			[1] = 40183,
 			[2] = 63062,
